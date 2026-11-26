@@ -1,0 +1,35 @@
+# Environments & secrets
+.env
+.env.*
+app/.env
+app/.env.*
+.vercel/
+app/.vercel/
+
+# Python virtualenvs & caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Node / Next.js build & dependencies
+node_modules/
+app/node_modules/
+app/.next/
+app/out/
+app/test-results/
+playwright-report/
+
+# Read-only Round 1 audit downloads (manifest & hashes kept; raw other-model copies never redistributed)
+r1_inputs/
+
+# Local raw NBS/MOE HTML caches (hashes recorded in raw_evidence_hashes.csv; raw webpage markup excluded per DATA_RIGHTS_REVIEW.md)
+data/raw/nbs_html_local/
+data/raw/nbs_prov_extra_*.json
+data/raw/nbs_r2_discovered_ids.json
+data/raw/nbs_r2_extra_*.json
+
+# Delivery archives & OS files
+*.zip
+.DS_Store
+Thumbs.db

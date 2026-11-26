@@ -1,0 +1,14 @@
+{
+  "model_name": "Gemini 4 Neon",
+  "model_version_note": "Gemini 4 Neon (Extra High; specific checkpoint version unavailable)",
+  "product_name": "China Data Atlas | 中国数据地图",
+  "round": "Round 2 (R2-v1.0)",
+  "delivery_date_utc": "2026-11-26",
+  "execution_mode": "Autonomous multi-role engineering team (independent Round 2 audit, data integration, product upgrade, testing, and isolated deployment)",
+  "round1_isolation_verified": true,
+  "round1_resources_modified": false,
+  "other_models_r2_accessed": false,
+  "github_repo": "https://github.com/timkok/china-data-atlas-gemini-4-neon-r2",
+  "live_url": "https://china-data-atlas-gemini-4-neon-r2.vercel.app",
+  "drive_folder_url": "https://drive.google.com/drive/folders/1xDi50PyX0Ho3-eETSydP0A9nuhuNPfeR"
+}
