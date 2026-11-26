@@ -1,0 +1,130 @@
+{
+  "schema_version": "R2-v1.0",
+  "model_identity": "Gemini 4 Neon",
+  "model_version_note": "Gemini 4 Neon (Extra High; specific checkpoint version unavailable)",
+  "generated_at_utc": "2026-11-26T01:42:00Z",
+  "round1_audit": {
+    "round1_folders_discovered": 9,
+    "round1_non_empty_models_audited": 7,
+    "round1_empty_folders_recorded": 2,
+    "evidence_backed_findings_total": 18,
+    "findings_by_severity": {
+      "P0": 3,
+      "P1": 9,
+      "P2": 6
+    },
+    "self_audit_findings_included": true,
+    "cross_model_conflicts_total": 1911,
+    "cross_model_conflicts_resolved": 1911,
+    "cross_model_conflicts_unresolved": 0,
+    "majority_vote_or_averaging_used": false
+  },
+  "data_inventory": {
+    "indicators_total": 44,
+    "core_r1_indicators": 12,
+    "core_r1_complete_31_provinces": 12,
+    "expansion_r2_indicators": 32,
+    "higher_education_postgraduate_split": true,
+    "unique_valid_observations": 30220,
+    "earliest_data_year": 2000,
+    "latest_data_year": 2025,
+    "regions_covered": 32,
+    "mainland_provinces_covered": 31,
+    "geo_code_standard": "GB/T 2260",
+    "multi_vintage_records": 2807,
+    "cells_with_multiple_vintages": 1401,
+    "storage_formats": [
+      "CSV (Layer 2 canonical + vintages)",
+      "DuckDB (3.68 MB)",
+      "Parquet ZSTD (0.27 MB)",
+      "SQLite (23.47 MB)",
+      "PostgreSQL DDL",
+      "Route-scoped Frontend JSON"
+    ]
+  },
+  "evidence_governance": {
+    "evidence_level_separated_from_extraction_method": true,
+    "bulk_api_auto_promoted_to_e2_e3": false,
+    "evidence_level_counts": {
+      "E0": 0,
+      "E1": 28673,
+      "E2": 167,
+      "E3": 23,
+      "E4": 1357
+    },
+    "extraction_method_counts": {
+      "API": 24537,
+      "Derived": 5618,
+      "HTML": 65
+    },
+    "validation_samples_total": 130,
+    "validation_samples_passed": 130,
+    "accounting_identity_checks_passed": 3,
+    "data_quality_errors": 0,
+    "data_quality_warnings": 4,
+    "official_data_declared_cc0": false
+  },
+  "map_and_compliance": {
+    "map_status": "deferred_with_pluggable_provider_interface",
+    "unreviewed_geojson_used": false,
+    "fabricated_approval_number": false,
+    "spatial_view_adapter_implemented": true,
+    "map_compliance_report": "research/MAP_COMPLIANCE_RESEARCH.md",
+    "data_rights_review": "research/DATA_RIGHTS_REVIEW.md"
+  },
+  "product_and_ux": {
+    "framework": "Next.js 15.5.29 + React 19 + TypeScript + Tailwind 4 + Tree-shaken ECharts 5",
+    "static_ssg_routes_generated": 95,
+    "province_profile_pages": 31,
+    "data_stories_count": 6,
+    "deterministic_query_engine_non_llm_labeled": true,
+    "audit_center_page": "/audit"
+  },
+  "automated_update_pipeline": {
+    "update_script": "pipeline/update/check_and_stage_update.py",
+    "github_workflows": [
+      ".github/workflows/ci.yml",
+      ".github/workflows/scheduled-data-check.yml"
+    ],
+    "auto_publish_unreviewed": false,
+    "isolated_update_simulation_status": "PASS",
+    "update_test_report": "reports/update_test_report.json",
+    "byte_identical_rollback_verified": true
+  },
+  "testing_and_qa": {
+    "pytest_passed": 8,
+    "pytest_failed": 0,
+    "vitest_passed": 8,
+    "vitest_failed": 0,
+    "playwright_e2e_blocks_passed": 10,
+    "playwright_e2e_blocks_failed": 0,
+    "user_acceptance_tasks_covered": 20,
+    "user_acceptance_tasks_passed": 20,
+    "live_vercel_e2e_passed": true,
+    "screenshots_captured_and_inspected": 8,
+    "tests_passed_total": 26,
+    "tests_failed_total": 0,
+    "tests_not_run": [
+      "mainland_china_direct_isp_latency_test (overseas US execution host)",
+      "wechat_embedded_webview_render_test (headless Chromium sandbox)"
+    ]
+  },
+  "lighthouse_benchmarks": {
+    "home": { "performance": 100, "accessibility": 100, "best_practices": 96, "seo": 100, "lcp_s": 0.9, "tbt_ms": 50, "cls": 0 },
+    "indicator_population": { "performance": 100, "accessibility": 94, "best_practices": 96, "seo": 100, "lcp_s": 0.9, "tbt_ms": 10, "cls": 0 },
+    "province_guangdong": { "performance": 100, "accessibility": 100, "best_practices": 96, "seo": 100, "lcp_s": 0.9, "tbt_ms": 70, "cls": 0 },
+    "explore": { "performance": 100, "accessibility": 100, "best_practices": 96, "seo": 100, "lcp_s": 1.5, "tbt_ms": 60, "cls": 0 },
+    "story_zj_js": { "performance": 100, "accessibility": 100, "best_practices": 96, "seo": 100, "lcp_s": 0.9, "tbt_ms": 60, "cls": 0 }
+  },
+  "deployment": {
+    "github_repo": "https://github.com/timkok/china-data-atlas-gemini-4-neon-r2",
+    "github_pr": "https://github.com/timkok/china-data-atlas-gemini-4-neon-r2/pull/1",
+    "live_url": "https://china-data-atlas-gemini-4-neon-r2.vercel.app",
+    "live_http_status": 200,
+    "mainland_access_status": "not_verified_overseas_host",
+    "wechat_browser_status": "not_verified_overseas_host",
+    "drive_folder_url": "https://drive.google.com/drive/folders/1xDi50PyX0Ho3-eETSydP0A9nuhuNPfeR",
+    "zip_filename": "China-Data-Atlas-Gemini-4-Neon-R2.zip",
+    "round1_untouched_verified": true
+  }
+}

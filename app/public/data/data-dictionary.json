@@ -1,0 +1,50 @@
+{
+  "schema_version": "R2-v2.0",
+  "generated_at_utc": "2026-11-26T01:33:19Z",
+  "total_observations": 30220,
+  "total_indicators": 44,
+  "core_r1_indicators": 12,
+  "expansion_r2_indicators": 32,
+  "evidence_level_definitions": {
+    "E0": "未核验或待复核（仅保留于冲突/草稿层，严禁进入权威候选库）",
+    "E1": "单一官方来源（国家统计局公开发布库原始API自动采集，未单独抽检）",
+    "E2": "官方原始文件解析或人工/脚本抽检回溯核验（含七普公报、教育部公报及抽样核验样本）",
+    "E3": "双官方独立来源交叉核验一致（如NBS数据库 vs 年度统计公报 / 教育部公报 / 卫健委年鉴）",
+    "E4": "多AI模型交叉比对冲突并经官方原始证据裁决确认（含完整修订版本归档）"
+  },
+  "extraction_method_definitions": {
+    "API": "国家统计局公开JSON接口直接获取",
+    "HTML": "官方政府网站公开公报HTML直接解析",
+    "Derived": "由同源官方基础指标按透明公式计算（如城镇化率、每千人医师/床位/护士、三产占比、城乡收入比）"
+  },
+  "columns": {
+    "observation_id": "observation_id",
+    "indicator_id": "indicator_id",
+    "geo_level": "geo_level",
+    "geo_code": "geo_code",
+    "geo_name_zh": "geo_name_zh",
+    "geo_name_en": "geo_name_en",
+    "year": "year",
+    "value": "value",
+    "unit": "unit",
+    "original_value": "original_value",
+    "original_unit": "original_unit",
+    "is_derived": "is_derived",
+    "derivation_formula": "derivation_formula",
+    "statistical_definition": "statistical_definition",
+    "source_id": "source_id",
+    "source_name": "source_name",
+    "source_table": "source_table",
+    "source_url": "source_url",
+    "retrieved_at": "retrieved_at",
+    "release_date": "release_date",
+    "first_published_date": "first_published_date",
+    "revised_date": "revised_date",
+    "vintage_id": "vintage_id",
+    "revision_flag": "revision_flag",
+    "evidence_level": "evidence_level",
+    "extraction_method": "extraction_method",
+    "verification_status": "verification_status",
+    "notes": "notes"
+  }
+}

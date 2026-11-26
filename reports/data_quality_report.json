@@ -1,0 +1,53 @@
+{
+  "generated_at_utc": "2026-11-26T01:33:21Z",
+  "status": "PASS",
+  "indicators_total": 44,
+  "core_r1_indicators": 12,
+  "core_r1_complete_31_provinces": 12,
+  "expansion_r2_indicators": 32,
+  "unique_valid_observations": 30220,
+  "multi_vintage_records": 2807,
+  "cells_with_multiple_vintages": 1401,
+  "earliest_data_year": 2000,
+  "latest_data_year": 2025,
+  "evidence_level_counts": {
+    "E1": 28673,
+    "E2": 167,
+    "E3": 23,
+    "E4": 1357
+  },
+  "extraction_method_counts": {
+    "API": 24537,
+    "Derived": 5618,
+    "HTML": 65
+  },
+  "validation_samples_total": 130,
+  "validation_samples_passed": 130,
+  "validation_samples_upgraded_e1_to_e2": 105,
+  "accounting_identities": {
+    "vital_rate_identity": {
+      "checked_cells": 799,
+      "max_abs_diff": 0.1,
+      "failures_gt_0_15": 0
+    },
+    "urban_rural_pop_sum": {
+      "checked_cells": 646,
+      "max_rel_diff_pct": 0.1795,
+      "failures_gt_1pct": 0
+    },
+    "gdp_three_sector_sum": {
+      "checked_cells": 832,
+      "max_rel_diff_pct": 0.0293,
+      "failures_gt_1pct": 0
+    }
+  },
+  "data_quality_errors": 0,
+  "data_quality_warnings": 4,
+  "errors": [],
+  "warnings": [
+    "postgraduate_students is strictly national-only (NBS provincial catalog does not publish provincial postgraduate time series).",
+    "fiscal_revenue & fiscal_expenditure national rows represent Central+Local combined budget while provincial rows represent Local budgets only (standard tax-sharing scope).",
+    "physicians_per_1000 reflects the statutory 2002 licensing break; NHC 2000-2004 direct series & NBS integer per-10k÷10 series are archived in vintages.csv.",
+    "life_expectancy is published only in decennial census benchmark years (2000, 2010, 2020 for provinces); non-census years are left null without interpolation."
+  ]
+}

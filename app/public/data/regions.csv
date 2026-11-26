@@ -1,0 +1,33 @@
+geo_code,name_zh,name_en,short_zh,geo_level,macro_region_zh,macro_region_en,nbs_economic_zone_zh,nbs_economic_zone_en,capital_zh,capital_en,iso_3166_2,in_mainland_nbs_scope,scope_note
+000000,全国,National (China),全国,national,全国,National,全国,National,北京,Beijing,CN,true,"国家统计局全国统计口径指中国内地31个省、自治区、直辖市及现役军人（不含香港、澳门特别行政区和台湾省）。"
+110000,北京市,Beijing,北京,province,华北,North China,东部,Eastern,北京,Beijing,CN-BJ,true,直辖市
+120000,天津市,Tianjin,天津,province,华北,North China,东部,Eastern,天津,Tianjin,CN-TJ,true,直辖市
+130000,河北省,Hebei,河北,province,华北,North China,东部,Eastern,石家庄,Shijiazhuang,CN-HE,true,省
+140000,山西省,Shanxi,山西,province,华北,North China,中部,Central,太原,Taiyuan,CN-SX,true,省
+150000,内蒙古自治区,Inner Mongolia,内蒙古,province,华北,North China,西部,Western,呼和浩特,Hohhot,CN-NM,true,自治区
+210000,辽宁省,Liaoning,辽宁,province,东北,Northeast China,东北,Northeast,沈阳,Shenyang,CN-LN,true,省
+220000,吉林省,Jilin,吉林,province,东北,Northeast China,东北,Northeast,长春,Changchun,CN-JL,true,省
+230000,黑龙江省,Heilongjiang,黑龙江,province,东北,Northeast China,东北,Northeast,哈尔滨,Harbin,CN-HL,true,省
+310000,上海市,Shanghai,上海,province,华东,East China,东部,Eastern,上海,Shanghai,CN-SH,true,直辖市
+320000,江苏省,Jiangsu,江苏,province,华东,East China,东部,Eastern,南京,Nanjing,CN-JS,true,省
+330000,浙江省,Zhejiang,浙江,province,华东,East China,东部,Eastern,杭州,Hangzhou,CN-ZJ,true,省
+340000,安徽省,Anhui,安徽,province,华东,East China,中部,Central,合肥,Hefei,CN-AH,true,省
+350000,福建省,Fujian,福建,province,华东,East China,东部,Eastern,福州,Fuzhou,CN-FJ,true,省
+360000,江西省,Jiangxi,江西,province,华东,East China,中部,Central,南昌,Nanchang,CN-JX,true,省
+370000,山东省,Shandong,山东,province,华东,East China,东部,Eastern,济南,Jinan,CN-SD,true,省
+410000,河南省,Henan,河南,province,华中,Central China,中部,Central,郑州,Zhengzhou,CN-HA,true,省
+420000,湖北省,Hubei,湖北,province,华中,Central China,中部,Central,武汉,Wuhan,CN-HB,true,省
+430000,湖南省,Hunan,湖南,province,华中,Central China,中部,Central,长沙,Changsha,CN-HN,true,省
+440000,广东省,Guangdong,广东,province,华南,South China,东部,Eastern,广州,Guangzhou,CN-GD,true,省
+450000,广西壮族自治区,Guangxi,广西,province,华南,South China,西部,Western,南宁,Nanning,CN-GX,true,自治区
+460000,海南省,Hainan,海南,province,华南,South China,东部,Eastern,海口,Haikou,CN-HI,true,省
+500000,重庆市,Chongqing,重庆,province,西南,Southwest China,西部,Western,重庆,Chongqing,CN-CQ,true,直辖市
+510000,四川省,Sichuan,四川,province,西南,Southwest China,西部,Western,成都,Chengdu,CN-SC,true,省
+520000,贵州省,Guizhou,贵州,province,西南,Southwest China,西部,Western,贵阳,Guiyang,CN-GZ,true,省
+530000,云南省,Yunnan,云南,province,西南,Southwest China,西部,Western,昆明,Kunming,CN-YN,true,省
+540000,西藏自治区,Tibet (Xizang),西藏,province,西南,Southwest China,西部,Western,拉萨,Lhasa,CN-XZ,true,自治区
+610000,陕西省,Shaanxi,陕西,province,西北,Northwest China,西部,Western,西安,Xi'an,CN-SN,true,省
+620000,甘肃省,Gansu,甘肃,province,西北,Northwest China,西部,Western,兰州,Lanzhou,CN-GS,true,省
+630000,青海省,Qinghai,青海,province,西北,Northwest China,西部,Western,西宁,Xining,CN-QH,true,省
+640000,宁夏回族自治区,Ningxia,宁夏,province,西北,Northwest China,西部,Western,银川,Yinchuan,CN-NX,true,自治区
+650000,新疆维吾尔自治区,Xinjiang,新疆,province,西北,Northwest China,西部,Western,乌鲁木齐,Urumqi,CN-XJ,true,自治区

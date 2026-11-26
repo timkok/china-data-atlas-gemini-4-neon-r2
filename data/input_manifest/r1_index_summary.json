@@ -1,0 +1,158 @@
+{
+  "claude_opus_5_5": {
+    "label": "Claude Opus 5.5",
+    "folder_id": "103Q9txnKYcPiXz_DApN_zOJdjEebb30P",
+    "total_files_indexed": 22,
+    "total_subfolders": 5,
+    "downloaded_files": 8,
+    "top_level": [
+      "00_README.md",
+      "01_docs",
+      "02_data",
+      "03_raw",
+      "04_tests",
+      "05_source"
+    ]
+  },
+  "codex_unavail": {
+    "label": "Codex (Model Version Unavailable)",
+    "folder_id": "11hyv6PNMhkPspFFrIPlHBlFFfR0yFnd_",
+    "total_files_indexed": 0,
+    "total_subfolders": 0,
+    "downloaded_files": 0,
+    "top_level": []
+  },
+  "codex_gpt6": {
+    "label": "Codex GPT-6",
+    "folder_id": "1cAjfXt2ZdTd3TAisIV_Gm61Ot7lbQp5n",
+    "total_files_indexed": 0,
+    "total_subfolders": 0,
+    "downloaded_files": 0,
+    "top_level": []
+  },
+  "gemini_unavail": {
+    "label": "Gemini (Model Version Unavailable)",
+    "folder_id": "1zN44CCnW8IfJ1Elmk48gZL1YhF900nUP",
+    "total_files_indexed": 6,
+    "total_subfolders": 0,
+    "downloaded_files": 2,
+    "top_level": [
+      "China-Data-Atlas-Gemini-R1.zip",
+      "DELIVERY_REPORT.md",
+      "EVALUATION.json",
+      "homepage-desktop.png",
+      "indicator-desktop.png",
+      "observations"
+    ]
+  },
+  "gemini_4_neon": {
+    "label": "Gemini 4 Neon",
+    "folder_id": "1QRtc23mP3sGLekDyMqWw_Te7jC9Y0T3G",
+    "total_files_indexed": 103,
+    "total_subfolders": 30,
+    "downloaded_files": 60,
+    "top_level": [
+      "app",
+      "ARCHITECTURE.md",
+      "CHANGELOG.md",
+      "China-Data-Atlas-Gemini-4-Neon-R1.zip",
+      "data",
+      "DELIVERY_REPORT.md",
+      "deployment",
+      "EVALUATION.json",
+      "LIMITATIONS.md",
+      "MODEL_INFO.json",
+      "pipeline",
+      "PRODUCT_RESEARCH.md",
+      "README.md",
+      "reports",
+      "requirements.txt",
+      "screenshots",
+      "tests"
+    ]
+  },
+  "gpt6_astra_pro": {
+    "label": "GPT-6 Astra Pro",
+    "folder_id": "1Q6Y3Je7xmmfAh3wADcp_UWxeyjbrLA4V",
+    "total_files_indexed": 78,
+    "total_subfolders": 22,
+    "downloaded_files": 52,
+    "top_level": [
+      "app",
+      "ARCHITECTURE.md",
+      "CHANGELOG.md",
+      "China-Data-Atlas-GPT-6-Astra-Pro-R1.zip",
+      "data",
+      "DATA_METHODOLOGY.md",
+      "DELIVERY_REPORT.md",
+      "deployment",
+      "EVALUATION.json",
+      "LIMITATIONS.md",
+      "MODEL_INFO.json",
+      "PACKAGE_MANIFEST.json",
+      "pipeline",
+      "PRODUCT_RESEARCH.md",
+      "README.md",
+      "reports",
+      "screenshots",
+      "tests"
+    ]
+  },
+  "gpt6_2": {
+    "label": "GPT-6.2",
+    "folder_id": "1HmG5Kbn0J-GLug2mS3D91-ZHdRJhOGVt",
+    "total_files_indexed": 2,
+    "total_subfolders": 0,
+    "downloaded_files": 0,
+    "top_level": [
+      "China-Data-Atlas-GPT-6.2-R1.html",
+      "China-Data-Atlas-GPT-6.2-R1.zip"
+    ]
+  },
+  "grok_bot": {
+    "label": "Grok Bot (Model Version Unavailable)",
+    "folder_id": "1Myux8GqrLiP0IyAX5wHJkjF0FTUHCsMR",
+    "total_files_indexed": 17,
+    "total_subfolders": 3,
+    "downloaded_files": 15,
+    "top_level": [
+      "ARCHITECTURE.md",
+      "CHANGELOG.md",
+      "China-Data-Atlas-Grok-Bot-R1.zip",
+      "DELIVERY_REPORT.md",
+      "deployment",
+      "EVALUATION.json",
+      "LIMITATIONS.md",
+      "MODEL_INFO.json",
+      "PRODUCT_RESEARCH.md",
+      "README.md",
+      "reports",
+      "screenshots"
+    ]
+  },
+  "muse_spark_1_3": {
+    "label": "Muse Spark 1.3",
+    "folder_id": "1TOZVhWJW8Oxc-_ga1e6oZkkL9CPWSG-P",
+    "total_files_indexed": 70,
+    "total_subfolders": 21,
+    "downloaded_files": 30,
+    "top_level": [
+      "app",
+      "ARCHITECTURE.md",
+      "CHANGELOG.md",
+      "China-Data-Atlas-Muse-Spark-1.3-R1.zip",
+      "data",
+      "DELIVERY_REPORT.md",
+      "deployment",
+      "EVALUATION.json",
+      "LIMITATIONS.md",
+      "MODEL_INFO.json",
+      "pipeline",
+      "PRODUCT_RESEARCH.md",
+      "README.md",
+      "reports",
+      "screenshots",
+      "tests"
+    ]
+  }
+}
