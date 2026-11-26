@@ -1,0 +1,88 @@
+canonical_indicator_id,canonical_name_zh,canonical_name_en,canonical_unit,is_core_12,source_model,raw_indicator_id,raw_unit,unit_conversion_required,conversion_rule
+birth_rate,人口出生率,Crude Birth Rate,‰,True,claude_opus_5_5,birth-rate,‰,False,none
+birth_rate,人口出生率,Crude Birth Rate,‰,True,gemini_4_neon,birth_rate,‰,False,none
+birth_rate,人口出生率,Crude Birth Rate,‰,True,gemini_unavail,birth_rate,‰,False,none
+birth_rate,人口出生率,Crude Birth Rate,‰,True,gpt6_2,birth_rate,‰,False,none
+birth_rate,人口出生率,Crude Birth Rate,‰,True,gpt6_astra_pro,birth_rate,‰,False,none
+birth_rate,人口出生率,Crude Birth Rate,‰,True,grok_bot,birth_rate,‰,False,none
+birth_rate,人口出生率,Crude Birth Rate,‰,True,muse_spark_1_3,birth_rate,‰,False,none
+disposable_income,全体居民人均可支配收入,Per Capita Disposable Income,元,True,claude_opus_5_5,disposable-income,元,False,none
+disposable_income,全体居民人均可支配收入,Per Capita Disposable Income,元,True,gemini_4_neon,disposable_income,元人民币,False,none
+disposable_income,全体居民人均可支配收入,Per Capita Disposable Income,元,True,gemini_unavail,disposable_income,元,False,none
+disposable_income,全体居民人均可支配收入,Per Capita Disposable Income,元,True,gpt6_2,disposable_income,元人民币,False,none
+disposable_income,全体居民人均可支配收入,Per Capita Disposable Income,元,True,gpt6_astra_pro,disposable_income,元人民币,False,none
+disposable_income,全体居民人均可支配收入,Per Capita Disposable Income,元,True,grok_bot,disposable_income,元,False,none
+disposable_income,全体居民人均可支配收入,Per Capita Disposable Income,元,True,muse_spark_1_3,disposable_income,元人民币,False,none
+gdp,地区生产总值 (GDP),Gross Regional Product (GDP),亿元,True,claude_opus_5_5,gdp,亿元,False,none
+gdp,地区生产总值 (GDP),Gross Regional Product (GDP),亿元,True,gemini_4_neon,gdp,亿元人民币,False,none
+gdp,地区生产总值 (GDP),Gross Regional Product (GDP),亿元,True,gemini_unavail,gdp,亿元,False,none
+gdp,地区生产总值 (GDP),Gross Regional Product (GDP),亿元,True,gpt6_2,gdp,亿元人民币,False,none
+gdp,地区生产总值 (GDP),Gross Regional Product (GDP),亿元,True,gpt6_astra_pro,gdp,亿元人民币,False,none
+gdp,地区生产总值 (GDP),Gross Regional Product (GDP),亿元,True,grok_bot,gdp,亿元,False,none
+gdp,地区生产总值 (GDP),Gross Regional Product (GDP),亿元,True,muse_spark_1_3,gdp,亿元人民币,False,none
+gdp_per_capita,人均地区生产总值 (人均GDP),GDP per Capita,元/人,True,claude_opus_5_5,gdp-per-capita,元,False,none
+gdp_per_capita,人均地区生产总值 (人均GDP),GDP per Capita,元/人,True,gemini_4_neon,gdp_per_capita,元人民币,False,none
+gdp_per_capita,人均地区生产总值 (人均GDP),GDP per Capita,元/人,True,gemini_unavail,gdp_per_capita,元,False,none
+gdp_per_capita,人均地区生产总值 (人均GDP),GDP per Capita,元/人,True,gpt6_2,gdp_per_capita,元人民币,False,none
+gdp_per_capita,人均地区生产总值 (人均GDP),GDP per Capita,元/人,True,gpt6_astra_pro,gdp_per_capita,元人民币,False,none
+gdp_per_capita,人均地区生产总值 (人均GDP),GDP per Capita,元/人,True,grok_bot,gdp_per_capita,元,False,none
+gdp_per_capita,人均地区生产总值 (人均GDP),GDP per Capita,元/人,True,muse_spark_1_3,gdp_per_capita,元人民币,False,none
+higher_education_institutions,普通、职业高等学校数量,Regular & Vocational Higher Education Institutions,所,True,claude_opus_5_5,colleges,所,False,none
+higher_education_institutions,普通、职业高等学校数量,Regular & Vocational Higher Education Institutions,所,True,gemini_4_neon,higher_education_institutions,所,False,none
+higher_education_institutions,普通、职业高等学校数量,Regular & Vocational Higher Education Institutions,所,True,gemini_unavail,higher_education_institutions,所,False,none
+higher_education_institutions,普通、职业高等学校数量,Regular & Vocational Higher Education Institutions,所,True,gpt6_2,higher_education_institutions,所,False,none
+higher_education_institutions,普通、职业高等学校数量,Regular & Vocational Higher Education Institutions,所,True,gpt6_astra_pro,higher_education_institutions,所,False,none
+higher_education_institutions,普通、职业高等学校数量,Regular & Vocational Higher Education Institutions,所,True,grok_bot,higher_education_institutions,所,False,none
+higher_education_institutions,普通、职业高等学校数量,Regular & Vocational Higher Education Institutions,所,True,muse_spark_1_3,higher_education_institutions,所,False,none
+higher_education_students,普通、职业本专科在校学生数,Higher Education Enrollment (Undergrad & Vocational),万人,True,claude_opus_5_5,college-enrolment,人,True,converted 人 -> 万人 (÷10000)
+higher_education_students,普通、职业本专科在校学生数,Higher Education Enrollment (Undergrad & Vocational),万人,True,gemini_4_neon,higher_education_students,人,True,converted 人 -> 万人 (÷10000)
+higher_education_students,普通、职业本专科在校学生数,Higher Education Enrollment (Undergrad & Vocational),万人,True,gemini_unavail,higher_education_students,人,True,converted 人 -> 万人 (÷10000)
+higher_education_students,普通、职业本专科在校学生数,Higher Education Enrollment (Undergrad & Vocational),万人,True,gpt6_2,regular_vocational_undergrad_students,人,True,converted 人 -> 万人 (÷10000)
+higher_education_students,普通、职业本专科在校学生数,Higher Education Enrollment (Undergrad & Vocational),万人,True,gpt6_astra_pro,higher_education_students,人,True,converted 人 -> 万人 (÷10000)
+higher_education_students,普通、职业本专科在校学生数,Higher Education Enrollment (Undergrad & Vocational),万人,True,grok_bot,higher_education_students,人,True,converted 人 -> 万人 (÷10000)
+higher_education_students,普通、职业本专科在校学生数,Higher Education Enrollment (Undergrad & Vocational),万人,True,muse_spark_1_3,higher_education_students,人,True,converted 人 -> 万人 (÷10000)
+hospital_beds_per_1000,每千人口医疗卫生机构床位数,"Health Institution Beds per 1,000 Population",张/千人,True,gemini_4_neon,hospital_beds_per_1000,张/千人,False,none
+hospital_beds_per_1000,每千人口医疗卫生机构床位数,"Health Institution Beds per 1,000 Population",张/千人,True,gemini_unavail,hospital_beds_per_1000,张/千人,False,none
+hospital_beds_per_1000,每千人口医疗卫生机构床位数,"Health Institution Beds per 1,000 Population",张/千人,True,gpt6_2,hospital_beds_per_1000,张/千人,False,none
+hospital_beds_per_1000,每千人口医疗卫生机构床位数,"Health Institution Beds per 1,000 Population",张/千人,True,gpt6_astra_pro,hospital_beds_per_1000,张/千人,False,none
+hospital_beds_per_1000,每千人口医疗卫生机构床位数,"Health Institution Beds per 1,000 Population",张/千人,True,grok_bot,hospital_beds_per_1000,张/千人,False,none
+hospital_beds_per_1000,每千人口医疗卫生机构床位数,"Health Institution Beds per 1,000 Population",张/千人,True,muse_spark_1_3,hospital_beds_per_1000,张/千人,False,none
+physicians_per_1000,每千人口执业（助理）医师数,"Licensed Physicians per 1,000 Population",人/千人,True,gemini_4_neon,physicians_per_1000,人/千人,False,none
+physicians_per_1000,每千人口执业（助理）医师数,"Licensed Physicians per 1,000 Population",人/千人,True,gemini_unavail,physicians_per_1000,人/千人,False,none
+physicians_per_1000,每千人口执业（助理）医师数,"Licensed Physicians per 1,000 Population",人/千人,True,gpt6_2,physicians_per_1000,人/千人,False,none
+physicians_per_1000,每千人口执业（助理）医师数,"Licensed Physicians per 1,000 Population",人/千人,True,gpt6_astra_pro,physicians_per_1000,人/千人,False,none
+physicians_per_1000,每千人口执业（助理）医师数,"Licensed Physicians per 1,000 Population",人/千人,True,grok_bot,physicians_per_1000,人/千人,False,none
+physicians_per_1000,每千人口执业（助理）医师数,"Licensed Physicians per 1,000 Population",人/千人,True,muse_spark_1_3,physicians_per_1000,人/千人,False,none
+population,年末常住人口,Resident Population (Year-End),万人,True,claude_opus_5_5,population,万人,False,none
+population,年末常住人口,Resident Population (Year-End),万人,True,gemini_4_neon,population,万人,False,none
+population,年末常住人口,Resident Population (Year-End),万人,True,gemini_unavail,population,万人,False,none
+population,年末常住人口,Resident Population (Year-End),万人,True,gpt6_2,population,万人,False,none
+population,年末常住人口,Resident Population (Year-End),万人,True,gpt6_astra_pro,population,万人,False,none
+population,年末常住人口,Resident Population (Year-End),万人,True,grok_bot,population,万人,False,none
+population,年末常住人口,Resident Population (Year-End),万人,True,muse_spark_1_3,population,万人,False,none
+population_65plus,65岁及以上人口占比,Population Share Aged 65+,%,True,claude_opus_5_5,aged-65-share,%,False,none
+population_65plus,65岁及以上人口占比,Population Share Aged 65+,%,True,gemini_4_neon,population_65plus,%,False,none
+population_65plus,65岁及以上人口占比,Population Share Aged 65+,%,True,gemini_unavail,population_65plus,%,False,none
+population_65plus,65岁及以上人口占比,Population Share Aged 65+,%,True,gpt6_2,population_65plus,%,False,none
+population_65plus,65岁及以上人口占比,Population Share Aged 65+,%,True,gpt6_astra_pro,population_65plus,%,False,none
+population_65plus,65岁及以上人口占比,Population Share Aged 65+,%,True,grok_bot,population_65plus,%,False,none
+population_65plus,65岁及以上人口占比,Population Share Aged 65+,%,True,muse_spark_1_3,population_65plus,%,False,none
+retail_sales,社会消费品零售总额,Total Retail Sales of Consumer Goods,亿元,True,gemini_4_neon,retail_sales,亿元人民币,False,none
+retail_sales,社会消费品零售总额,Total Retail Sales of Consumer Goods,亿元,True,gemini_unavail,retail_sales,亿元,False,none
+retail_sales,社会消费品零售总额,Total Retail Sales of Consumer Goods,亿元,True,gpt6_2,retail_sales,亿元人民币,False,none
+retail_sales,社会消费品零售总额,Total Retail Sales of Consumer Goods,亿元,True,gpt6_astra_pro,retail_sales,亿元人民币,False,none
+retail_sales,社会消费品零售总额,Total Retail Sales of Consumer Goods,亿元,True,grok_bot,retail_sales,亿元,False,none
+retail_sales,社会消费品零售总额,Total Retail Sales of Consumer Goods,亿元,True,muse_spark_1_3,retail_sales,亿元人民币,False,none
+urbanization_rate,常住人口城镇化率,Urbanization Rate,%,True,claude_opus_5_5,urbanization,%,False,none
+urbanization_rate,常住人口城镇化率,Urbanization Rate,%,True,gemini_4_neon,urbanization_rate,%,False,none
+urbanization_rate,常住人口城镇化率,Urbanization Rate,%,True,gemini_unavail,urbanization_rate,%,False,none
+urbanization_rate,常住人口城镇化率,Urbanization Rate,%,True,gpt6_2,urbanization_rate,%,False,none
+urbanization_rate,常住人口城镇化率,Urbanization Rate,%,True,gpt6_astra_pro,urbanization_rate,%,False,none
+urbanization_rate,常住人口城镇化率,Urbanization Rate,%,True,grok_bot,urbanization_rate,%,False,none
+urbanization_rate,常住人口城镇化率,Urbanization Rate,%,True,muse_spark_1_3,urbanization_rate,%,False,none
+consumption_expenditure,全体居民人均消费支出,Per Capita Consumption Expenditure,元,False,claude_opus_5_5,consumption-expenditure,元,False,none
+death_rate,人口死亡率,Crude Death Rate,‰,False,grok_bot,death_rate,‰,False,none
+hospital_bed_utilization_rate,医院病床使用率,Hospital Bed Utilization Rate,%,False,claude_opus_5_5,bed-occupancy,%,False,none
+natural_growth_rate,人口自然增长率,Natural Population Growth Rate,‰,False,claude_opus_5_5,natural-growth-rate,‰,False,none
+natural_growth_rate,人口自然增长率,Natural Population Growth Rate,‰,False,grok_bot,natural_growth_rate,‰,False,none
+urban_population,城镇人口,Urban Resident Population,万人,False,grok_bot,urban_population,万人,False,none

@@ -1,0 +1,4739 @@
+{
+  "generated_at_utc": "2026-11-26T01:33:19Z",
+  "version": "R2-v2.0",
+  "stats": {
+    "total_observations": 30220,
+    "total_indicators": 44,
+    "core_r1_indicators": 12,
+    "expansion_r2_indicators": 32,
+    "total_regions": 32,
+    "provinces_count": 31,
+    "year_min": 2000,
+    "year_max": 2025,
+    "evidence_levels": {
+      "E1": 28673,
+      "E2": 167,
+      "E3": 23,
+      "E4": 1357
+    },
+    "extraction_methods": {
+      "API": 24537,
+      "Derived": 5618,
+      "HTML": 65
+    },
+    "vintages_count": 2807,
+    "resolved_conflicts_count": 1911,
+    "r1_models_audited": 9,
+    "validation_samples_audited": 130,
+    "validation_samples_passed": 130
+  },
+  "regions": [
+    {
+      "geo_code": "000000",
+      "name_zh": "全国",
+      "name_en": "National (China)",
+      "short_zh": "全国",
+      "geo_level": "national",
+      "macro_region_zh": "全国",
+      "macro_region_en": "National",
+      "nbs_economic_zone_zh": "全国",
+      "nbs_economic_zone_en": "National",
+      "capital_zh": "北京",
+      "capital_en": "Beijing",
+      "iso_3166_2": "CN",
+      "in_mainland_nbs_scope": "true",
+      "scope_note": "国家统计局全国统计口径指中国内地31个省、自治区、直辖市及现役军人（不含香港、澳门特别行政区和台湾省）。"
+    },
+    {
+      "geo_code": "110000",
+      "name_zh": "北京市",
+      "name_en": "Beijing",
+      "short_zh": "北京",
+      "geo_level": "province",
+      "macro_region_zh": "华北",
+      "macro_region_en": "North China",
+      "nbs_economic_zone_zh": "东部",
+      "nbs_economic_zone_en": "Eastern",
+      "capital_zh": "北京",
+      "capital_en": "Beijing",
+      "iso_3166_2": "CN-BJ",
+      "in_mainland_nbs_scope": "true",
+      "scope_note": "直辖市"
+    },
+    {
+      "geo_code": "120000",
+      "name_zh": "天津市",
+      "name_en": "Tianjin",
+      "short_zh": "天津",
+      "geo_level": "province",
+      "macro_region_zh": "华北",
+      "macro_region_en": "North China",
+      "nbs_economic_zone_zh": "东部",
+      "nbs_economic_zone_en": "Eastern",
+      "capital_zh": "天津",
+      "capital_en": "Tianjin",
+      "iso_3166_2": "CN-TJ",
+      "in_mainland_nbs_scope": "true",
+      "scope_note": "直辖市"
+    },
+    {
+      "geo_code": "130000",
+      "name_zh": "河北省",
+      "name_en": "Hebei",
+      "short_zh": "河北",
+      "geo_level": "province",
+      "macro_region_zh": "华北",
+      "macro_region_en": "North China",
+      "nbs_economic_zone_zh": "东部",
+      "nbs_economic_zone_en": "Eastern",
+      "capital_zh": "石家庄",
+      "capital_en": "Shijiazhuang",
+      "iso_3166_2": "CN-HE",
+      "in_mainland_nbs_scope": "true",
+      "scope_note": "省"
+    },
+    {
+      "geo_code": "140000",
+      "name_zh": "山西省",
+      "name_en": "Shanxi",
+      "short_zh": "山西",
+      "geo_level": "province",
+      "macro_region_zh": "华北",
+      "macro_region_en": "North China",
+      "nbs_economic_zone_zh": "中部",
+      "nbs_economic_zone_en": "Central",
+      "capital_zh": "太原",
+      "capital_en": "Taiyuan",
+      "iso_3166_2": "CN-SX",
+      "in_mainland_nbs_scope": "true",
+      "scope_note": "省"
+    },
+    {
+      "geo_code": "150000",
+      "name_zh": "内蒙古自治区",
+      "name_en": "Inner Mongolia",
+      "short_zh": "内蒙古",
+      "geo_level": "province",
+      "macro_region_zh": "华北",
+      "macro_region_en": "North China",
+      "nbs_economic_zone_zh": "西部",
+      "nbs_economic_zone_en": "Western",
+      "capital_zh": "呼和浩特",
+      "capital_en": "Hohhot",
+      "iso_3166_2": "CN-NM",
+      "in_mainland_nbs_scope": "true",
+      "scope_note": "自治区"
+    },
+    {
+      "geo_code": "210000",
+      "name_zh": "辽宁省",
+      "name_en": "Liaoning",
+      "short_zh": "辽宁",
+      "geo_level": "province",
+      "macro_region_zh": "东北",
+      "macro_region_en": "Northeast China",
+      "nbs_economic_zone_zh": "东北",
+      "nbs_economic_zone_en": "Northeast",
+      "capital_zh": "沈阳",
+      "capital_en": "Shenyang",
+      "iso_3166_2": "CN-LN",
+      "in_mainland_nbs_scope": "true",
+      "scope_note": "省"
+    },
+    {
+      "geo_code": "220000",
+      "name_zh": "吉林省",
+      "name_en": "Jilin",
+      "short_zh": "吉林",
+      "geo_level": "province",
+      "macro_region_zh": "东北",
+      "macro_region_en": "Northeast China",
+      "nbs_economic_zone_zh": "东北",
+      "nbs_economic_zone_en": "Northeast",
+      "capital_zh": "长春",
+      "capital_en": "Changchun",
+      "iso_3166_2": "CN-JL",
+      "in_mainland_nbs_scope": "true",
+      "scope_note": "省"
+    },
+    {
+      "geo_code": "230000",
+      "name_zh": "黑龙江省",
+      "name_en": "Heilongjiang",
+      "short_zh": "黑龙江",
+      "geo_level": "province",
+      "macro_region_zh": "东北",
+      "macro_region_en": "Northeast China",
+      "nbs_economic_zone_zh": "东北",
+      "nbs_economic_zone_en": "Northeast",
+      "capital_zh": "哈尔滨",
+      "capital_en": "Harbin",
+      "iso_3166_2": "CN-HL",
+      "in_mainland_nbs_scope": "true",
+      "scope_note": "省"
+    },
+    {
+      "geo_code": "310000",
+      "name_zh": "上海市",
+      "name_en": "Shanghai",
+      "short_zh": "上海",
+      "geo_level": "province",
+      "macro_region_zh": "华东",
+      "macro_region_en": "East China",
+      "nbs_economic_zone_zh": "东部",
+      "nbs_economic_zone_en": "Eastern",
+      "capital_zh": "上海",
+      "capital_en": "Shanghai",
+      "iso_3166_2": "CN-SH",
+      "in_mainland_nbs_scope": "true",
+      "scope_note": "直辖市"
+    },
+    {
+      "geo_code": "320000",
+      "name_zh": "江苏省",
+      "name_en": "Jiangsu",
+      "short_zh": "江苏",
+      "geo_level": "province",
+      "macro_region_zh": "华东",
+      "macro_region_en": "East China",
+      "nbs_economic_zone_zh": "东部",
+      "nbs_economic_zone_en": "Eastern",
+      "capital_zh": "南京",
+      "capital_en": "Nanjing",
+      "iso_3166_2": "CN-JS",
+      "in_mainland_nbs_scope": "true",
+      "scope_note": "省"
+    },
+    {
+      "geo_code": "330000",
+      "name_zh": "浙江省",
+      "name_en": "Zhejiang",
+      "short_zh": "浙江",
+      "geo_level": "province",
+      "macro_region_zh": "华东",
+      "macro_region_en": "East China",
+      "nbs_economic_zone_zh": "东部",
+      "nbs_economic_zone_en": "Eastern",
+      "capital_zh": "杭州",
+      "capital_en": "Hangzhou",
+      "iso_3166_2": "CN-ZJ",
+      "in_mainland_nbs_scope": "true",
+      "scope_note": "省"
+    },
+    {
+      "geo_code": "340000",
+      "name_zh": "安徽省",
+      "name_en": "Anhui",
+      "short_zh": "安徽",
+      "geo_level": "province",
+      "macro_region_zh": "华东",
+      "macro_region_en": "East China",
+      "nbs_economic_zone_zh": "中部",
+      "nbs_economic_zone_en": "Central",
+      "capital_zh": "合肥",
+      "capital_en": "Hefei",
+      "iso_3166_2": "CN-AH",
+      "in_mainland_nbs_scope": "true",
+      "scope_note": "省"
+    },
+    {
+      "geo_code": "350000",
+      "name_zh": "福建省",
+      "name_en": "Fujian",
+      "short_zh": "福建",
+      "geo_level": "province",
+      "macro_region_zh": "华东",
+      "macro_region_en": "East China",
+      "nbs_economic_zone_zh": "东部",
+      "nbs_economic_zone_en": "Eastern",
+      "capital_zh": "福州",
+      "capital_en": "Fuzhou",
+      "iso_3166_2": "CN-FJ",
+      "in_mainland_nbs_scope": "true",
+      "scope_note": "省"
+    },
+    {
+      "geo_code": "360000",
+      "name_zh": "江西省",
+      "name_en": "Jiangxi",
+      "short_zh": "江西",
+      "geo_level": "province",
+      "macro_region_zh": "华东",
+      "macro_region_en": "East China",
+      "nbs_economic_zone_zh": "中部",
+      "nbs_economic_zone_en": "Central",
+      "capital_zh": "南昌",
+      "capital_en": "Nanchang",
+      "iso_3166_2": "CN-JX",
+      "in_mainland_nbs_scope": "true",
+      "scope_note": "省"
+    },
+    {
+      "geo_code": "370000",
+      "name_zh": "山东省",
+      "name_en": "Shandong",
+      "short_zh": "山东",
+      "geo_level": "province",
+      "macro_region_zh": "华东",
+      "macro_region_en": "East China",
+      "nbs_economic_zone_zh": "东部",
+      "nbs_economic_zone_en": "Eastern",
+      "capital_zh": "济南",
+      "capital_en": "Jinan",
+      "iso_3166_2": "CN-SD",
+      "in_mainland_nbs_scope": "true",
+      "scope_note": "省"
+    },
+    {
+      "geo_code": "410000",
+      "name_zh": "河南省",
+      "name_en": "Henan",
+      "short_zh": "河南",
+      "geo_level": "province",
+      "macro_region_zh": "华中",
+      "macro_region_en": "Central China",
+      "nbs_economic_zone_zh": "中部",
+      "nbs_economic_zone_en": "Central",
+      "capital_zh": "郑州",
+      "capital_en": "Zhengzhou",
+      "iso_3166_2": "CN-HA",
+      "in_mainland_nbs_scope": "true",
+      "scope_note": "省"
+    },
+    {
+      "geo_code": "420000",
+      "name_zh": "湖北省",
+      "name_en": "Hubei",
+      "short_zh": "湖北",
+      "geo_level": "province",
+      "macro_region_zh": "华中",
+      "macro_region_en": "Central China",
+      "nbs_economic_zone_zh": "中部",
+      "nbs_economic_zone_en": "Central",
+      "capital_zh": "武汉",
+      "capital_en": "Wuhan",
+      "iso_3166_2": "CN-HB",
+      "in_mainland_nbs_scope": "true",
+      "scope_note": "省"
+    },
+    {
+      "geo_code": "430000",
+      "name_zh": "湖南省",
+      "name_en": "Hunan",
+      "short_zh": "湖南",
+      "geo_level": "province",
+      "macro_region_zh": "华中",
+      "macro_region_en": "Central China",
+      "nbs_economic_zone_zh": "中部",
+      "nbs_economic_zone_en": "Central",
+      "capital_zh": "长沙",
+      "capital_en": "Changsha",
+      "iso_3166_2": "CN-HN",
+      "in_mainland_nbs_scope": "true",
+      "scope_note": "省"
+    },
+    {
+      "geo_code": "440000",
+      "name_zh": "广东省",
+      "name_en": "Guangdong",
+      "short_zh": "广东",
+      "geo_level": "province",
+      "macro_region_zh": "华南",
+      "macro_region_en": "South China",
+      "nbs_economic_zone_zh": "东部",
+      "nbs_economic_zone_en": "Eastern",
+      "capital_zh": "广州",
+      "capital_en": "Guangzhou",
+      "iso_3166_2": "CN-GD",
+      "in_mainland_nbs_scope": "true",
+      "scope_note": "省"
+    },
+    {
+      "geo_code": "450000",
+      "name_zh": "广西壮族自治区",
+      "name_en": "Guangxi",
+      "short_zh": "广西",
+      "geo_level": "province",
+      "macro_region_zh": "华南",
+      "macro_region_en": "South China",
+      "nbs_economic_zone_zh": "西部",
+      "nbs_economic_zone_en": "Western",
+      "capital_zh": "南宁",
+      "capital_en": "Nanning",
+      "iso_3166_2": "CN-GX",
+      "in_mainland_nbs_scope": "true",
+      "scope_note": "自治区"
+    },
+    {
+      "geo_code": "460000",
+      "name_zh": "海南省",
+      "name_en": "Hainan",
+      "short_zh": "海南",
+      "geo_level": "province",
+      "macro_region_zh": "华南",
+      "macro_region_en": "South China",
+      "nbs_economic_zone_zh": "东部",
+      "nbs_economic_zone_en": "Eastern",
+      "capital_zh": "海口",
+      "capital_en": "Haikou",
+      "iso_3166_2": "CN-HI",
+      "in_mainland_nbs_scope": "true",
+      "scope_note": "省"
+    },
+    {
+      "geo_code": "500000",
+      "name_zh": "重庆市",
+      "name_en": "Chongqing",
+      "short_zh": "重庆",
+      "geo_level": "province",
+      "macro_region_zh": "西南",
+      "macro_region_en": "Southwest China",
+      "nbs_economic_zone_zh": "西部",
+      "nbs_economic_zone_en": "Western",
+      "capital_zh": "重庆",
+      "capital_en": "Chongqing",
+      "iso_3166_2": "CN-CQ",
+      "in_mainland_nbs_scope": "true",
+      "scope_note": "直辖市"
+    },
+    {
+      "geo_code": "510000",
+      "name_zh": "四川省",
+      "name_en": "Sichuan",
+      "short_zh": "四川",
+      "geo_level": "province",
+      "macro_region_zh": "西南",
+      "macro_region_en": "Southwest China",
+      "nbs_economic_zone_zh": "西部",
+      "nbs_economic_zone_en": "Western",
+      "capital_zh": "成都",
+      "capital_en": "Chengdu",
+      "iso_3166_2": "CN-SC",
+      "in_mainland_nbs_scope": "true",
+      "scope_note": "省"
+    },
+    {
+      "geo_code": "520000",
+      "name_zh": "贵州省",
+      "name_en": "Guizhou",
+      "short_zh": "贵州",
+      "geo_level": "province",
+      "macro_region_zh": "西南",
+      "macro_region_en": "Southwest China",
+      "nbs_economic_zone_zh": "西部",
+      "nbs_economic_zone_en": "Western",
+      "capital_zh": "贵阳",
+      "capital_en": "Guiyang",
+      "iso_3166_2": "CN-GZ",
+      "in_mainland_nbs_scope": "true",
+      "scope_note": "省"
+    },
+    {
+      "geo_code": "530000",
+      "name_zh": "云南省",
+      "name_en": "Yunnan",
+      "short_zh": "云南",
+      "geo_level": "province",
+      "macro_region_zh": "西南",
+      "macro_region_en": "Southwest China",
+      "nbs_economic_zone_zh": "西部",
+      "nbs_economic_zone_en": "Western",
+      "capital_zh": "昆明",
+      "capital_en": "Kunming",
+      "iso_3166_2": "CN-YN",
+      "in_mainland_nbs_scope": "true",
+      "scope_note": "省"
+    },
+    {
+      "geo_code": "540000",
+      "name_zh": "西藏自治区",
+      "name_en": "Tibet (Xizang)",
+      "short_zh": "西藏",
+      "geo_level": "province",
+      "macro_region_zh": "西南",
+      "macro_region_en": "Southwest China",
+      "nbs_economic_zone_zh": "西部",
+      "nbs_economic_zone_en": "Western",
+      "capital_zh": "拉萨",
+      "capital_en": "Lhasa",
+      "iso_3166_2": "CN-XZ",
+      "in_mainland_nbs_scope": "true",
+      "scope_note": "自治区"
+    },
+    {
+      "geo_code": "610000",
+      "name_zh": "陕西省",
+      "name_en": "Shaanxi",
+      "short_zh": "陕西",
+      "geo_level": "province",
+      "macro_region_zh": "西北",
+      "macro_region_en": "Northwest China",
+      "nbs_economic_zone_zh": "西部",
+      "nbs_economic_zone_en": "Western",
+      "capital_zh": "西安",
+      "capital_en": "Xi'an",
+      "iso_3166_2": "CN-SN",
+      "in_mainland_nbs_scope": "true",
+      "scope_note": "省"
+    },
+    {
+      "geo_code": "620000",
+      "name_zh": "甘肃省",
+      "name_en": "Gansu",
+      "short_zh": "甘肃",
+      "geo_level": "province",
+      "macro_region_zh": "西北",
+      "macro_region_en": "Northwest China",
+      "nbs_economic_zone_zh": "西部",
+      "nbs_economic_zone_en": "Western",
+      "capital_zh": "兰州",
+      "capital_en": "Lanzhou",
+      "iso_3166_2": "CN-GS",
+      "in_mainland_nbs_scope": "true",
+      "scope_note": "省"
+    },
+    {
+      "geo_code": "630000",
+      "name_zh": "青海省",
+      "name_en": "Qinghai",
+      "short_zh": "青海",
+      "geo_level": "province",
+      "macro_region_zh": "西北",
+      "macro_region_en": "Northwest China",
+      "nbs_economic_zone_zh": "西部",
+      "nbs_economic_zone_en": "Western",
+      "capital_zh": "西宁",
+      "capital_en": "Xining",
+      "iso_3166_2": "CN-QH",
+      "in_mainland_nbs_scope": "true",
+      "scope_note": "省"
+    },
+    {
+      "geo_code": "640000",
+      "name_zh": "宁夏回族自治区",
+      "name_en": "Ningxia",
+      "short_zh": "宁夏",
+      "geo_level": "province",
+      "macro_region_zh": "西北",
+      "macro_region_en": "Northwest China",
+      "nbs_economic_zone_zh": "西部",
+      "nbs_economic_zone_en": "Western",
+      "capital_zh": "银川",
+      "capital_en": "Yinchuan",
+      "iso_3166_2": "CN-NX",
+      "in_mainland_nbs_scope": "true",
+      "scope_note": "自治区"
+    },
+    {
+      "geo_code": "650000",
+      "name_zh": "新疆维吾尔自治区",
+      "name_en": "Xinjiang",
+      "short_zh": "新疆",
+      "geo_level": "province",
+      "macro_region_zh": "西北",
+      "macro_region_en": "Northwest China",
+      "nbs_economic_zone_zh": "西部",
+      "nbs_economic_zone_en": "Western",
+      "capital_zh": "乌鲁木齐",
+      "capital_en": "Urumqi",
+      "iso_3166_2": "CN-XJ",
+      "in_mainland_nbs_scope": "true",
+      "scope_note": "自治区"
+    }
+  ],
+  "provinceCards": [
+    {
+      "geo_code": "110000",
+      "name_zh": "北京市",
+      "short_zh": "北京",
+      "name_en": "Beijing",
+      "macro_region_zh": "华北",
+      "nbs_economic_zone_zh": "东部",
+      "population": 2180.0,
+      "population_year": 2025,
+      "gdp": 52073.4,
+      "gdp_year": 2025,
+      "disposable_income": 89090.0,
+      "aging_65plus": 16.48
+    },
+    {
+      "geo_code": "120000",
+      "name_zh": "天津市",
+      "short_zh": "天津",
+      "name_en": "Tianjin",
+      "macro_region_zh": "华北",
+      "nbs_economic_zone_zh": "东部",
+      "population": 1363.0,
+      "population_year": 2025,
+      "gdp": 18539.8,
+      "gdp_year": 2025,
+      "disposable_income": 55918.0,
+      "aging_65plus": 18.57
+    },
+    {
+      "geo_code": "130000",
+      "name_zh": "河北省",
+      "short_zh": "河北",
+      "name_en": "Hebei",
+      "macro_region_zh": "华北",
+      "nbs_economic_zone_zh": "东部",
+      "population": 7354.0,
+      "population_year": 2025,
+      "gdp": 49305.2,
+      "gdp_year": 2025,
+      "disposable_income": 36439.0,
+      "aging_65plus": 16.46
+    },
+    {
+      "geo_code": "140000",
+      "name_zh": "山西省",
+      "short_zh": "山西",
+      "name_en": "Shanxi",
+      "macro_region_zh": "华北",
+      "nbs_economic_zone_zh": "中部",
+      "population": 3424.0,
+      "population_year": 2025,
+      "gdp": 25495.7,
+      "gdp_year": 2025,
+      "disposable_income": 33923.0,
+      "aging_65plus": 15.79
+    },
+    {
+      "geo_code": "150000",
+      "name_zh": "内蒙古自治区",
+      "short_zh": "内蒙古",
+      "name_en": "Inner Mongolia",
+      "macro_region_zh": "华北",
+      "nbs_economic_zone_zh": "西部",
+      "population": 2374.0,
+      "population_year": 2025,
+      "gdp": 26710.3,
+      "gdp_year": 2025,
+      "disposable_income": 41921.0,
+      "aging_65plus": 16.04
+    },
+    {
+      "geo_code": "210000",
+      "name_zh": "辽宁省",
+      "short_zh": "辽宁",
+      "name_en": "Liaoning",
+      "macro_region_zh": "东北",
+      "nbs_economic_zone_zh": "东北",
+      "population": 4131.0,
+      "population_year": 2025,
+      "gdp": 33182.9,
+      "gdp_year": 2025,
+      "disposable_income": 41703.0,
+      "aging_65plus": 21.9
+    },
+    {
+      "geo_code": "220000",
+      "name_zh": "吉林省",
+      "short_zh": "吉林",
+      "name_en": "Jilin",
+      "macro_region_zh": "东北",
+      "nbs_economic_zone_zh": "东北",
+      "population": 2297.0,
+      "population_year": 2025,
+      "gdp": 14973.9,
+      "gdp_year": 2025,
+      "disposable_income": 32881.0,
+      "aging_65plus": 19.41
+    },
+    {
+      "geo_code": "230000",
+      "name_zh": "黑龙江省",
+      "short_zh": "黑龙江",
+      "name_en": "Heilongjiang",
+      "macro_region_zh": "东北",
+      "nbs_economic_zone_zh": "东北",
+      "population": 3001.0,
+      "population_year": 2025,
+      "gdp": 16878.0,
+      "gdp_year": 2025,
+      "disposable_income": 32851.0,
+      "aging_65plus": 19.41
+    },
+    {
+      "geo_code": "310000",
+      "name_zh": "上海市",
+      "short_zh": "上海",
+      "name_en": "Shanghai",
+      "macro_region_zh": "华东",
+      "nbs_economic_zone_zh": "东部",
+      "population": 2485.0,
+      "population_year": 2025,
+      "gdp": 56708.7,
+      "gdp_year": 2025,
+      "disposable_income": 91987.0,
+      "aging_65plus": 20.25
+    },
+    {
+      "geo_code": "320000",
+      "name_zh": "江苏省",
+      "short_zh": "江苏",
+      "name_en": "Jiangsu",
+      "macro_region_zh": "华东",
+      "nbs_economic_zone_zh": "东部",
+      "population": 8518.0,
+      "population_year": 2025,
+      "gdp": 142351.5,
+      "gdp_year": 2025,
+      "disposable_income": 57971.0,
+      "aging_65plus": 18.78
+    },
+    {
+      "geo_code": "330000",
+      "name_zh": "浙江省",
+      "short_zh": "浙江",
+      "name_en": "Zhejiang",
+      "macro_region_zh": "华东",
+      "nbs_economic_zone_zh": "东部",
+      "population": 6701.0,
+      "population_year": 2025,
+      "gdp": 94545.0,
+      "gdp_year": 2025,
+      "disposable_income": 70240.0,
+      "aging_65plus": 15.72
+    },
+    {
+      "geo_code": "340000",
+      "name_zh": "安徽省",
+      "short_zh": "安徽",
+      "name_en": "Anhui",
+      "macro_region_zh": "华东",
+      "nbs_economic_zone_zh": "中部",
+      "population": 6082.0,
+      "population_year": 2025,
+      "gdp": 52989.5,
+      "gdp_year": 2025,
+      "disposable_income": 38755.0,
+      "aging_65plus": 15.69
+    },
+    {
+      "geo_code": "350000",
+      "name_zh": "福建省",
+      "short_zh": "福建",
+      "name_en": "Fujian",
+      "macro_region_zh": "华东",
+      "nbs_economic_zone_zh": "东部",
+      "population": 4190.0,
+      "population_year": 2025,
+      "gdp": 60199.5,
+      "gdp_year": 2025,
+      "disposable_income": 50302.0,
+      "aging_65plus": 12.95
+    },
+    {
+      "geo_code": "360000",
+      "name_zh": "江西省",
+      "short_zh": "江西",
+      "name_en": "Jiangxi",
+      "macro_region_zh": "华东",
+      "nbs_economic_zone_zh": "中部",
+      "population": 4474.0,
+      "population_year": 2025,
+      "gdp": 36020.0,
+      "gdp_year": 2025,
+      "disposable_income": 37846.0,
+      "aging_65plus": 13.89
+    },
+    {
+      "geo_code": "370000",
+      "name_zh": "山东省",
+      "short_zh": "山东",
+      "name_en": "Shandong",
+      "macro_region_zh": "华东",
+      "nbs_economic_zone_zh": "东部",
+      "population": 10043.0,
+      "population_year": 2025,
+      "gdp": 103197.5,
+      "gdp_year": 2025,
+      "disposable_income": 44180.0,
+      "aging_65plus": 17.73
+    },
+    {
+      "geo_code": "410000",
+      "name_zh": "河南省",
+      "short_zh": "河南",
+      "name_en": "Henan",
+      "macro_region_zh": "华中",
+      "nbs_economic_zone_zh": "中部",
+      "population": 9744.0,
+      "population_year": 2025,
+      "gdp": 66632.8,
+      "gdp_year": 2025,
+      "disposable_income": 33215.0,
+      "aging_65plus": 15.04
+    },
+    {
+      "geo_code": "420000",
+      "name_zh": "湖北省",
+      "short_zh": "湖北",
+      "name_en": "Hubei",
+      "macro_region_zh": "华中",
+      "nbs_economic_zone_zh": "中部",
+      "population": 5811.0,
+      "population_year": 2025,
+      "gdp": 62660.9,
+      "gdp_year": 2025,
+      "disposable_income": 38881.0,
+      "aging_65plus": 17.29
+    },
+    {
+      "geo_code": "430000",
+      "name_zh": "湖南省",
+      "short_zh": "湖南",
+      "name_en": "Hunan",
+      "macro_region_zh": "华中",
+      "nbs_economic_zone_zh": "中部",
+      "population": 6492.0,
+      "population_year": 2025,
+      "gdp": 55308.7,
+      "gdp_year": 2025,
+      "disposable_income": 39545.0,
+      "aging_65plus": 16.68
+    },
+    {
+      "geo_code": "440000",
+      "name_zh": "广东省",
+      "short_zh": "广东",
+      "name_en": "Guangdong",
+      "macro_region_zh": "华南",
+      "nbs_economic_zone_zh": "东部",
+      "population": 12859.0,
+      "population_year": 2025,
+      "gdp": 145846.8,
+      "gdp_year": 2025,
+      "disposable_income": 53669.0,
+      "aging_65plus": 10.19
+    },
+    {
+      "geo_code": "450000",
+      "name_zh": "广西壮族自治区",
+      "short_zh": "广西",
+      "name_en": "Guangxi",
+      "macro_region_zh": "华南",
+      "nbs_economic_zone_zh": "西部",
+      "population": 4989.0,
+      "population_year": 2025,
+      "gdp": 29727.4,
+      "gdp_year": 2025,
+      "disposable_income": 32721.0,
+      "aging_65plus": 13.97
+    },
+    {
+      "geo_code": "460000",
+      "name_zh": "海南省",
+      "short_zh": "海南",
+      "name_en": "Hainan",
+      "macro_region_zh": "华南",
+      "nbs_economic_zone_zh": "东部",
+      "population": 1055.0,
+      "population_year": 2025,
+      "gdp": 8108.9,
+      "gdp_year": 2025,
+      "disposable_income": 36306.0,
+      "aging_65plus": 11.85
+    },
+    {
+      "geo_code": "500000",
+      "name_zh": "重庆市",
+      "short_zh": "重庆",
+      "name_en": "Chongqing",
+      "macro_region_zh": "西南",
+      "nbs_economic_zone_zh": "西部",
+      "population": 3187.0,
+      "population_year": 2025,
+      "gdp": 33757.9,
+      "gdp_year": 2025,
+      "disposable_income": 41580.0,
+      "aging_65plus": 18.87
+    },
+    {
+      "geo_code": "510000",
+      "name_zh": "四川省",
+      "short_zh": "四川",
+      "name_en": "Sichuan",
+      "macro_region_zh": "西南",
+      "nbs_economic_zone_zh": "西部",
+      "population": 8318.0,
+      "population_year": 2025,
+      "gdp": 67665.3,
+      "gdp_year": 2025,
+      "disposable_income": 36120.0,
+      "aging_65plus": 18.44
+    },
+    {
+      "geo_code": "520000",
+      "name_zh": "贵州省",
+      "short_zh": "贵州",
+      "name_en": "Guizhou",
+      "macro_region_zh": "西南",
+      "nbs_economic_zone_zh": "西部",
+      "population": 3857.0,
+      "population_year": 2025,
+      "gdp": 23562.2,
+      "gdp_year": 2025,
+      "disposable_income": 30001.0,
+      "aging_65plus": 12.9
+    },
+    {
+      "geo_code": "530000",
+      "name_zh": "云南省",
+      "short_zh": "云南",
+      "name_en": "Yunnan",
+      "macro_region_zh": "西南",
+      "nbs_economic_zone_zh": "西部",
+      "population": 4644.0,
+      "population_year": 2025,
+      "gdp": 32765.8,
+      "gdp_year": 2025,
+      "disposable_income": 31311.0,
+      "aging_65plus": 12.07
+    },
+    {
+      "geo_code": "540000",
+      "name_zh": "西藏自治区",
+      "short_zh": "西藏",
+      "name_en": "Tibet (Xizang)",
+      "macro_region_zh": "西南",
+      "nbs_economic_zone_zh": "西部",
+      "population": 374.0,
+      "population_year": 2025,
+      "gdp": 3031.9,
+      "gdp_year": 2025,
+      "disposable_income": 33600.0,
+      "aging_65plus": 6.3
+    },
+    {
+      "geo_code": "610000",
+      "name_zh": "陕西省",
+      "short_zh": "陕西",
+      "name_en": "Shaanxi",
+      "macro_region_zh": "西北",
+      "nbs_economic_zone_zh": "西部",
+      "population": 3936.0,
+      "population_year": 2025,
+      "gdp": 36551.1,
+      "gdp_year": 2025,
+      "disposable_income": 35790.0,
+      "aging_65plus": 15.68
+    },
+    {
+      "geo_code": "620000",
+      "name_zh": "甘肃省",
+      "short_zh": "甘肃",
+      "name_en": "Gansu",
+      "macro_region_zh": "西北",
+      "nbs_economic_zone_zh": "西部",
+      "population": 2443.0,
+      "population_year": 2025,
+      "gdp": 13697.5,
+      "gdp_year": 2025,
+      "disposable_income": 28224.0,
+      "aging_65plus": 13.63
+    },
+    {
+      "geo_code": "630000",
+      "name_zh": "青海省",
+      "short_zh": "青海",
+      "name_en": "Qinghai",
+      "macro_region_zh": "西北",
+      "nbs_economic_zone_zh": "西部",
+      "population": 592.0,
+      "population_year": 2025,
+      "gdp": 4121.8,
+      "gdp_year": 2025,
+      "disposable_income": 31661.0,
+      "aging_65plus": 10.58
+    },
+    {
+      "geo_code": "640000",
+      "name_zh": "宁夏回族自治区",
+      "short_zh": "宁夏",
+      "name_en": "Ningxia",
+      "macro_region_zh": "西北",
+      "nbs_economic_zone_zh": "西部",
+      "population": 732.0,
+      "population_year": 2025,
+      "gdp": 5696.5,
+      "gdp_year": 2025,
+      "disposable_income": 35184.0,
+      "aging_65plus": 10.64
+    },
+    {
+      "geo_code": "650000",
+      "name_zh": "新疆维吾尔自治区",
+      "short_zh": "新疆",
+      "name_en": "Xinjiang",
+      "macro_region_zh": "西北",
+      "nbs_economic_zone_zh": "西部",
+      "population": 2639.0,
+      "population_year": 2025,
+      "gdp": 21462.1,
+      "gdp_year": 2025,
+      "disposable_income": 32881.0,
+      "aging_65plus": 8.86
+    }
+  ],
+  "indicators": [
+    {
+      "indicator_id": "population",
+      "is_core_r1": "true",
+      "domain_id": "demographics",
+      "domain_zh": "人口与社会",
+      "domain_en": "Demographics & Society",
+      "name_zh": "年末常住人口",
+      "name_en": "Year-End Resident Population",
+      "short_zh": "常住人口",
+      "unit_zh": "万人",
+      "unit_en": "10,000 persons",
+      "display_decimals": "0",
+      "geo_coverage_scope": "national_and_31_provinces",
+      "time_coverage_note": "2000-2025 (2025 national preliminary; 31 provinces through 2024)",
+      "higher_is_better": "neutral",
+      "definition_zh": "指全年经常在家或在家居住6个月以上，而且经济和生活与本户连成一体的人口，统计时点为每年12月31日24时。",
+      "definition_en": "Permanent residents living in the region for 6+ months at year-end (Dec 31).",
+      "formula_note": "Direct NBS official series (unit: 万人).",
+      "methodological_breaks": "2011–2019年全国及分省数据已根据第七次全国人口普查（2020）结果进行历史修订；2000、2010、2020为普查推算年末数。",
+      "limitations_zh": "不含香港、澳门特别行政区、台湾省及外籍人员；2025年全国数为《2025年统计公报》初步核算数。",
+      "primary_source_id": "NBS_DATA_PROVINCIAL",
+      "total_rows": 832,
+      "year_min": 2000,
+      "year_max": 2025,
+      "complete_comparable_year": 2025,
+      "national_latest_year": 2025,
+      "national_latest_value": 140489.0,
+      "top_province": {
+        "geo_code": "440000",
+        "name_zh": "广东",
+        "value": 12859.0
+      },
+      "vintages_archived": 1,
+      "sparkline": [
+        [
+          2014,
+          137646.0
+        ],
+        [
+          2015,
+          138326.0
+        ],
+        [
+          2016,
+          139232.0
+        ],
+        [
+          2017,
+          140011.0
+        ],
+        [
+          2018,
+          140541.0
+        ],
+        [
+          2019,
+          141008.0
+        ],
+        [
+          2020,
+          141212.0
+        ],
+        [
+          2021,
+          141260.0
+        ],
+        [
+          2022,
+          141175.0
+        ],
+        [
+          2023,
+          140967.0
+        ],
+        [
+          2024,
+          140828.0
+        ],
+        [
+          2025,
+          140489.0
+        ]
+      ]
+    },
+    {
+      "indicator_id": "urbanization_rate",
+      "is_core_r1": "true",
+      "domain_id": "demographics",
+      "domain_zh": "人口与社会",
+      "domain_en": "Demographics & Society",
+      "name_zh": "常住人口城镇化率",
+      "name_en": "Urbanization Rate",
+      "short_zh": "城镇化率",
+      "unit_zh": "%",
+      "unit_en": "%",
+      "display_decimals": "2",
+      "geo_coverage_scope": "national_and_31_provinces",
+      "time_coverage_note": "2000-2025 (provincial NBS urban series starts 2005)",
+      "higher_is_better": "neutral",
+      "definition_zh": "指城镇常住人口占年末总常住人口的比重，衡量人口向城镇集聚的程度。",
+      "definition_en": "Share of urban permanent residents in total year-end resident population (%).",
+      "formula_note": "城镇人口 / 年末常住人口 × 100%（2025年全国采用统计公报直接公布值67.89%）。",
+      "methodological_breaks": "2008年起采用《统计上划分城乡的规定》；2011–2019年已按七普结果历史修订（部分省2005年前无分省城镇人口序列）。",
+      "limitations_zh": "常住人口城镇化率高于户籍人口城镇化率，反映实际居住地而非户籍性质。",
+      "primary_source_id": "NBS_DATA_PROVINCIAL",
+      "total_rows": 646,
+      "year_min": 2000,
+      "year_max": 2025,
+      "complete_comparable_year": 2024,
+      "national_latest_year": 2025,
+      "national_latest_value": 67.89,
+      "top_province": {
+        "geo_code": "310000",
+        "name_zh": "上海",
+        "value": 89.84
+      },
+      "vintages_archived": 6,
+      "sparkline": [
+        [
+          2014,
+          55.75
+        ],
+        [
+          2015,
+          57.33
+        ],
+        [
+          2016,
+          58.84
+        ],
+        [
+          2017,
+          60.24
+        ],
+        [
+          2018,
+          61.5
+        ],
+        [
+          2019,
+          62.71
+        ],
+        [
+          2020,
+          63.89
+        ],
+        [
+          2021,
+          64.72
+        ],
+        [
+          2022,
+          65.22
+        ],
+        [
+          2023,
+          66.16
+        ],
+        [
+          2024,
+          67.0
+        ],
+        [
+          2025,
+          67.89
+        ]
+      ]
+    },
+    {
+      "indicator_id": "birth_rate",
+      "is_core_r1": "true",
+      "domain_id": "demographics",
+      "domain_zh": "人口与社会",
+      "domain_en": "Demographics & Society",
+      "name_zh": "人口出生率",
+      "name_en": "Crude Birth Rate",
+      "short_zh": "出生率",
+      "unit_zh": "‰",
+      "unit_en": "per 1,000",
+      "display_decimals": "2",
+      "geo_coverage_scope": "national_and_31_provinces",
+      "time_coverage_note": "2000-2025",
+      "higher_is_better": "neutral",
+      "definition_zh": "指在一定时期内（通常为一年）平均每千人所出生的人数的比率，又称粗出生率。",
+      "definition_en": "Annual live births per 1,000 mid-year average resident population (‰).",
+      "formula_note": "年出生人数 / 年平均人口数 × 1000‰（国家统计局直接公布值）。",
+      "methodological_breaks": "2011–2019年全国出生率已按七普结果修订；非普查年份分省数据基于全国1‰人口变动情况抽样调查推算。",
+      "limitations_zh": "粗出生率受育龄妇女年龄结构影响，不等同于总和生育率（TFR）。",
+      "primary_source_id": "NBS_DATA_PROVINCIAL",
+      "total_rows": 799,
+      "year_min": 2000,
+      "year_max": 2025,
+      "complete_comparable_year": 2024,
+      "national_latest_year": 2025,
+      "national_latest_value": 5.63,
+      "top_province": {
+        "geo_code": "540000",
+        "name_zh": "西藏",
+        "value": 13.87
+      },
+      "vintages_archived": 5,
+      "sparkline": [
+        [
+          2014,
+          13.83
+        ],
+        [
+          2015,
+          11.99
+        ],
+        [
+          2016,
+          13.57
+        ],
+        [
+          2017,
+          12.64
+        ],
+        [
+          2018,
+          10.86
+        ],
+        [
+          2019,
+          10.41
+        ],
+        [
+          2020,
+          8.52
+        ],
+        [
+          2021,
+          7.52
+        ],
+        [
+          2022,
+          6.77
+        ],
+        [
+          2023,
+          6.39
+        ],
+        [
+          2024,
+          6.77
+        ],
+        [
+          2025,
+          5.63
+        ]
+      ]
+    },
+    {
+      "indicator_id": "population_65plus",
+      "is_core_r1": "true",
+      "domain_id": "demographics",
+      "domain_zh": "人口与社会",
+      "domain_en": "Demographics & Society",
+      "name_zh": "65岁及以上人口占比",
+      "name_en": "Population Aged 65+ Share",
+      "short_zh": "65岁+占比",
+      "unit_zh": "%",
+      "unit_en": "%",
+      "display_decimals": "2",
+      "geo_coverage_scope": "national_and_31_provinces",
+      "time_coverage_note": "2000-2025 (2020 from 7th Census Bulletin No.5; 2002-2019 & 2021-2024 from 1‰ sample survey)",
+      "higher_is_better": "neutral",
+      "definition_zh": "指65岁及以上老年常住人口占总常住人口的比重，是衡量人口老龄化程度的核心国际通用指标（≥7%老龄化、≥14%深度老龄化、≥20%超老龄化）。",
+      "definition_en": "Percentage of permanent resident population aged 65 and over (%).",
+      "formula_note": "65岁及以上人口 / 总人口 × 100%；2020年采用七普公报（第五号）全量普查数据，非普查年由国家统计局1‰抽样调查样本数精确推导。",
+      "methodological_breaks": "2000/2010/2020为全量人口普查口径，其余年份为全国1‰人口变动抽样调查样本推算口径，年度间可能存在抽样波动。",
+      "limitations_zh": "2000年（除全国）、2001、2010年分省抽样表缺失已留白，不作线性插值。",
+      "primary_source_id": "NBS_DATA_PROVINCIAL",
+      "total_rows": 708,
+      "year_min": 2000,
+      "year_max": 2025,
+      "complete_comparable_year": 2024,
+      "national_latest_year": 2025,
+      "national_latest_value": 15.92,
+      "top_province": {
+        "geo_code": "210000",
+        "name_zh": "辽宁",
+        "value": 21.9
+      },
+      "vintages_archived": 0,
+      "sparkline": [
+        [
+          2014,
+          10.1
+        ],
+        [
+          2015,
+          10.5
+        ],
+        [
+          2016,
+          10.8
+        ],
+        [
+          2017,
+          11.4
+        ],
+        [
+          2018,
+          11.9
+        ],
+        [
+          2019,
+          12.6
+        ],
+        [
+          2020,
+          13.5
+        ],
+        [
+          2021,
+          14.2
+        ],
+        [
+          2022,
+          14.86
+        ],
+        [
+          2023,
+          15.38
+        ],
+        [
+          2024,
+          15.64
+        ],
+        [
+          2025,
+          15.92
+        ]
+      ]
+    },
+    {
+      "indicator_id": "death_rate",
+      "is_core_r1": "false",
+      "domain_id": "demographics",
+      "domain_zh": "人口与社会",
+      "domain_en": "Demographics & Society",
+      "name_zh": "人口死亡率",
+      "name_en": "Crude Death Rate",
+      "short_zh": "死亡率",
+      "unit_zh": "‰",
+      "unit_en": "per 1,000",
+      "display_decimals": "2",
+      "geo_coverage_scope": "national_and_31_provinces",
+      "time_coverage_note": "2000-2025",
+      "higher_is_better": "false",
+      "definition_zh": "指在一定时期内（通常为一年）平均每千人中死亡人数的比率，又称粗死亡率。",
+      "definition_en": "Annual deaths per 1,000 mid-year average resident population (‰).",
+      "formula_note": "年死亡人数 / 年平均人口数 × 1000‰。",
+      "methodological_breaks": "老龄化程度较高的省份（如东北、川渝）粗死亡率天然高于年轻人口流入省（如广东、西藏），跨省比较需结合年龄结构解读。",
+      "limitations_zh": "粗死亡率未作年龄标准化，不能直接等同于健康水平或预期寿命。",
+      "primary_source_id": "NBS_DATA_PROVINCIAL",
+      "total_rows": 799,
+      "year_min": 2000,
+      "year_max": 2025,
+      "complete_comparable_year": 2024,
+      "national_latest_year": 2025,
+      "national_latest_value": 8.04,
+      "top_province": {
+        "geo_code": "230000",
+        "name_zh": "黑龙江",
+        "value": 9.69
+      },
+      "vintages_archived": 0,
+      "sparkline": [
+        [
+          2014,
+          7.12
+        ],
+        [
+          2015,
+          7.07
+        ],
+        [
+          2016,
+          7.04
+        ],
+        [
+          2017,
+          7.06
+        ],
+        [
+          2018,
+          7.08
+        ],
+        [
+          2019,
+          7.09
+        ],
+        [
+          2020,
+          7.07
+        ],
+        [
+          2021,
+          7.18
+        ],
+        [
+          2022,
+          7.37
+        ],
+        [
+          2023,
+          7.87
+        ],
+        [
+          2024,
+          7.76
+        ],
+        [
+          2025,
+          8.04
+        ]
+      ]
+    },
+    {
+      "indicator_id": "natural_growth_rate",
+      "is_core_r1": "false",
+      "domain_id": "demographics",
+      "domain_zh": "人口与社会",
+      "domain_en": "Demographics & Society",
+      "name_zh": "人口自然增长率",
+      "name_en": "Natural Population Growth Rate",
+      "short_zh": "自然增长率",
+      "unit_zh": "‰",
+      "unit_en": "per 1,000",
+      "display_decimals": "2",
+      "geo_coverage_scope": "national_and_31_provinces",
+      "time_coverage_note": "2000-2025",
+      "higher_is_better": "neutral",
+      "definition_zh": "指一定时期内人口自然增加数（出生人数减死亡人数）与该时期内平均人数之比。",
+      "definition_en": "Crude birth rate minus crude death rate (‰); excludes migration.",
+      "formula_note": "人口出生率 - 人口死亡率（国家统计局直接公布值，允许±0.01‰舍入差）。",
+      "methodological_breaks": "2022年起全国人口自然增长率首次转负（-0.60‰），2023–2025年持续为负。",
+      "limitations_zh": "仅反映自然变动，不含省际人口机械迁移，故常住人口增速可显著偏离自然增长率。",
+      "primary_source_id": "NBS_DATA_PROVINCIAL",
+      "total_rows": 799,
+      "year_min": 2000,
+      "year_max": 2025,
+      "complete_comparable_year": 2024,
+      "national_latest_year": 2025,
+      "national_latest_value": -2.41,
+      "top_province": {
+        "geo_code": "540000",
+        "name_zh": "西藏",
+        "value": 8.43
+      },
+      "vintages_archived": 0,
+      "sparkline": [
+        [
+          2014,
+          6.71
+        ],
+        [
+          2015,
+          4.93
+        ],
+        [
+          2016,
+          6.53
+        ],
+        [
+          2017,
+          5.58
+        ],
+        [
+          2018,
+          3.78
+        ],
+        [
+          2019,
+          3.32
+        ],
+        [
+          2020,
+          1.45
+        ],
+        [
+          2021,
+          0.34
+        ],
+        [
+          2022,
+          -0.6
+        ],
+        [
+          2023,
+          -1.48
+        ],
+        [
+          2024,
+          -0.99
+        ],
+        [
+          2025,
+          -2.41
+        ]
+      ]
+    },
+    {
+      "indicator_id": "urban_population",
+      "is_core_r1": "false",
+      "domain_id": "demographics",
+      "domain_zh": "人口与社会",
+      "domain_en": "Demographics & Society",
+      "name_zh": "城镇常住人口",
+      "name_en": "Urban Resident Population",
+      "short_zh": "城镇人口",
+      "unit_zh": "万人",
+      "unit_en": "10,000 persons",
+      "display_decimals": "0",
+      "geo_coverage_scope": "national_and_31_provinces",
+      "time_coverage_note": "2000-2025 (provincial starts 2005)",
+      "higher_is_better": "neutral",
+      "definition_zh": "居住在城镇范围内的全部常住人口，包括城区人口和镇区人口。",
+      "definition_en": "Total permanent residents living in urban areas (10,000 persons).",
+      "formula_note": "Direct NBS official series (unit: 万人).",
+      "methodological_breaks": "2011–2019年已按七普结果历史修订。",
+      "limitations_zh": "分省序列自2005年起在国家数据公开库完整提供。",
+      "primary_source_id": "NBS_DATA_PROVINCIAL",
+      "total_rows": 646,
+      "year_min": 2000,
+      "year_max": 2025,
+      "complete_comparable_year": 2024,
+      "national_latest_year": 2025,
+      "national_latest_value": 95380.0,
+      "top_province": {
+        "geo_code": "440000",
+        "name_zh": "广东",
+        "value": 9701.0
+      },
+      "vintages_archived": 0,
+      "sparkline": [
+        [
+          2014,
+          76738.0
+        ],
+        [
+          2015,
+          79302.0
+        ],
+        [
+          2016,
+          81924.0
+        ],
+        [
+          2017,
+          84343.0
+        ],
+        [
+          2018,
+          86433.0
+        ],
+        [
+          2019,
+          88426.0
+        ],
+        [
+          2020,
+          90220.0
+        ],
+        [
+          2021,
+          91425.0
+        ],
+        [
+          2022,
+          92071.0
+        ],
+        [
+          2023,
+          93267.0
+        ],
+        [
+          2024,
+          94350.0
+        ],
+        [
+          2025,
+          95380.0
+        ]
+      ]
+    },
+    {
+      "indicator_id": "rural_population",
+      "is_core_r1": "false",
+      "domain_id": "demographics",
+      "domain_zh": "人口与社会",
+      "domain_en": "Demographics & Society",
+      "name_zh": "乡村常住人口",
+      "name_en": "Rural Resident Population",
+      "short_zh": "乡村人口",
+      "unit_zh": "万人",
+      "unit_en": "10,000 persons",
+      "display_decimals": "0",
+      "geo_coverage_scope": "national_and_31_provinces",
+      "time_coverage_note": "2000-2025 (provincial starts 2005)",
+      "higher_is_better": "neutral",
+      "definition_zh": "居住在乡村地域范围内的全部常住人口（年末总常住人口减去城镇常住人口）。",
+      "definition_en": "Total permanent residents living in rural areas (10,000 persons).",
+      "formula_note": "Direct NBS official series (unit: 万人).",
+      "methodological_breaks": "2011–2019年已按七普结果历史修订。",
+      "limitations_zh": "分省序列自2005年起完整提供。",
+      "primary_source_id": "NBS_DATA_PROVINCIAL",
+      "total_rows": 646,
+      "year_min": 2000,
+      "year_max": 2025,
+      "complete_comparable_year": 2024,
+      "national_latest_year": 2025,
+      "national_latest_value": 45109.0,
+      "top_province": {
+        "geo_code": "410000",
+        "name_zh": "河南",
+        "value": 3990.0
+      },
+      "vintages_archived": 0,
+      "sparkline": [
+        [
+          2014,
+          60908.0
+        ],
+        [
+          2015,
+          59024.0
+        ],
+        [
+          2016,
+          57308.0
+        ],
+        [
+          2017,
+          55668.0
+        ],
+        [
+          2018,
+          54108.0
+        ],
+        [
+          2019,
+          52582.0
+        ],
+        [
+          2020,
+          50992.0
+        ],
+        [
+          2021,
+          49835.0
+        ],
+        [
+          2022,
+          49104.0
+        ],
+        [
+          2023,
+          47700.0
+        ],
+        [
+          2024,
+          46478.0
+        ],
+        [
+          2025,
+          45109.0
+        ]
+      ]
+    },
+    {
+      "indicator_id": "population_0_14_share",
+      "is_core_r1": "false",
+      "domain_id": "demographics",
+      "domain_zh": "人口与社会",
+      "domain_en": "Demographics & Society",
+      "name_zh": "0-14岁人口占比",
+      "name_en": "Population Aged 0–14 Share",
+      "short_zh": "少儿占比",
+      "unit_zh": "%",
+      "unit_en": "%",
+      "display_decimals": "2",
+      "geo_coverage_scope": "national_and_31_provinces",
+      "time_coverage_note": "2000-2024 (2020 from 7th Census Bulletin No.5)",
+      "higher_is_better": "neutral",
+      "definition_zh": "指0至14岁少年儿童人口占总常住人口的比重，反映未来劳动力供给潜力与少子化趋势。",
+      "definition_en": "Percentage of resident population aged 0 to 14 (%).",
+      "formula_note": "0-14岁人口 / 总人口 × 100%（2020年来自七普公报第五号；其余分省年份由1‰抽样调查推导）。",
+      "methodological_breaks": "普查年为全量口径，非普查年为1‰抽样调查口径。",
+      "limitations_zh": "非普查年存在抽样误差，小人口省份波动略大。",
+      "primary_source_id": "NBS_DATA_PROVINCIAL",
+      "total_rows": 708,
+      "year_min": 2000,
+      "year_max": 2025,
+      "complete_comparable_year": 2024,
+      "national_latest_year": 2025,
+      "national_latest_value": 15.14,
+      "top_province": {
+        "geo_code": "540000",
+        "name_zh": "西藏",
+        "value": 23.77
+      },
+      "vintages_archived": 0,
+      "sparkline": [
+        [
+          2014,
+          16.5
+        ],
+        [
+          2015,
+          16.5
+        ],
+        [
+          2016,
+          16.7
+        ],
+        [
+          2017,
+          16.8
+        ],
+        [
+          2018,
+          16.9
+        ],
+        [
+          2019,
+          16.8
+        ],
+        [
+          2020,
+          17.95
+        ],
+        [
+          2021,
+          17.47
+        ],
+        [
+          2022,
+          16.94
+        ],
+        [
+          2023,
+          16.36
+        ],
+        [
+          2024,
+          15.79
+        ],
+        [
+          2025,
+          15.14
+        ]
+      ]
+    },
+    {
+      "indicator_id": "old_age_dependency_ratio",
+      "is_core_r1": "false",
+      "domain_id": "demographics",
+      "domain_zh": "人口与社会",
+      "domain_en": "Demographics & Society",
+      "name_zh": "老年人口抚养比",
+      "name_en": "Old-Age Dependency Ratio",
+      "short_zh": "老年抚养比",
+      "unit_zh": "%",
+      "unit_en": "%",
+      "display_decimals": "2",
+      "geo_coverage_scope": "national_and_31_provinces",
+      "time_coverage_note": "2000-2024",
+      "higher_is_better": "false",
+      "definition_zh": "指每100名劳动年龄人口（15-64岁）所负担的65岁及以上老年人口数，衡量养老与医保系统的人口抚养压力。",
+      "definition_en": "Ratio of population aged 65+ to working-age population aged 15–64 (%).",
+      "formula_note": "65岁及以上人口 / 15-64岁人口 × 100%（国家统计局直接公布值）。",
+      "methodological_breaks": "非普查年基于1‰人口变动抽样调查。",
+      "limitations_zh": "仅衡量年龄结构负担，不直接等同于实际参保/领取养老金人数之比。",
+      "primary_source_id": "NBS_DATA_PROVINCIAL",
+      "total_rows": 677,
+      "year_min": 2000,
+      "year_max": 2025,
+      "complete_comparable_year": 2024,
+      "national_latest_year": 2025,
+      "national_latest_value": 23.1,
+      "top_province": {
+        "geo_code": "210000",
+        "name_zh": "辽宁",
+        "value": 32.1
+      },
+      "vintages_archived": 0,
+      "sparkline": [
+        [
+          2014,
+          13.7
+        ],
+        [
+          2015,
+          14.3
+        ],
+        [
+          2016,
+          15.0
+        ],
+        [
+          2017,
+          15.9
+        ],
+        [
+          2018,
+          16.8
+        ],
+        [
+          2019,
+          17.8
+        ],
+        [
+          2020,
+          19.7
+        ],
+        [
+          2021,
+          20.8
+        ],
+        [
+          2022,
+          21.8
+        ],
+        [
+          2023,
+          22.5
+        ],
+        [
+          2024,
+          22.8
+        ],
+        [
+          2025,
+          23.1
+        ]
+      ]
+    },
+    {
+      "indicator_id": "life_expectancy",
+      "is_core_r1": "false",
+      "domain_id": "demographics",
+      "domain_zh": "人口与社会",
+      "domain_en": "Demographics & Society",
+      "name_zh": "平均预期寿命",
+      "name_en": "Life Expectancy at Birth",
+      "short_zh": "预期寿命",
+      "unit_zh": "岁",
+      "unit_en": "years",
+      "display_decimals": "2",
+      "geo_coverage_scope": "national_and_31_provinces",
+      "time_coverage_note": "Decennial census benchmarks: 2000, 2010, 2020 (plus national 2005, 2015)",
+      "higher_is_better": "true",
+      "definition_zh": "指在当前各年龄别死亡率保持不变的假设下，当年出生的婴儿平均可望存活的年数。",
+      "definition_en": "Average number of years a newborn is expected to live under current age-specific mortality rates.",
+      "formula_note": "Direct NBS census life-table calculation (unit: 岁).",
+      "methodological_breaks": "中国分省平均预期寿命仅在人口普查年份正式编制公布（2000、2010、2020），非普查年不作插值。",
+      "limitations_zh": "时间点稀疏属官方普查统计规律，不可将非普查空缺误判为缺失错误。",
+      "primary_source_id": "NBS_DATA_PROVINCIAL",
+      "total_rows": 98,
+      "year_min": 2000,
+      "year_max": 2020,
+      "complete_comparable_year": 2020,
+      "national_latest_year": 2020,
+      "national_latest_value": 77.93,
+      "top_province": {
+        "geo_code": "310000",
+        "name_zh": "上海",
+        "value": 82.55
+      },
+      "vintages_archived": 0,
+      "sparkline": [
+        [
+          2000,
+          71.4
+        ],
+        [
+          2005,
+          72.95
+        ],
+        [
+          2010,
+          74.83
+        ],
+        [
+          2015,
+          76.34
+        ],
+        [
+          2020,
+          77.93
+        ]
+      ]
+    },
+    {
+      "indicator_id": "gdp",
+      "is_core_r1": "true",
+      "domain_id": "economy",
+      "domain_zh": "经济与财政",
+      "domain_en": "Economy & Fiscal",
+      "name_zh": "地区生产总值 (GDP)",
+      "name_en": "Gross Domestic Product (GDP)",
+      "short_zh": "GDP",
+      "unit_zh": "亿元",
+      "unit_en": "100M RMB",
+      "display_decimals": "1",
+      "geo_coverage_scope": "national_and_31_provinces",
+      "time_coverage_note": "2000-2025 (2025 national preliminary; post-5EC revised)",
+      "higher_is_better": "true",
+      "definition_zh": "指按市场价格计算的一个国家或地区所有常住单位在一定时期内生产活动的最终成果（现价）。",
+      "definition_en": "Nominal Gross Domestic Product / Gross Regional Product at current market prices (100M RMB).",
+      "formula_note": "Direct NBS official post-5th Economic Census revised series (unit: 亿元).",
+      "methodological_breaks": "2024年末国家统计局依据第五次全国经济普查结果（纳入城镇居民自有住房服务虚拟租金等核算方法改进）系统修订了历史GDP，31省之和与全国GDP存在跨区总部与统计核算差异。",
+      "limitations_zh": "现价GDP包含价格变动，长期实际增速比较应结合指数或不变价口径。",
+      "primary_source_id": "NBS_DATA_PROVINCIAL",
+      "total_rows": 832,
+      "year_min": 2000,
+      "year_max": 2025,
+      "complete_comparable_year": 2025,
+      "national_latest_year": 2025,
+      "national_latest_value": 1401879.2,
+      "top_province": {
+        "geo_code": "440000",
+        "name_zh": "广东",
+        "value": 145846.8
+      },
+      "vintages_archived": 294,
+      "sparkline": [
+        [
+          2014,
+          655782.9
+        ],
+        [
+          2015,
+          702511.5
+        ],
+        [
+          2016,
+          761193.0
+        ],
+        [
+          2017,
+          847382.9
+        ],
+        [
+          2018,
+          936010.1
+        ],
+        [
+          2019,
+          1005872.4
+        ],
+        [
+          2020,
+          1034867.6
+        ],
+        [
+          2021,
+          1173823.0
+        ],
+        [
+          2022,
+          1234029.4
+        ],
+        [
+          2023,
+          1294271.7
+        ],
+        [
+          2024,
+          1348066.2
+        ],
+        [
+          2025,
+          1401879.2
+        ]
+      ]
+    },
+    {
+      "indicator_id": "gdp_per_capita",
+      "is_core_r1": "true",
+      "domain_id": "economy",
+      "domain_zh": "经济与财政",
+      "domain_en": "Economy & Fiscal",
+      "name_zh": "人均地区生产总值",
+      "name_en": "GDP per Capita",
+      "short_zh": "人均GDP",
+      "unit_zh": "元",
+      "unit_en": "RMB",
+      "display_decimals": "0",
+      "geo_coverage_scope": "national_and_31_provinces",
+      "time_coverage_note": "2000-2025 (post-5EC revised)",
+      "higher_is_better": "true",
+      "definition_zh": "地区生产总值除以年平均常住人口，反映地区人均经济产出水平（现价）。",
+      "definition_en": "Nominal GDP divided by mid-year average resident population (RMB per person).",
+      "formula_note": "GDP / 年平均常住人口（国家统计局直接公布值，非年末人口简单相除）。",
+      "methodological_breaks": "已同步根据五经普与七普修订；直辖市与高资源/高流入省份人均GDP显著高于全国平均。",
+      "limitations_zh": "人均GDP反映产出而非居民实际到手收入，应与人均可支配收入对照阅读。",
+      "primary_source_id": "NBS_DATA_PROVINCIAL",
+      "total_rows": 832,
+      "year_min": 2000,
+      "year_max": 2025,
+      "complete_comparable_year": 2025,
+      "national_latest_year": 2025,
+      "national_latest_value": 99665.0,
+      "top_province": {
+        "geo_code": "110000",
+        "name_zh": "北京",
+        "value": 238705.0
+      },
+      "vintages_archived": 417,
+      "sparkline": [
+        [
+          2014,
+          47802.0
+        ],
+        [
+          2015,
+          50912.0
+        ],
+        [
+          2016,
+          54849.0
+        ],
+        [
+          2017,
+          60691.0
+        ],
+        [
+          2018,
+          66726.0
+        ],
+        [
+          2019,
+          71453.0
+        ],
+        [
+          2020,
+          73338.0
+        ],
+        [
+          2021,
+          83111.0
+        ],
+        [
+          2022,
+          87385.0
+        ],
+        [
+          2023,
+          91746.0
+        ],
+        [
+          2024,
+          95677.0
+        ],
+        [
+          2025,
+          99665.0
+        ]
+      ]
+    },
+    {
+      "indicator_id": "disposable_income",
+      "is_core_r1": "true",
+      "domain_id": "economy",
+      "domain_zh": "经济与财政",
+      "domain_en": "Economy & Fiscal",
+      "name_zh": "居民人均可支配收入",
+      "name_en": "Per Capita Disposable Income",
+      "short_zh": "人均可支配收入",
+      "unit_zh": "元",
+      "unit_en": "RMB",
+      "display_decimals": "0",
+      "geo_coverage_scope": "national_and_31_provinces",
+      "time_coverage_note": "2013-2025 (unified urban-rural household survey starts 2013)",
+      "higher_is_better": "true",
+      "definition_zh": "指居民可用于最终消费支出和储蓄的总和，包括工资性收入、经营净收入、财产净收入和转移净收入。",
+      "definition_en": "Average per capita income available for final consumption and savings (RMB).",
+      "formula_note": "Direct NBS unified household survey series (unit: 元).",
+      "methodological_breaks": "2013年起国家统计局实施城乡一体化住户收支与生活状况调查，2013年前仅分城镇/农村公布且口径不可直接拼接。",
+      "limitations_zh": "算术平均值受高收入群体拉动，高于中位数收入。",
+      "primary_source_id": "NBS_DATA_PROVINCIAL",
+      "total_rows": 416,
+      "year_min": 2013,
+      "year_max": 2025,
+      "complete_comparable_year": 2025,
+      "national_latest_year": 2025,
+      "national_latest_value": 43377.0,
+      "top_province": {
+        "geo_code": "310000",
+        "name_zh": "上海",
+        "value": 91987.0
+      },
+      "vintages_archived": 0,
+      "sparkline": [
+        [
+          2014,
+          20167.0
+        ],
+        [
+          2015,
+          21966.0
+        ],
+        [
+          2016,
+          23821.0
+        ],
+        [
+          2017,
+          25974.0
+        ],
+        [
+          2018,
+          28228.0
+        ],
+        [
+          2019,
+          30733.0
+        ],
+        [
+          2020,
+          32189.0
+        ],
+        [
+          2021,
+          35128.0
+        ],
+        [
+          2022,
+          36883.0
+        ],
+        [
+          2023,
+          39218.0
+        ],
+        [
+          2024,
+          41314.0
+        ],
+        [
+          2025,
+          43377.0
+        ]
+      ]
+    },
+    {
+      "indicator_id": "retail_sales",
+      "is_core_r1": "true",
+      "domain_id": "economy",
+      "domain_zh": "经济与财政",
+      "domain_en": "Economy & Fiscal",
+      "name_zh": "社会消费品零售总额",
+      "name_en": "Total Retail Sales of Consumer Goods",
+      "short_zh": "社零总额",
+      "unit_zh": "亿元",
+      "unit_en": "100M RMB",
+      "display_decimals": "1",
+      "geo_coverage_scope": "national_and_31_provinces",
+      "time_coverage_note": "2000-2025 (post-5EC revised)",
+      "higher_is_better": "true",
+      "definition_zh": "指企业（单位、个体户）通过交易直接售给个人、社会集团非生产、非经营用的实物商品金额以及提供餐饮服务取得的收入金额。",
+      "definition_en": "Total retail sales of physical consumer goods and catering services (100M RMB).",
+      "formula_note": "Direct NBS post-5th Economic Census revised series (unit: 亿元).",
+      "methodological_breaks": "第四次（2018）和第五次（2023）全国经济普查均对分省及全国社零总额进行大幅历史修订；媒体早期报道多为修订前快报数。",
+      "limitations_zh": "不含服务消费（教育、医疗、旅游、金融等），且受电商平台注册地归属影响。",
+      "primary_source_id": "NBS_DATA_PROVINCIAL",
+      "total_rows": 832,
+      "year_min": 2000,
+      "year_max": 2025,
+      "complete_comparable_year": 2025,
+      "national_latest_year": 2025,
+      "national_latest_value": 501202.4,
+      "top_province": {
+        "geo_code": "320000",
+        "name_zh": "江苏",
+        "value": 46394.2
+      },
+      "vintages_archived": 1,
+      "sparkline": [
+        [
+          2014,
+          259487.3
+        ],
+        [
+          2015,
+          286587.8
+        ],
+        [
+          2016,
+          315806.2
+        ],
+        [
+          2017,
+          347326.7
+        ],
+        [
+          2018,
+          377783.1
+        ],
+        [
+          2019,
+          407253.3
+        ],
+        [
+          2020,
+          390514.3
+        ],
+        [
+          2021,
+          438351.9
+        ],
+        [
+          2022,
+          436448.7
+        ],
+        [
+          2023,
+          467098.0
+        ],
+        [
+          2024,
+          483344.7
+        ],
+        [
+          2025,
+          501202.4
+        ]
+      ]
+    },
+    {
+      "indicator_id": "gdp_primary",
+      "is_core_r1": "false",
+      "domain_id": "economy",
+      "domain_zh": "经济与财政",
+      "domain_en": "Economy & Fiscal",
+      "name_zh": "第一产业增加值",
+      "name_en": "Primary Industry Value Added",
+      "short_zh": "第一产业",
+      "unit_zh": "亿元",
+      "unit_en": "100M RMB",
+      "display_decimals": "1",
+      "geo_coverage_scope": "national_and_31_provinces",
+      "time_coverage_note": "2000-2025",
+      "higher_is_better": "neutral",
+      "definition_zh": "农、林、牧、渔业（不含农林牧渔专业及辅助性活动）创造的增加值。",
+      "definition_en": "Value added of agriculture, forestry, animal husbandry, and fishery (100M RMB).",
+      "formula_note": "Direct NBS official series (unit: 亿元).",
+      "methodological_breaks": "依据《国民经济行业分类》与五经普结果修订。",
+      "limitations_zh": "现价口径，受农产品价格周期影响。",
+      "primary_source_id": "NBS_DATA_PROVINCIAL",
+      "total_rows": 832,
+      "year_min": 2000,
+      "year_max": 2025,
+      "complete_comparable_year": 2025,
+      "national_latest_year": 2025,
+      "national_latest_value": 93346.8,
+      "top_province": {
+        "geo_code": "370000",
+        "name_zh": "山东",
+        "value": 6774.9
+      },
+      "vintages_archived": 0,
+      "sparkline": [
+        [
+          2014,
+          55626.3
+        ],
+        [
+          2015,
+          57774.6
+        ],
+        [
+          2016,
+          60139.2
+        ],
+        [
+          2017,
+          62099.5
+        ],
+        [
+          2018,
+          64745.2
+        ],
+        [
+          2019,
+          70473.6
+        ],
+        [
+          2020,
+          78030.9
+        ],
+        [
+          2021,
+          83216.5
+        ],
+        [
+          2022,
+          88207.0
+        ],
+        [
+          2023,
+          89169.1
+        ],
+        [
+          2024,
+          91635.8
+        ],
+        [
+          2025,
+          93346.8
+        ]
+      ]
+    },
+    {
+      "indicator_id": "gdp_secondary",
+      "is_core_r1": "false",
+      "domain_id": "economy",
+      "domain_zh": "经济与财政",
+      "domain_en": "Economy & Fiscal",
+      "name_zh": "第二产业增加值",
+      "name_en": "Secondary Industry Value Added",
+      "short_zh": "第二产业",
+      "unit_zh": "亿元",
+      "unit_en": "100M RMB",
+      "display_decimals": "1",
+      "geo_coverage_scope": "national_and_31_provinces",
+      "time_coverage_note": "2000-2025",
+      "higher_is_better": "neutral",
+      "definition_zh": "采矿业、制造业、电力热力燃气及水生产和供应业以及建筑业创造的增加值。",
+      "definition_en": "Value added of mining, manufacturing, utilities, and construction (100M RMB).",
+      "formula_note": "Direct NBS official series (unit: 亿元).",
+      "methodological_breaks": "依据五经普结果修订。",
+      "limitations_zh": "现价口径，受工业品出厂价格（PPI）波动影响。",
+      "primary_source_id": "NBS_DATA_PROVINCIAL",
+      "total_rows": 832,
+      "year_min": 2000,
+      "year_max": 2025,
+      "complete_comparable_year": 2025,
+      "national_latest_year": 2025,
+      "national_latest_value": 499653.0,
+      "top_province": {
+        "geo_code": "320000",
+        "name_zh": "江苏",
+        "value": 60038.2
+      },
+      "vintages_archived": 0,
+      "sparkline": [
+        [
+          2014,
+          277282.8
+        ],
+        [
+          2015,
+          281338.9
+        ],
+        [
+          2016,
+          295427.8
+        ],
+        [
+          2017,
+          331580.5
+        ],
+        [
+          2018,
+          364835.2
+        ],
+        [
+          2019,
+          379860.0
+        ],
+        [
+          2020,
+          381985.8
+        ],
+        [
+          2021,
+          447138.2
+        ],
+        [
+          2022,
+          467629.6
+        ],
+        [
+          2023,
+          475936.1
+        ],
+        [
+          2024,
+          490305.4
+        ],
+        [
+          2025,
+          499653.0
+        ]
+      ]
+    },
+    {
+      "indicator_id": "gdp_tertiary",
+      "is_core_r1": "false",
+      "domain_id": "economy",
+      "domain_zh": "经济与财政",
+      "domain_en": "Economy & Fiscal",
+      "name_zh": "第三产业增加值",
+      "name_en": "Tertiary Industry Value Added",
+      "short_zh": "第三产业",
+      "unit_zh": "亿元",
+      "unit_en": "100M RMB",
+      "display_decimals": "1",
+      "geo_coverage_scope": "national_and_31_provinces",
+      "time_coverage_note": "2000-2025",
+      "higher_is_better": "neutral",
+      "definition_zh": "服务业（除第一、第二产业以外的其他行业，含批零、交运、金融、信息软件、科研与公共服务等）创造的增加值。",
+      "definition_en": "Value added of services sector (100M RMB).",
+      "formula_note": "Direct NBS official series (unit: 亿元).",
+      "methodological_breaks": "五经普将城镇居民自有住房服务核算改为市场租金法，主要调增了第三产业增加值。",
+      "limitations_zh": "现价口径。",
+      "primary_source_id": "NBS_DATA_PROVINCIAL",
+      "total_rows": 832,
+      "year_min": 2000,
+      "year_max": 2025,
+      "complete_comparable_year": 2025,
+      "national_latest_year": 2025,
+      "national_latest_value": 808879.3,
+      "top_province": {
+        "geo_code": "440000",
+        "name_zh": "广东",
+        "value": 84961.5
+      },
+      "vintages_archived": 0,
+      "sparkline": [
+        [
+          2014,
+          322873.8
+        ],
+        [
+          2015,
+          363397.9
+        ],
+        [
+          2016,
+          405626.0
+        ],
+        [
+          2017,
+          453702.9
+        ],
+        [
+          2018,
+          506429.8
+        ],
+        [
+          2019,
+          555538.9
+        ],
+        [
+          2020,
+          574850.9
+        ],
+        [
+          2021,
+          643468.4
+        ],
+        [
+          2022,
+          678192.7
+        ],
+        [
+          2023,
+          729166.5
+        ],
+        [
+          2024,
+          766124.9
+        ],
+        [
+          2025,
+          808879.3
+        ]
+      ]
+    },
+    {
+      "indicator_id": "tertiary_gdp_share",
+      "is_core_r1": "false",
+      "domain_id": "economy",
+      "domain_zh": "经济与财政",
+      "domain_en": "Economy & Fiscal",
+      "name_zh": "第三产业占GDP比重",
+      "name_en": "Tertiary Sector Share of GDP",
+      "short_zh": "服务业占比",
+      "unit_zh": "%",
+      "unit_en": "%",
+      "display_decimals": "2",
+      "geo_coverage_scope": "national_and_31_provinces",
+      "time_coverage_note": "2000-2025",
+      "higher_is_better": "neutral",
+      "definition_zh": "第三产业增加值占地区生产总值（GDP）的百分比，反映经济结构向服务业转型的深度。",
+      "definition_en": "Tertiary (services) value added as a percentage of nominal GDP (%).",
+      "formula_note": "第三产业增加值 / 地区生产总值 × 100%（由国家统计局同源现价序列精确推导）。",
+      "methodological_breaks": "随五经普第三产业修订而整体上移。",
+      "limitations_zh": "高服务业占比既可能源于现代服务业发达（如北京、上海），也可能源于工业基数较小（如西藏、海南）。",
+      "primary_source_id": "NBS_DATA_PROVINCIAL",
+      "total_rows": 832,
+      "year_min": 2000,
+      "year_max": 2025,
+      "complete_comparable_year": 2025,
+      "national_latest_year": 2025,
+      "national_latest_value": 57.7,
+      "top_province": {
+        "geo_code": "110000",
+        "name_zh": "北京",
+        "value": 85.99
+      },
+      "vintages_archived": 0,
+      "sparkline": [
+        [
+          2014,
+          49.23
+        ],
+        [
+          2015,
+          51.73
+        ],
+        [
+          2016,
+          53.29
+        ],
+        [
+          2017,
+          53.54
+        ],
+        [
+          2018,
+          54.11
+        ],
+        [
+          2019,
+          55.23
+        ],
+        [
+          2020,
+          55.55
+        ],
+        [
+          2021,
+          54.82
+        ],
+        [
+          2022,
+          54.96
+        ],
+        [
+          2023,
+          56.34
+        ],
+        [
+          2024,
+          56.83
+        ],
+        [
+          2025,
+          57.7
+        ]
+      ]
+    },
+    {
+      "indicator_id": "urban_disposable_income",
+      "is_core_r1": "false",
+      "domain_id": "economy",
+      "domain_zh": "经济与财政",
+      "domain_en": "Economy & Fiscal",
+      "name_zh": "城镇居民人均可支配收入",
+      "name_en": "Urban Per Capita Disposable Income",
+      "short_zh": "城镇人均可支配收入",
+      "unit_zh": "元",
+      "unit_en": "RMB",
+      "display_decimals": "0",
+      "geo_coverage_scope": "national_and_31_provinces",
+      "time_coverage_note": "2013-2025 (unified survey; earlier urban survey kept separate)",
+      "higher_is_better": "true",
+      "definition_zh": "城镇常住居民按人口平均的可支配收入。",
+      "definition_en": "Per capita disposable income of urban permanent residents (RMB).",
+      "formula_note": "Direct NBS official series (unit: 元).",
+      "methodological_breaks": "2013年实施城乡一体化调查，口径较2012年及以前略有变化（纳入实物福利与虚拟租金等），图表与分析建议以2013年为可比起点。",
+      "limitations_zh": "不含地区物价/居住成本差异。",
+      "primary_source_id": "NBS_DATA_PROVINCIAL",
+      "total_rows": 416,
+      "year_min": 2013,
+      "year_max": 2025,
+      "complete_comparable_year": 2025,
+      "national_latest_year": 2025,
+      "national_latest_value": 56502.0,
+      "top_province": {
+        "geo_code": "310000",
+        "name_zh": "上海",
+        "value": 96842.0
+      },
+      "vintages_archived": 0,
+      "sparkline": [
+        [
+          2014,
+          28844.0
+        ],
+        [
+          2015,
+          31195.0
+        ],
+        [
+          2016,
+          33616.0
+        ],
+        [
+          2017,
+          36396.0
+        ],
+        [
+          2018,
+          39251.0
+        ],
+        [
+          2019,
+          42359.0
+        ],
+        [
+          2020,
+          43834.0
+        ],
+        [
+          2021,
+          47412.0
+        ],
+        [
+          2022,
+          49283.0
+        ],
+        [
+          2023,
+          51821.0
+        ],
+        [
+          2024,
+          54188.0
+        ],
+        [
+          2025,
+          56502.0
+        ]
+      ]
+    },
+    {
+      "indicator_id": "rural_disposable_income",
+      "is_core_r1": "false",
+      "domain_id": "economy",
+      "domain_zh": "经济与财政",
+      "domain_en": "Economy & Fiscal",
+      "name_zh": "农村居民人均可支配收入",
+      "name_en": "Rural Per Capita Disposable Income",
+      "short_zh": "农村人均可支配收入",
+      "unit_zh": "元",
+      "unit_en": "RMB",
+      "display_decimals": "0",
+      "geo_coverage_scope": "national_and_31_provinces",
+      "time_coverage_note": "2013-2025 (unified survey)",
+      "higher_is_better": "true",
+      "definition_zh": "农村常住居民按人口平均的可支配收入（2013年起替代原农村居民人均纯收入口径）。",
+      "definition_en": "Per capita disposable income of rural permanent residents (RMB).",
+      "formula_note": "Direct NBS official series (unit: 元).",
+      "methodological_breaks": "2013年起由“农村居民人均纯收入”改为“农村居民人均可支配收入”统一口径。",
+      "limitations_zh": "不同省份农村副业、财产性与转移性收入结构差异显著（例如浙江农村收入长期居全国前列）。",
+      "primary_source_id": "NBS_DATA_PROVINCIAL",
+      "total_rows": 416,
+      "year_min": 2013,
+      "year_max": 2025,
+      "complete_comparable_year": 2025,
+      "national_latest_year": 2025,
+      "national_latest_value": 24456.0,
+      "top_province": {
+        "geo_code": "310000",
+        "name_zh": "上海",
+        "value": 48122.0
+      },
+      "vintages_archived": 0,
+      "sparkline": [
+        [
+          2014,
+          10489.0
+        ],
+        [
+          2015,
+          11422.0
+        ],
+        [
+          2016,
+          12363.0
+        ],
+        [
+          2017,
+          13432.0
+        ],
+        [
+          2018,
+          14617.0
+        ],
+        [
+          2019,
+          16021.0
+        ],
+        [
+          2020,
+          17131.0
+        ],
+        [
+          2021,
+          18931.0
+        ],
+        [
+          2022,
+          20133.0
+        ],
+        [
+          2023,
+          21691.0
+        ],
+        [
+          2024,
+          23119.0
+        ],
+        [
+          2025,
+          24456.0
+        ]
+      ]
+    },
+    {
+      "indicator_id": "urban_rural_income_ratio",
+      "is_core_r1": "false",
+      "domain_id": "economy",
+      "domain_zh": "经济与财政",
+      "domain_en": "Economy & Fiscal",
+      "name_zh": "城乡居民收入比",
+      "name_en": "Urban-to-Rural Income Ratio",
+      "short_zh": "城乡收入比",
+      "unit_zh": "倍",
+      "unit_en": "ratio (rural=1)",
+      "display_decimals": "2",
+      "geo_coverage_scope": "national_and_31_provinces",
+      "time_coverage_note": "2013-2025",
+      "higher_is_better": "false",
+      "definition_zh": "城镇居民人均可支配收入与农村居民人均可支配收入之比（以农村居民收入=1），数值越低表示城乡收入差距越小。",
+      "definition_en": "Ratio of urban to rural per capita disposable income (lower indicates narrower urban-rural gap).",
+      "formula_note": "城镇居民人均可支配收入 / 农村居民人均可支配收入（由国家统计局2013年及以后一体化口径推导）。",
+      "methodological_breaks": "严格限定于2013年及以后城乡一体化住户调查口径，避免跨口径失真。",
+      "limitations_zh": "未调整城乡物价水平与公共服务均等化差异。",
+      "primary_source_id": "NBS_DATA_PROVINCIAL",
+      "total_rows": 416,
+      "year_min": 2013,
+      "year_max": 2025,
+      "complete_comparable_year": 2025,
+      "national_latest_year": 2025,
+      "national_latest_value": 2.31,
+      "top_province": {
+        "geo_code": "620000",
+        "name_zh": "甘肃",
+        "value": 2.93
+      },
+      "vintages_archived": 0,
+      "sparkline": [
+        [
+          2014,
+          2.75
+        ],
+        [
+          2015,
+          2.73
+        ],
+        [
+          2016,
+          2.72
+        ],
+        [
+          2017,
+          2.71
+        ],
+        [
+          2018,
+          2.69
+        ],
+        [
+          2019,
+          2.64
+        ],
+        [
+          2020,
+          2.56
+        ],
+        [
+          2021,
+          2.5
+        ],
+        [
+          2022,
+          2.45
+        ],
+        [
+          2023,
+          2.39
+        ],
+        [
+          2024,
+          2.34
+        ],
+        [
+          2025,
+          2.31
+        ]
+      ]
+    },
+    {
+      "indicator_id": "consumption_expenditure",
+      "is_core_r1": "false",
+      "domain_id": "economy",
+      "domain_zh": "经济与财政",
+      "domain_en": "Economy & Fiscal",
+      "name_zh": "居民人均消费支出",
+      "name_en": "Per Capita Consumption Expenditure",
+      "short_zh": "人均消费支出",
+      "unit_zh": "元",
+      "unit_en": "RMB",
+      "display_decimals": "0",
+      "geo_coverage_scope": "national_and_31_provinces",
+      "time_coverage_note": "2013-2025",
+      "higher_is_better": "neutral",
+      "definition_zh": "指居民用于满足家庭日常生活消费需要的全部支出，包括食品烟酒、衣着、居住、医疗保健、教育文化娱乐等八大类。",
+      "definition_en": "Average per capita household final consumption expenditure across eight categories (RMB).",
+      "formula_note": "Direct NBS unified household survey series (unit: 元).",
+      "methodological_breaks": "2013年起城乡一体化调查口径。",
+      "limitations_zh": "含自有住房虚拟租金折算。",
+      "primary_source_id": "NBS_DATA_PROVINCIAL",
+      "total_rows": 416,
+      "year_min": 2013,
+      "year_max": 2025,
+      "complete_comparable_year": 2025,
+      "national_latest_year": 2025,
+      "national_latest_value": 29476.0,
+      "top_province": {
+        "geo_code": "310000",
+        "name_zh": "上海",
+        "value": 54765.0
+      },
+      "vintages_archived": 0,
+      "sparkline": [
+        [
+          2014,
+          14491.0
+        ],
+        [
+          2015,
+          15712.0
+        ],
+        [
+          2016,
+          17111.0
+        ],
+        [
+          2017,
+          18322.0
+        ],
+        [
+          2018,
+          19853.0
+        ],
+        [
+          2019,
+          21559.0
+        ],
+        [
+          2020,
+          21210.0
+        ],
+        [
+          2021,
+          24100.0
+        ],
+        [
+          2022,
+          24538.0
+        ],
+        [
+          2023,
+          26796.0
+        ],
+        [
+          2024,
+          28227.0
+        ],
+        [
+          2025,
+          29476.0
+        ]
+      ]
+    },
+    {
+      "indicator_id": "average_wage_urban_nonprivate",
+      "is_core_r1": "false",
+      "domain_id": "economy",
+      "domain_zh": "经济与财政",
+      "domain_en": "Economy & Fiscal",
+      "name_zh": "城镇非私营单位平均工资",
+      "name_en": "Average Wage (Urban Non-Private Units)",
+      "short_zh": "城镇非私营工资",
+      "unit_zh": "元",
+      "unit_en": "RMB/year",
+      "display_decimals": "0",
+      "geo_coverage_scope": "national_and_31_provinces",
+      "time_coverage_note": "2000-2024",
+      "higher_is_better": "true",
+      "definition_zh": "指城镇非私营法人单位（含机关事业单位、国有、股份制、外资等）报告期实际支付的税前工资总额除以平均就业人数。",
+      "definition_en": "Average annual pre-tax wage of employees in urban non-private legal entities (RMB).",
+      "formula_note": "Direct NBS official series (unit: 元).",
+      "methodological_breaks": "不含城镇私营单位及个体工商户，故显著高于全社会平均工资及居民人均可支配收入。",
+      "limitations_zh": "为税前货币工资（含个人缴纳社保公积金），且仅覆盖城镇非私营单位。",
+      "primary_source_id": "NBS_DATA_PROVINCIAL",
+      "total_rows": 615,
+      "year_min": 2000,
+      "year_max": 2025,
+      "complete_comparable_year": 2024,
+      "national_latest_year": 2025,
+      "national_latest_value": 129441.0,
+      "top_province": {
+        "geo_code": "310000",
+        "name_zh": "上海",
+        "value": 239557.0
+      },
+      "vintages_archived": 0,
+      "sparkline": [
+        [
+          2014,
+          56360.0
+        ],
+        [
+          2015,
+          62029.0
+        ],
+        [
+          2016,
+          67569.0
+        ],
+        [
+          2017,
+          74318.0
+        ],
+        [
+          2018,
+          82413.0
+        ],
+        [
+          2019,
+          90501.0
+        ],
+        [
+          2020,
+          97379.0
+        ],
+        [
+          2021,
+          106837.0
+        ],
+        [
+          2022,
+          114029.0
+        ],
+        [
+          2023,
+          120698.0
+        ],
+        [
+          2024,
+          124110.0
+        ],
+        [
+          2025,
+          129441.0
+        ]
+      ]
+    },
+    {
+      "indicator_id": "fiscal_revenue",
+      "is_core_r1": "false",
+      "domain_id": "economy",
+      "domain_zh": "经济与财政",
+      "domain_en": "Economy & Fiscal",
+      "name_zh": "一般公共预算收入",
+      "name_en": "General Public Budget Revenue",
+      "short_zh": "一般公共预算收入",
+      "unit_zh": "亿元",
+      "unit_en": "100M RMB",
+      "display_decimals": "1",
+      "geo_coverage_scope": "national_and_31_provinces",
+      "time_coverage_note": "2000-2024 (National=Central+Local; Provincial=Local only)",
+      "higher_is_better": "true",
+      "definition_zh": "政府凭借国家政治权力，以社会管理者身份筹集以税收为主体的财政收入，不含债务收入和政府性基金。",
+      "definition_en": "General public budget fiscal revenue (tax + non-tax), excluding debt & land-sale funds (100M RMB).",
+      "formula_note": "Direct NBS/MOF official series (unit: 亿元).",
+      "methodological_breaks": "【重要口径差异】全国为中央+地方合计；分省为“地方财政一般公共预算本级收入”（不含上缴中央税收及中央转移支付），故31省加总小于全国合计数，属分税制正常口径。",
+      "limitations_zh": "不含地方政府性基金收入（如国有土地使用权出让收入）。",
+      "primary_source_id": "NBS_DATA_PROVINCIAL",
+      "total_rows": 832,
+      "year_min": 2000,
+      "year_max": 2025,
+      "complete_comparable_year": 2025,
+      "national_latest_year": 2025,
+      "national_latest_value": 216044.9,
+      "top_province": {
+        "geo_code": "440000",
+        "name_zh": "广东",
+        "value": 13938.9
+      },
+      "vintages_archived": 0,
+      "sparkline": [
+        [
+          2014,
+          140370.0
+        ],
+        [
+          2015,
+          152269.2
+        ],
+        [
+          2016,
+          159605.0
+        ],
+        [
+          2017,
+          172592.8
+        ],
+        [
+          2018,
+          183359.8
+        ],
+        [
+          2019,
+          190390.1
+        ],
+        [
+          2020,
+          182913.9
+        ],
+        [
+          2021,
+          202554.6
+        ],
+        [
+          2022,
+          203649.3
+        ],
+        [
+          2023,
+          216795.4
+        ],
+        [
+          2024,
+          219734.3
+        ],
+        [
+          2025,
+          216044.9
+        ]
+      ]
+    },
+    {
+      "indicator_id": "fiscal_expenditure",
+      "is_core_r1": "false",
+      "domain_id": "economy",
+      "domain_zh": "经济与财政",
+      "domain_en": "Economy & Fiscal",
+      "name_zh": "一般公共预算支出",
+      "name_en": "General Public Budget Expenditure",
+      "short_zh": "一般公共预算支出",
+      "unit_zh": "亿元",
+      "unit_en": "100M RMB",
+      "display_decimals": "1",
+      "geo_coverage_scope": "national_and_31_provinces",
+      "time_coverage_note": "2000-2024 (National=Central+Local; Provincial=Local only)",
+      "higher_is_better": "neutral",
+      "definition_zh": "国家对集中的一般公共预算收入有计划地分配和使用而安排的支出，涵盖教育、社保、医疗、基建与公共服务等。",
+      "definition_en": "General public budget fiscal expenditure (100M RMB).",
+      "formula_note": "Direct NBS/MOF official series (unit: 亿元).",
+      "methodological_breaks": "2007年财政收支分类科目实施重大改革；全国为中央+地方合计，分省为地方财政支出（含中央对地方转移支付形成的支出）。",
+      "limitations_zh": "中西部省份财政支出显著大于本级财政收入，反映中央财政转移支付力度。",
+      "primary_source_id": "NBS_DATA_PROVINCIAL",
+      "total_rows": 832,
+      "year_min": 2000,
+      "year_max": 2025,
+      "complete_comparable_year": 2025,
+      "national_latest_year": 2025,
+      "national_latest_value": 287395.4,
+      "top_province": {
+        "geo_code": "440000",
+        "name_zh": "广东",
+        "value": 18161.1
+      },
+      "vintages_archived": 0,
+      "sparkline": [
+        [
+          2014,
+          151785.6
+        ],
+        [
+          2015,
+          175877.8
+        ],
+        [
+          2016,
+          187755.2
+        ],
+        [
+          2017,
+          203085.5
+        ],
+        [
+          2018,
+          220904.1
+        ],
+        [
+          2019,
+          238858.4
+        ],
+        [
+          2020,
+          245679.0
+        ],
+        [
+          2021,
+          245673.0
+        ],
+        [
+          2022,
+          260552.1
+        ],
+        [
+          2023,
+          274622.9
+        ],
+        [
+          2024,
+          284605.6
+        ],
+        [
+          2025,
+          287395.4
+        ]
+      ]
+    },
+    {
+      "indicator_id": "cpi",
+      "is_core_r1": "false",
+      "domain_id": "economy",
+      "domain_zh": "经济与财政",
+      "domain_en": "Economy & Fiscal",
+      "name_zh": "居民消费价格指数 (CPI)",
+      "name_en": "Consumer Price Index (Prev Year=100)",
+      "short_zh": "CPI",
+      "unit_zh": "上年=100",
+      "unit_en": "prev year = 100",
+      "display_decimals": "1",
+      "geo_coverage_scope": "national_and_31_provinces",
+      "time_coverage_note": "2000-2025",
+      "higher_is_better": "neutral",
+      "definition_zh": "反映一定时期内城乡居民所购买的生活消费品和服务项目价格变动趋势和程度的相对数（以上年为100，如100.2表示同比上涨0.2%）。",
+      "definition_en": "Annual Consumer Price Index with previous year = 100 (e.g., 100.2 means +0.2% YoY inflation).",
+      "formula_note": "Direct NBS official series (base: 上年=100).",
+      "methodological_breaks": "每五年调整一次CPI基期权重（如2016、2021年基期轮换）。",
+      "limitations_zh": "反映各省自身价格同比变动率，不直接反映省际绝对物价高低。",
+      "primary_source_id": "NBS_DATA_PROVINCIAL",
+      "total_rows": 832,
+      "year_min": 2000,
+      "year_max": 2025,
+      "complete_comparable_year": 2025,
+      "national_latest_year": 2025,
+      "national_latest_value": 100.0,
+      "top_province": {
+        "geo_code": "340000",
+        "name_zh": "安徽",
+        "value": 100.5
+      },
+      "vintages_archived": 0,
+      "sparkline": [
+        [
+          2014,
+          102.0
+        ],
+        [
+          2015,
+          101.4
+        ],
+        [
+          2016,
+          102.0
+        ],
+        [
+          2017,
+          101.6
+        ],
+        [
+          2018,
+          102.1
+        ],
+        [
+          2019,
+          102.9
+        ],
+        [
+          2020,
+          102.5
+        ],
+        [
+          2021,
+          100.9
+        ],
+        [
+          2022,
+          102.0
+        ],
+        [
+          2023,
+          100.2
+        ],
+        [
+          2024,
+          100.2
+        ],
+        [
+          2025,
+          100.0
+        ]
+      ]
+    },
+    {
+      "indicator_id": "higher_education_students",
+      "is_core_r1": "true",
+      "domain_id": "education_rd",
+      "domain_zh": "教育与科创",
+      "domain_en": "Education & Innovation",
+      "name_zh": "普通、职业本专科在校生",
+      "name_en": "Regular & Vocational Undergrad/College Students",
+      "short_zh": "本专科在校生",
+      "unit_zh": "人",
+      "unit_en": "persons",
+      "display_decimals": "0",
+      "geo_coverage_scope": "national_and_31_provinces",
+      "time_coverage_note": "2000-2025 (strictly excludes postgraduates & adult ed)",
+      "higher_is_better": "true",
+      "definition_zh": "全国及各省普通高等学校与职业本科/高职（专科）在校学生数，严格不含研究生、成人本专科及网络本专科在校生。",
+      "definition_en": "Enrolled students in regular & vocational undergraduate/junior-college programs (strictly excluding postgraduates and adult education).",
+      "formula_note": "NBS原始单位为“万人”（保留original_value），标准库统一换算为“人”（×10,000）以兼容Round 1核心规范；研究生数单独列于postgraduate_students指标。",
+      "methodological_breaks": "2020年起将职业本科纳入“普通、职业本专科”统一名称；与含研究生的“高等教育总规模”严格区分（本轮已拆出独立研究生指标）。",
+      "limitations_zh": "反映高校所在地在校生规模，不等于本省户籍生源数（北京、湖北、陕西等高教大省跨省生源占比高）。",
+      "primary_source_id": "NBS_DATA_PROVINCIAL",
+      "total_rows": 801,
+      "year_min": 2000,
+      "year_max": 2025,
+      "complete_comparable_year": 2024,
+      "national_latest_year": 2025,
+      "national_latest_value": 39539607.0,
+      "top_province": {
+        "geo_code": "410000",
+        "name_zh": "河南",
+        "value": 3096400.0
+      },
+      "vintages_archived": 0,
+      "sparkline": [
+        [
+          2014,
+          25477000.0
+        ],
+        [
+          2015,
+          26253000.0
+        ],
+        [
+          2016,
+          26958000.0
+        ],
+        [
+          2017,
+          27536000.0
+        ],
+        [
+          2018,
+          28310348.0
+        ],
+        [
+          2019,
+          30315262.0
+        ],
+        [
+          2020,
+          32852948.0
+        ],
+        [
+          2021,
+          34961307.0
+        ],
+        [
+          2022,
+          36594175.0
+        ],
+        [
+          2023,
+          37750146.0
+        ],
+        [
+          2024,
+          38912568.0
+        ],
+        [
+          2025,
+          39539607.0
+        ]
+      ]
+    },
+    {
+      "indicator_id": "higher_education_institutions",
+      "is_core_r1": "true",
+      "domain_id": "education_rd",
+      "domain_zh": "教育与科创",
+      "domain_en": "Education & Innovation",
+      "name_zh": "普通、职业高等学校数",
+      "name_en": "Higher Education Institutions",
+      "short_zh": "普通高校数",
+      "unit_zh": "所",
+      "unit_en": "institutions",
+      "display_decimals": "0",
+      "geo_coverage_scope": "national_and_31_provinces",
+      "time_coverage_note": "2000-2024 (excludes adult HEIs)",
+      "higher_is_better": "true",
+      "definition_zh": "经国家教育部批准设立的普通本科学校、职业本科学校和高职（专科）学校数量总和，不含成人高等学校。",
+      "definition_en": "Count of MOE-accredited regular & vocational higher education institutions (excluding adult colleges).",
+      "formula_note": "Direct NBS/MOE official count (unit: 所).",
+      "methodological_breaks": "2020年起将独立学院转设、职业本科高校纳入“普通、职业高等学校”口径。",
+      "limitations_zh": "高校数量不等同于单校办学规模或学科实力。",
+      "primary_source_id": "NBS_DATA_PROVINCIAL",
+      "total_rows": 801,
+      "year_min": 2000,
+      "year_max": 2025,
+      "complete_comparable_year": 2024,
+      "national_latest_year": 2025,
+      "national_latest_value": 2919.0,
+      "top_province": {
+        "geo_code": "410000",
+        "name_zh": "河南",
+        "value": 174.0
+      },
+      "vintages_archived": 0,
+      "sparkline": [
+        [
+          2014,
+          2529.0
+        ],
+        [
+          2015,
+          2560.0
+        ],
+        [
+          2016,
+          2596.0
+        ],
+        [
+          2017,
+          2631.0
+        ],
+        [
+          2018,
+          2663.0
+        ],
+        [
+          2019,
+          2688.0
+        ],
+        [
+          2020,
+          2738.0
+        ],
+        [
+          2021,
+          2756.0
+        ],
+        [
+          2022,
+          2760.0
+        ],
+        [
+          2023,
+          2822.0
+        ],
+        [
+          2024,
+          2870.0
+        ],
+        [
+          2025,
+          2919.0
+        ]
+      ]
+    },
+    {
+      "indicator_id": "postgraduate_students",
+      "is_core_r1": "false",
+      "domain_id": "education_rd",
+      "domain_zh": "教育与科创",
+      "domain_en": "Education & Innovation",
+      "name_zh": "在校研究生数",
+      "name_en": "Postgraduate Students Enrolled",
+      "short_zh": "在校研究生",
+      "unit_zh": "人",
+      "unit_en": "persons",
+      "display_decimals": "0",
+      "geo_coverage_scope": "national_only",
+      "time_coverage_note": "2000-2025 (National NBS+MOE series; split from undergrads)",
+      "higher_is_better": "true",
+      "definition_zh": "全国普通高校与科研机构在学硕士、博士研究生总数（不含在职攻读学位非学历班）。",
+      "definition_en": "National total enrolled Master's and Doctoral students (split out from regular undergrad/college students per R2 taxonomy standard).",
+      "formula_note": "NBS原始单位为“万人”，换算为“人”（×10,000）；2025年采用《2025年统计公报》431.2万人。",
+      "methodological_breaks": "2017年起非全日制研究生纳入全国统招在学研究生统计口径；NBS分省公开库未发布完整分省研究生序列，故明确标注为全国口径。",
+      "limitations_zh": "仅全国口径，不提供分省拆分，避免无官方依据估算。",
+      "primary_source_id": "NBS_DATA_NATIONAL",
+      "total_rows": 26,
+      "year_min": 2000,
+      "year_max": 2025,
+      "complete_comparable_year": 2025,
+      "national_latest_year": 2025,
+      "national_latest_value": 4300000.0,
+      "top_province": null,
+      "vintages_archived": 1,
+      "sparkline": [
+        [
+          2014,
+          1847689.0
+        ],
+        [
+          2015,
+          1911406.0
+        ],
+        [
+          2016,
+          1981051.0
+        ],
+        [
+          2017,
+          2639561.0
+        ],
+        [
+          2018,
+          2731257.0
+        ],
+        [
+          2019,
+          2863712.0
+        ],
+        [
+          2020,
+          3139598.0
+        ],
+        [
+          2021,
+          3332373.0
+        ],
+        [
+          2022,
+          3653613.0
+        ],
+        [
+          2023,
+          3882940.0
+        ],
+        [
+          2024,
+          4095436.0
+        ],
+        [
+          2025,
+          4300000.0
+        ]
+      ]
+    },
+    {
+      "indicator_id": "senior_high_students",
+      "is_core_r1": "false",
+      "domain_id": "education_rd",
+      "domain_zh": "教育与科创",
+      "domain_en": "Education & Innovation",
+      "name_zh": "普通高中在校生",
+      "name_en": "Regular Senior High School Students",
+      "short_zh": "普通高中在校生",
+      "unit_zh": "万人",
+      "unit_en": "10,000 persons",
+      "display_decimals": "2",
+      "geo_coverage_scope": "national_and_31_provinces",
+      "time_coverage_note": "2000-2024",
+      "higher_is_better": "neutral",
+      "definition_zh": "全国及各省普通高级中学在校学生总数（不含中等职业学校）。",
+      "definition_en": "Enrolled students in regular senior secondary high schools (10,000 persons, excluding vocational high schools).",
+      "formula_note": "Direct NBS/MOE official series (unit: 万人).",
+      "methodological_breaks": "与中等职业教育共同构成高中阶段教育。",
+      "limitations_zh": "受人口出生波谷与普职分流政策共同影响。",
+      "primary_source_id": "NBS_DATA_PROVINCIAL",
+      "total_rows": 801,
+      "year_min": 2000,
+      "year_max": 2025,
+      "complete_comparable_year": 2024,
+      "national_latest_year": 2025,
+      "national_latest_value": 3039.5,
+      "top_province": {
+        "geo_code": "410000",
+        "name_zh": "河南",
+        "value": 274.37
+      },
+      "vintages_archived": 0,
+      "sparkline": [
+        [
+          2014,
+          2400.5
+        ],
+        [
+          2015,
+          2374.4
+        ],
+        [
+          2016,
+          2366.6
+        ],
+        [
+          2017,
+          2374.5
+        ],
+        [
+          2018,
+          2375.37
+        ],
+        [
+          2019,
+          2414.3
+        ],
+        [
+          2020,
+          2494.45
+        ],
+        [
+          2021,
+          2605.03
+        ],
+        [
+          2022,
+          2713.87
+        ],
+        [
+          2023,
+          2803.63
+        ],
+        [
+          2024,
+          2922.28
+        ],
+        [
+          2025,
+          3039.5
+        ]
+      ]
+    },
+    {
+      "indicator_id": "primary_school_students",
+      "is_core_r1": "false",
+      "domain_id": "education_rd",
+      "domain_zh": "教育与科创",
+      "domain_en": "Education & Innovation",
+      "name_zh": "普通小学在校生",
+      "name_en": "Primary School Students Enrolled",
+      "short_zh": "小学在校生",
+      "unit_zh": "万人",
+      "unit_en": "10,000 persons",
+      "display_decimals": "2",
+      "geo_coverage_scope": "national_and_31_provinces",
+      "time_coverage_note": "2000-2024",
+      "higher_is_better": "neutral",
+      "definition_zh": "全国及各省普通小学（含九年一贯制学校小学部）在校学生总数，是观测人口迁徙与出生队列变化的高频先行指标。",
+      "definition_en": "Enrolled primary school students (10,000 persons) — a leading demographic cohort indicator.",
+      "formula_note": "Direct NBS/MOE official series (unit: 万人).",
+      "methodological_breaks": "2010年后随农民工随迁子女政策与二孩队列呈现明显区域分化（珠三角、长三角增长而东北收缩）。",
+      "limitations_zh": "反映学龄人口常住分布。",
+      "primary_source_id": "NBS_DATA_PROVINCIAL",
+      "total_rows": 801,
+      "year_min": 2000,
+      "year_max": 2025,
+      "complete_comparable_year": 2024,
+      "national_latest_year": 2025,
+      "national_latest_value": 10178.29,
+      "top_province": {
+        "geo_code": "440000",
+        "name_zh": "广东",
+        "value": 1104.27
+      },
+      "vintages_archived": 0,
+      "sparkline": [
+        [
+          2014,
+          9451.1
+        ],
+        [
+          2015,
+          9692.2
+        ],
+        [
+          2016,
+          9913.0
+        ],
+        [
+          2017,
+          10093.7
+        ],
+        [
+          2018,
+          10339.25
+        ],
+        [
+          2019,
+          10561.24
+        ],
+        [
+          2020,
+          10725.35
+        ],
+        [
+          2021,
+          10779.93
+        ],
+        [
+          2022,
+          10732.06
+        ],
+        [
+          2023,
+          10836.03
+        ],
+        [
+          2024,
+          10584.37
+        ],
+        [
+          2025,
+          10178.29
+        ]
+      ]
+    },
+    {
+      "indicator_id": "rd_expenditure_industrial",
+      "is_core_r1": "false",
+      "domain_id": "education_rd",
+      "domain_zh": "教育与科创",
+      "domain_en": "Education & Innovation",
+      "name_zh": "规上工业企业R&D经费",
+      "name_en": "Industrial R&D Expenditure (Above Designated Size)",
+      "short_zh": "工业R&D经费",
+      "unit_zh": "亿元",
+      "unit_en": "100M RMB",
+      "display_decimals": "2",
+      "geo_coverage_scope": "national_and_31_provinces",
+      "time_coverage_note": "2000-2024 (threshold raised in 2011)",
+      "higher_is_better": "true",
+      "definition_zh": "规模以上工业企业实际用于研究与试验发展（基础研究、应用研究、试验发展）活动的内部经费支出。",
+      "definition_en": "Intramural R&D expenditure of industrial enterprises above designated size (100M RMB).",
+      "formula_note": "NBS原始单位为“万元”（保留original_value），统一换算为“亿元”（÷10,000）。",
+      "methodological_breaks": "2011年起“规模以上工业企业”统计门槛由年主营业务收入500万元提高至2000万元及以上；不含高校、科研院所与纯软件/互联网服务企业R&D。",
+      "limitations_zh": "仅覆盖规模以上工业企业，北京等服务业/科研院所主导地区全社会R&D显著高于工业R&D。",
+      "primary_source_id": "NBS_DATA_PROVINCIAL",
+      "total_rows": 544,
+      "year_min": 2004,
+      "year_max": 2024,
+      "complete_comparable_year": 2024,
+      "national_latest_year": 2024,
+      "national_latest_value": 22547.73,
+      "top_province": {
+        "geo_code": "440000",
+        "name_zh": "广东",
+        "value": 3705.27
+      },
+      "vintages_archived": 0,
+      "sparkline": [
+        [
+          2013,
+          8318.4
+        ],
+        [
+          2014,
+          9254.26
+        ],
+        [
+          2015,
+          10013.93
+        ],
+        [
+          2016,
+          10944.66
+        ],
+        [
+          2017,
+          12012.96
+        ],
+        [
+          2018,
+          12954.83
+        ],
+        [
+          2019,
+          13971.1
+        ],
+        [
+          2020,
+          15271.29
+        ],
+        [
+          2021,
+          17514.25
+        ],
+        [
+          2022,
+          19361.76
+        ],
+        [
+          2023,
+          20969.9
+        ],
+        [
+          2024,
+          22547.73
+        ]
+      ]
+    },
+    {
+      "indicator_id": "patent_grants_domestic",
+      "is_core_r1": "false",
+      "domain_id": "education_rd",
+      "domain_zh": "教育与科创",
+      "domain_en": "Education & Innovation",
+      "name_zh": "国内专利申请授权量",
+      "name_en": "Domestic Patent Grants",
+      "short_zh": "专利授权量",
+      "unit_zh": "项",
+      "unit_en": "grants",
+      "display_decimals": "0",
+      "geo_coverage_scope": "national_and_31_provinces",
+      "time_coverage_note": "2000-2024",
+      "higher_is_better": "true",
+      "definition_zh": "国家知识产权局对国内申请人授予专利权的总项数，包括发明、实用新型和外观设计三种专利。",
+      "definition_en": "Total domestic patents granted (invention, utility model, and design) by CNIPA.",
+      "formula_note": "Direct NBS/CNIPA official series (unit: 项).",
+      "methodological_breaks": "2021年起国家知识产权局治理非正常专利申请，部分省份2022–2024年实用新型与外观设计授权量出现结构性回调，质量导向增强。",
+      "limitations_zh": "合计数包含含金量差异较大的三类专利，评估原始创新应与发明专利授权量结合。",
+      "primary_source_id": "NBS_DATA_PROVINCIAL",
+      "total_rows": 800,
+      "year_min": 2000,
+      "year_max": 2024,
+      "complete_comparable_year": 2024,
+      "national_latest_year": 2024,
+      "national_latest_value": 3563128.0,
+      "top_province": {
+        "geo_code": "440000",
+        "name_zh": "广东",
+        "value": 692635.0
+      },
+      "vintages_archived": 0,
+      "sparkline": [
+        [
+          2013,
+          1210200.0
+        ],
+        [
+          2014,
+          1191600.0
+        ],
+        [
+          2015,
+          1578200.0
+        ],
+        [
+          2016,
+          1611900.0
+        ],
+        [
+          2017,
+          1705100.0
+        ],
+        [
+          2018,
+          2319209.0
+        ],
+        [
+          2019,
+          2474406.0
+        ],
+        [
+          2020,
+          3520901.0
+        ],
+        [
+          2021,
+          4467165.0
+        ],
+        [
+          2022,
+          4201203.0
+        ],
+        [
+          2023,
+          3532282.0
+        ],
+        [
+          2024,
+          3563128.0
+        ]
+      ]
+    },
+    {
+      "indicator_id": "physicians_per_1000",
+      "is_core_r1": "true",
+      "domain_id": "healthcare",
+      "domain_zh": "医疗卫生",
+      "domain_en": "Healthcare",
+      "name_zh": "每千人口执业（助理）医师数",
+      "name_en": "Licensed (Assistant) Physicians per 1,000 Pop",
+      "short_zh": "每千人医师",
+      "unit_zh": "人/千人",
+      "unit_en": "per 1,000 pop",
+      "display_decimals": "2",
+      "geo_coverage_scope": "national_and_31_provinces",
+      "time_coverage_note": "2000-2025 (high-precision derived + NHC/per-10k vintages preserved)",
+      "higher_is_better": "true",
+      "definition_zh": "指每千名常住人口拥有的执业医师和执业助理医师总数，是衡量地区核心医疗人力供给的关键指标。",
+      "definition_en": "Licensed physicians and assistant physicians per 1,000 resident population.",
+      "formula_note": "主序列由NBS高精度“执业（助理）医师数（万人）÷ 年末常住人口（万人）× 1000”推导（2024全国3.61与国家卫健委公布完全一致），避免NBS每万人取整表±0.05/千人舍入误差；vintages表同时归档卫健委2000–2004直接值与NBS每万人÷10旧口径。",
+      "methodological_breaks": "2002年起国家卫健委正式按《执业医师法》改用“执业（助理）医师”口径替代原“医生”口径，2001→2002年出现约-12%制度性断层，跨2002年趋势分析须分段解读。",
+      "limitations_zh": "直辖市与区域医疗中心（如北京、上海、浙江）吸纳大量跨省就医，人均医师偏高反映医疗集聚效应。",
+      "primary_source_id": "NBS_DATA_PROVINCIAL",
+      "total_rows": 801,
+      "year_min": 2000,
+      "year_max": 2025,
+      "complete_comparable_year": 2024,
+      "national_latest_year": 2025,
+      "national_latest_value": 3.78,
+      "top_province": {
+        "geo_code": "110000",
+        "name_zh": "北京",
+        "value": 5.79
+      },
+      "vintages_archived": 681,
+      "sparkline": [
+        [
+          2014,
+          2.1
+        ],
+        [
+          2015,
+          2.2
+        ],
+        [
+          2016,
+          2.29
+        ],
+        [
+          2017,
+          2.42
+        ],
+        [
+          2018,
+          2.57
+        ],
+        [
+          2019,
+          2.74
+        ],
+        [
+          2020,
+          2.89
+        ],
+        [
+          2021,
+          3.04
+        ],
+        [
+          2022,
+          3.14
+        ],
+        [
+          2023,
+          3.39
+        ],
+        [
+          2024,
+          3.61
+        ],
+        [
+          2025,
+          3.78
+        ]
+      ]
+    },
+    {
+      "indicator_id": "hospital_beds_per_1000",
+      "is_core_r1": "true",
+      "domain_id": "healthcare",
+      "domain_zh": "医疗卫生",
+      "domain_en": "Healthcare",
+      "name_zh": "每千人口医疗卫生机构床位数",
+      "name_en": "Healthcare Facility Beds per 1,000 Pop",
+      "short_zh": "每千人床位",
+      "unit_zh": "张/千人",
+      "unit_en": "beds per 1,000 pop",
+      "display_decimals": "2",
+      "geo_coverage_scope": "national_and_31_provinces",
+      "time_coverage_note": "2000-2025",
+      "higher_is_better": "true",
+      "definition_zh": "指每千名常住人口拥有的全部医疗卫生机构（含医院、基层医疗卫生机构、专业公共卫生机构等）实有床位数。",
+      "definition_en": "Total beds across all healthcare institutions per 1,000 resident population.",
+      "formula_note": "医疗卫生机构床位数（万张）÷ 年末常住人口（万人）× 1000（与NBS每万人床位数÷10核验一致，2024全国7.29张/千人）。",
+      "methodological_breaks": "覆盖全部医疗卫生机构床位（高于仅含“医院”的床位口径）。",
+      "limitations_zh": "床位数量多不自动代表三级医院优质资源多（如西南、中部基层卫生院床位占比较高）。",
+      "primary_source_id": "NBS_DATA_PROVINCIAL",
+      "total_rows": 770,
+      "year_min": 2000,
+      "year_max": 2025,
+      "complete_comparable_year": 2024,
+      "national_latest_year": 2025,
+      "national_latest_value": 7.15,
+      "top_province": {
+        "geo_code": "230000",
+        "name_zh": "黑龙江",
+        "value": 9.01
+      },
+      "vintages_archived": 0,
+      "sparkline": [
+        [
+          2014,
+          4.8
+        ],
+        [
+          2015,
+          5.07
+        ],
+        [
+          2016,
+          5.32
+        ],
+        [
+          2017,
+          5.67
+        ],
+        [
+          2018,
+          5.98
+        ],
+        [
+          2019,
+          6.25
+        ],
+        [
+          2020,
+          6.44
+        ],
+        [
+          2021,
+          6.69
+        ],
+        [
+          2022,
+          6.91
+        ],
+        [
+          2023,
+          7.22
+        ],
+        [
+          2024,
+          7.31
+        ],
+        [
+          2025,
+          7.15
+        ]
+      ]
+    },
+    {
+      "indicator_id": "nurses_per_1000",
+      "is_core_r1": "false",
+      "domain_id": "healthcare",
+      "domain_zh": "医疗卫生",
+      "domain_en": "Healthcare",
+      "name_zh": "每千人口注册护士数",
+      "name_en": "Registered Nurses per 1,000 Pop",
+      "short_zh": "每千人护士",
+      "unit_zh": "人/千人",
+      "unit_en": "per 1,000 pop",
+      "display_decimals": "2",
+      "geo_coverage_scope": "national_and_31_provinces",
+      "time_coverage_note": "2000-2024",
+      "higher_is_better": "true",
+      "definition_zh": "指每千名常住人口拥有的取得《护士执业证书》的注册护士数量，与每千人医师数共同反映医护比水平。",
+      "definition_en": "Registered nurses per 1,000 resident population.",
+      "formula_note": "NBS“注册护士数（万人）” ÷ “年末常住人口（万人）” × 1000。",
+      "methodological_breaks": "2008年《护士条例》实施后统计口径统一为注册护士，中国医护比由长期倒置逐步改善至1:1.15以上。",
+      "limitations_zh": "与医师指标相同，受常住人口变动与跨省就医中心影响。",
+      "primary_source_id": "NBS_DATA_PROVINCIAL",
+      "total_rows": 801,
+      "year_min": 2000,
+      "year_max": 2025,
+      "complete_comparable_year": 2024,
+      "national_latest_year": 2025,
+      "national_latest_value": 4.31,
+      "top_province": {
+        "geo_code": "110000",
+        "name_zh": "北京",
+        "value": 6.41
+      },
+      "vintages_archived": 0,
+      "sparkline": [
+        [
+          2014,
+          2.18
+        ],
+        [
+          2015,
+          2.34
+        ],
+        [
+          2016,
+          2.52
+        ],
+        [
+          2017,
+          2.72
+        ],
+        [
+          2018,
+          2.92
+        ],
+        [
+          2019,
+          3.15
+        ],
+        [
+          2020,
+          3.33
+        ],
+        [
+          2021,
+          3.55
+        ],
+        [
+          2022,
+          3.7
+        ],
+        [
+          2023,
+          4.0
+        ],
+        [
+          2024,
+          4.16
+        ],
+        [
+          2025,
+          4.31
+        ]
+      ]
+    },
+    {
+      "indicator_id": "health_institutions",
+      "is_core_r1": "false",
+      "domain_id": "healthcare",
+      "domain_zh": "医疗卫生",
+      "domain_en": "Healthcare",
+      "name_zh": "医疗卫生机构数",
+      "name_en": "Total Healthcare Institutions",
+      "short_zh": "医疗卫生机构",
+      "unit_zh": "个",
+      "unit_en": "institutions",
+      "display_decimals": "0",
+      "geo_coverage_scope": "national_and_31_provinces",
+      "time_coverage_note": "2000-2024",
+      "higher_is_better": "neutral",
+      "definition_zh": "包括医院、基层医疗卫生机构（社区卫生服务中心/站、乡镇卫生院、村卫生室、诊所）、专业公共卫生机构及其他机构总数。",
+      "definition_en": "Total count of hospitals, primary healthcare centers, village clinics, and public health institutions.",
+      "formula_note": "Direct NBS/NHC official series (unit: 个).",
+      "methodological_breaks": "2009年起国家卫健委将“村卫生室”纳入医疗卫生机构总计，2008→2009年出现口径跃升，不可跨2009年直接做同比增幅。",
+      "limitations_zh": "总数高度受村卫生室和诊所数量影响，反映网点覆盖广度而非单体医院规模。",
+      "primary_source_id": "NBS_DATA_PROVINCIAL",
+      "total_rows": 801,
+      "year_min": 2000,
+      "year_max": 2025,
+      "complete_comparable_year": 2024,
+      "national_latest_year": 2025,
+      "national_latest_value": 1108300.0,
+      "top_province": {
+        "geo_code": "130000",
+        "name_zh": "河北",
+        "value": 93648.0
+      },
+      "vintages_archived": 0,
+      "sparkline": [
+        [
+          2014,
+          981432.0
+        ],
+        [
+          2015,
+          983528.0
+        ],
+        [
+          2016,
+          983394.0
+        ],
+        [
+          2017,
+          986649.0
+        ],
+        [
+          2018,
+          997433.0
+        ],
+        [
+          2019,
+          1007579.0
+        ],
+        [
+          2020,
+          1022922.0
+        ],
+        [
+          2021,
+          1030935.0
+        ],
+        [
+          2022,
+          1032918.0
+        ],
+        [
+          2023,
+          1070785.0
+        ],
+        [
+          2024,
+          1093551.0
+        ],
+        [
+          2025,
+          1108300.0
+        ]
+      ]
+    },
+    {
+      "indicator_id": "hospital_bed_utilization",
+      "is_core_r1": "false",
+      "domain_id": "healthcare",
+      "domain_zh": "医疗卫生",
+      "domain_en": "Healthcare",
+      "name_zh": "医院病床使用率",
+      "name_en": "Hospital Bed Utilization Rate",
+      "short_zh": "病床使用率",
+      "unit_zh": "%",
+      "unit_en": "%",
+      "display_decimals": "1",
+      "geo_coverage_scope": "national_and_31_provinces",
+      "time_coverage_note": "2000-2024",
+      "higher_is_better": "neutral",
+      "definition_zh": "指报告期医院实际占用总床日数与实际开放总床日数之比，反映住院服务负荷与床位配置效率。",
+      "definition_en": "Percentage of available hospital bed-days actually occupied by inpatients (%).",
+      "formula_note": "实际占用总床日数 / 实际开放总床日数 × 100%（国家统计局/国家卫健委直接公布值）。",
+      "methodological_breaks": "2020年受新冠疫情影响全国病床使用率明显阶段性回落，2023–2024年恢复。",
+      "limitations_zh": "过低可能意味着资源闲置，过高（>95%）则可能意味着“加床”与就医拥挤。",
+      "primary_source_id": "NBS_DATA_PROVINCIAL",
+      "total_rows": 458,
+      "year_min": 2000,
+      "year_max": 2024,
+      "complete_comparable_year": 2023,
+      "national_latest_year": 2024,
+      "national_latest_value": 78.8,
+      "top_province": {
+        "geo_code": "310000",
+        "name_zh": "上海",
+        "value": 91.0
+      },
+      "vintages_archived": 0,
+      "sparkline": [
+        [
+          2013,
+          89.0
+        ],
+        [
+          2014,
+          88.0
+        ],
+        [
+          2015,
+          85.4
+        ],
+        [
+          2016,
+          85.3
+        ],
+        [
+          2017,
+          85.0
+        ],
+        [
+          2018,
+          84.2
+        ],
+        [
+          2019,
+          83.6
+        ],
+        [
+          2020,
+          72.3
+        ],
+        [
+          2021,
+          74.6
+        ],
+        [
+          2022,
+          71.0
+        ],
+        [
+          2023,
+          79.4
+        ],
+        [
+          2024,
+          78.8
+        ]
+      ]
+    },
+    {
+      "indicator_id": "electricity_consumption",
+      "is_core_r1": "false",
+      "domain_id": "energy_env_infra",
+      "domain_zh": "能源、环境与基建",
+      "domain_en": "Energy, Environment & Infrastructure",
+      "name_zh": "全社会电力消费量",
+      "name_en": "Total Electricity Consumption",
+      "short_zh": "全社会用电量",
+      "unit_zh": "亿千瓦小时",
+      "unit_en": "100M kWh",
+      "display_decimals": "1",
+      "geo_coverage_scope": "national_and_31_provinces",
+      "time_coverage_note": "2000-2024",
+      "higher_is_better": "neutral",
+      "definition_zh": "报告期内第一、二、三产业及城乡居民生活消耗的全部电力总量（国家统计局汇总中电联数据），是检验实体经济活跃度的重要实物指标。",
+      "definition_en": "Total electricity consumed across all industries and households (100M kWh).",
+      "formula_note": "Direct NBS/CEC official series (unit: 亿千瓦小时).",
+      "methodological_breaks": "分省电力消费量源于中国电力企业联合会并经国家统计局汇编发布。",
+      "limitations_zh": "高耗能重工业省份（如内蒙古、新疆、山东）单位GDP电耗显著高于服务业大省。",
+      "primary_source_id": "NBS_DATA_PROVINCIAL",
+      "total_rows": 824,
+      "year_min": 2000,
+      "year_max": 2025,
+      "complete_comparable_year": 2025,
+      "national_latest_year": 2023,
+      "national_latest_value": 94393.2,
+      "top_province": {
+        "geo_code": "440000",
+        "name_zh": "广东",
+        "value": 9589.7
+      },
+      "vintages_archived": 0,
+      "sparkline": [
+        [
+          2012,
+          49762.6
+        ],
+        [
+          2013,
+          54203.4
+        ],
+        [
+          2014,
+          57829.7
+        ],
+        [
+          2015,
+          58020.0
+        ],
+        [
+          2016,
+          61205.1
+        ],
+        [
+          2017,
+          65914.0
+        ],
+        [
+          2018,
+          71508.2
+        ],
+        [
+          2019,
+          74866.1
+        ],
+        [
+          2020,
+          77620.2
+        ],
+        [
+          2021,
+          85200.1
+        ],
+        [
+          2022,
+          88357.6
+        ],
+        [
+          2023,
+          94393.2
+        ]
+      ]
+    },
+    {
+      "indicator_id": "per_capita_water",
+      "is_core_r1": "false",
+      "domain_id": "energy_env_infra",
+      "domain_zh": "能源、环境与基建",
+      "domain_en": "Energy, Environment & Infrastructure",
+      "name_zh": "人均水资源量",
+      "name_en": "Per Capita Water Resources",
+      "short_zh": "人均水资源",
+      "unit_zh": "立方米/人",
+      "unit_en": "m³/person",
+      "display_decimals": "1",
+      "geo_coverage_scope": "national_and_31_provinces",
+      "time_coverage_note": "2000-2024",
+      "higher_is_better": "true",
+      "definition_zh": "某一地区当年地表水与地下水扣除重复量后的水资源总量除以当年常住人口，揭示中国“南多北少、西丰东紧”的资源禀赋格局。",
+      "definition_en": "Renewable surface + groundwater resources (deduplicated) per resident (m³/person).",
+      "formula_note": "Direct NBS/MWR official series (unit: 立方米/人).",
+      "methodological_breaks": "受年际降水丰枯变化影响大，短期波动属自然水文规律。",
+      "limitations_zh": "仅反映本地产水，不含南水北调等跨流域调水引入量。",
+      "primary_source_id": "NBS_DATA_PROVINCIAL",
+      "total_rows": 672,
+      "year_min": 2004,
+      "year_max": 2024,
+      "complete_comparable_year": 2024,
+      "national_latest_year": 2024,
+      "national_latest_value": 2208.9,
+      "top_province": {
+        "geo_code": "540000",
+        "name_zh": "西藏",
+        "value": 120272.1
+      },
+      "vintages_archived": 0,
+      "sparkline": [
+        [
+          2013,
+          2050.8
+        ],
+        [
+          2014,
+          1987.6
+        ],
+        [
+          2015,
+          2026.5
+        ],
+        [
+          2016,
+          2339.4
+        ],
+        [
+          2017,
+          2059.9
+        ],
+        [
+          2018,
+          1957.7
+        ],
+        [
+          2019,
+          2062.9
+        ],
+        [
+          2020,
+          2239.8
+        ],
+        [
+          2021,
+          2098.5
+        ],
+        [
+          2022,
+          1918.2
+        ],
+        [
+          2023,
+          1827.6
+        ],
+        [
+          2024,
+          2208.9
+        ]
+      ]
+    },
+    {
+      "indicator_id": "forest_coverage_rate",
+      "is_core_r1": "false",
+      "domain_id": "energy_env_infra",
+      "domain_zh": "能源、环境与基建",
+      "domain_en": "Energy, Environment & Infrastructure",
+      "name_zh": "森林覆盖率",
+      "name_en": "Forest Coverage Rate",
+      "short_zh": "森林覆盖率",
+      "unit_zh": "%",
+      "unit_en": "%",
+      "display_decimals": "2",
+      "geo_coverage_scope": "national_and_31_provinces",
+      "time_coverage_note": "Forest census cycles (periodic updates through 2024)",
+      "higher_is_better": "true",
+      "definition_zh": "指一个国家或地区森林面积占土地总面积的百分比，反映国土绿化与生态基底状况。",
+      "definition_en": "Forest area as a percentage of total land area (%).",
+      "formula_note": "Direct NBS/NFGA forest inventory series (unit: %).",
+      "methodological_breaks": "基于全国森林资源清查周期（第七次2004–2008、第八次2009–2013、第九次2014–2018及最新林草生态综合监测），同一清查周期内各年数值保持恒定属官方正常发布机制。",
+      "limitations_zh": "西部干旱戈壁/高寒地区受自然气候限制，森林覆盖率基数偏低。",
+      "primary_source_id": "NBS_DATA_PROVINCIAL",
+      "total_rows": 544,
+      "year_min": 2004,
+      "year_max": 2024,
+      "complete_comparable_year": 2024,
+      "national_latest_year": 2024,
+      "national_latest_value": 25.1,
+      "top_province": {
+        "geo_code": "350000",
+        "name_zh": "福建",
+        "value": 66.8
+      },
+      "vintages_archived": 0,
+      "sparkline": [
+        [
+          2009,
+          21.6
+        ],
+        [
+          2010,
+          21.6
+        ],
+        [
+          2011,
+          21.6
+        ],
+        [
+          2012,
+          21.6
+        ],
+        [
+          2013,
+          21.6
+        ],
+        [
+          2014,
+          23.0
+        ],
+        [
+          2015,
+          23.0
+        ],
+        [
+          2016,
+          23.0
+        ],
+        [
+          2017,
+          23.0
+        ],
+        [
+          2018,
+          23.0
+        ],
+        [
+          2023,
+          23.0
+        ],
+        [
+          2024,
+          25.1
+        ]
+      ]
+    },
+    {
+      "indicator_id": "highway_mileage",
+      "is_core_r1": "false",
+      "domain_id": "energy_env_infra",
+      "domain_zh": "能源、环境与基建",
+      "domain_en": "Energy, Environment & Infrastructure",
+      "name_zh": "公路里程",
+      "name_en": "Total Highway Mileage",
+      "short_zh": "公路里程",
+      "unit_zh": "万公里",
+      "unit_en": "10,000 km",
+      "display_decimals": "2",
+      "geo_coverage_scope": "national_and_31_provinces",
+      "time_coverage_note": "2000-2024 (2005+ includes village roads)",
+      "higher_is_better": "true",
+      "definition_zh": "指在一定时期内实际达到《公路工程技术标准》规定的等级公路和等外公路通车里程之和。",
+      "definition_en": "Total open-to-traffic highway length including graded and ungraded roads (10,000 km).",
+      "formula_note": "Direct NBS/MOT official series (unit: 万公里).",
+      "methodological_breaks": "2005年起公路里程统计范围正式纳入村道，2004→2005年存在明显统计口径扩围跃升，跨2005年比较须分段解读。",
+      "limitations_zh": "含各等级公路与农村村道，不同于纯高速公路里程。",
+      "primary_source_id": "NBS_DATA_PROVINCIAL",
+      "total_rows": 801,
+      "year_min": 2000,
+      "year_max": 2025,
+      "complete_comparable_year": 2024,
+      "national_latest_year": 2025,
+      "national_latest_value": 557.89,
+      "top_province": {
+        "geo_code": "510000",
+        "name_zh": "四川",
+        "value": 42.5
+      },
+      "vintages_archived": 0,
+      "sparkline": [
+        [
+          2014,
+          446.39
+        ],
+        [
+          2015,
+          457.73
+        ],
+        [
+          2016,
+          469.63
+        ],
+        [
+          2017,
+          477.35
+        ],
+        [
+          2018,
+          484.65
+        ],
+        [
+          2019,
+          501.25
+        ],
+        [
+          2020,
+          519.81
+        ],
+        [
+          2021,
+          528.07
+        ],
+        [
+          2022,
+          535.48
+        ],
+        [
+          2023,
+          543.68
+        ],
+        [
+          2024,
+          549.04
+        ],
+        [
+          2025,
+          557.89
+        ]
+      ]
+    },
+    {
+      "indicator_id": "private_cars",
+      "is_core_r1": "false",
+      "domain_id": "energy_env_infra",
+      "domain_zh": "能源、环境与基建",
+      "domain_en": "Energy, Environment & Infrastructure",
+      "name_zh": "私人汽车拥有量",
+      "name_en": "Private Motor Vehicles Owned",
+      "short_zh": "私人汽车拥有量",
+      "unit_zh": "万辆",
+      "unit_en": "10,000 vehicles",
+      "display_decimals": "1",
+      "geo_coverage_scope": "national_and_31_provinces",
+      "time_coverage_note": "2000-2024",
+      "higher_is_better": "neutral",
+      "definition_zh": "指公安交通管理部门注册登记的个人名下全部载客汽车、载货汽车及其他汽车总数，反映居民耐用品消费升级与机动化进程。",
+      "definition_en": "Privately owned motor vehicles registered with public security traffic authorities (10,000 vehicles).",
+      "formula_note": "Direct NBS/MPS official series (unit: 万辆).",
+      "methodological_breaks": "含燃油车与新能源私家车，反映保有量存量而非年销量。",
+      "limitations_zh": "受人口规模、限牌政策（京沪广深津浙）与公共交通供给共同影响。",
+      "primary_source_id": "NBS_DATA_PROVINCIAL",
+      "total_rows": 801,
+      "year_min": 2000,
+      "year_max": 2025,
+      "complete_comparable_year": 2024,
+      "national_latest_year": 2025,
+      "national_latest_value": 32336.2,
+      "top_province": {
+        "geo_code": "440000",
+        "name_zh": "广东",
+        "value": 2865.8
+      },
+      "vintages_archived": 0,
+      "sparkline": [
+        [
+          2014,
+          12339.4
+        ],
+        [
+          2015,
+          14099.1
+        ],
+        [
+          2016,
+          16330.2
+        ],
+        [
+          2017,
+          18515.1
+        ],
+        [
+          2018,
+          20574.9
+        ],
+        [
+          2019,
+          22509.0
+        ],
+        [
+          2020,
+          24291.2
+        ],
+        [
+          2021,
+          26152.0
+        ],
+        [
+          2022,
+          27792.1
+        ],
+        [
+          2023,
+          29356.9
+        ],
+        [
+          2024,
+          30930.6
+        ],
+        [
+          2025,
+          32336.2
+        ]
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "NBS_DATA_NATIONAL",
+      "source_name_zh": "国家统计局-国家数据（全国年度数据）",
+      "source_name_en": "National Bureau of Statistics of China — National Annual Database",
+      "publisher_zh": "中华人民共和国国家统计局",
+      "publisher_en": "National Bureau of Statistics of China (NBS)",
+      "url": "https://data.stats.gov.cn/dg/website/page.html#/pc/national/yearData",
+      "access_method": "public_anonymous_json_api",
+      "update_cadence": "annual",
+      "license_status": "Official public statistical facts; portal content subject to NBS website terms (NOT CC0)",
+      "redistribution_policy": "Statistical facts & derived analytics presented with full attribution; raw NBS portal HTML/UI assets excluded",
+      "notes": "Accessed via public anonymous stream/esData endpoint (rootId=884c062607104a91967b22742537f44f, showType=1). No login/CAPTCHA bypass."
+    },
+    {
+      "source_id": "NBS_DATA_PROVINCIAL",
+      "source_name_zh": "国家统计局-国家数据（分省年度数据）",
+      "source_name_en": "National Bureau of Statistics of China — Provincial Annual Database",
+      "publisher_zh": "中华人民共和国国家统计局",
+      "publisher_en": "National Bureau of Statistics of China (NBS)",
+      "url": "https://data.stats.gov.cn/dg/website/page.html#/pc/national/fsYearData",
+      "access_method": "public_anonymous_json_api",
+      "update_cadence": "annual",
+      "license_status": "Official public statistical facts; portal content subject to NBS website terms (NOT CC0)",
+      "redistribution_policy": "Statistical facts & derived analytics presented with full attribution; raw NBS portal HTML/UI assets excluded",
+      "notes": "Accessed via public anonymous stream/esData endpoint (rootId=c4d82af16c3d4f0cb4f09d4af7d5888e, showType=3, 31 mainland provinces). No login/CAPTCHA bypass."
+    },
+    {
+      "source_id": "NBS_COMMUNIQUE_2025",
+      "source_name_zh": "中华人民共和国2025年国民经济和社会发展统计公报",
+      "source_name_en": "2025 National Statistical Communiqué on Economic and Social Development",
+      "publisher_zh": "中华人民共和国国家统计局",
+      "publisher_en": "National Bureau of Statistics of China (NBS)",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202602/t20260228_1962662.html",
+      "access_method": "official_public_html",
+      "update_cadence": "annual",
+      "license_status": "Official government statistical release (preliminary annual figures; NOT CC0)",
+      "redistribution_policy": "Cited factual indicators with attribution; raw HTML kept local/excluded from public git redistribution",
+      "notes": "Published 2026-02-28. Used for 2025 national indicators & independent E3 cross-verification against NBS database."
+    },
+    {
+      "source_id": "NBS_CENSUS7_B5",
+      "source_name_zh": "第七次全国人口普查公报（第五号）——人口年龄构成情况",
+      "source_name_en": "Seventh National Population Census Communiqué No. 5 (Age Composition)",
+      "publisher_zh": "中华人民共和国国家统计局",
+      "publisher_en": "National Bureau of Statistics of China (NBS)",
+      "url": "https://www.stats.gov.cn/sj/tjgb/rkpcgb/qgrkpcgb/202302/t20230206_1902005.html",
+      "access_method": "official_public_html",
+      "update_cadence": "decennial",
+      "license_status": "Official decennial census release (NOT CC0)",
+      "redistribution_policy": "Cited factual census figures with attribution; raw HTML excluded from public git redistribution",
+      "notes": "Complete 2020 benchmark for 0-14, 15-64, and 65+ age shares across National + all 31 provinces (reference time: 2020-11-01 00:00)."
+    },
+    {
+      "source_id": "NHC_HEALTH_YEARBOOK_2024",
+      "source_name_zh": "中国卫生健康统计年鉴 / 2024年卫生健康事业发展统计公报",
+      "source_name_en": "China Health Statistical Yearbook / 2024 Health Development Communiqué",
+      "publisher_zh": "中华人民共和国国家卫生健康委员会",
+      "publisher_en": "National Health Commission of China (NHC)",
+      "url": "http://www.nhc.gov.cn/guihuaxxs/s3585u/index.shtml",
+      "access_method": "official_ministry_reference",
+      "update_cadence": "annual",
+      "license_status": "Official ministerial statistical release (NOT CC0)",
+      "redistribution_policy": "Cited for independent cross-verification (E3) and historical 2000-2004 direct vintage archiving",
+      "notes": "Used to verify 2024 national physicians_per_1000=3.61, hospital_beds_per_1000=7.29, and preserve 2000-2004 NHC direct vintage vs NBS derived series."
+    },
+    {
+      "source_id": "MOE_EDU_BULLETIN_2024",
+      "source_name_zh": "2024/2025年全国教育事业发展统计公报",
+      "source_name_en": "2024 & 2025 National Education Development Statistical Bulletins",
+      "publisher_zh": "中华人民共和国教育部",
+      "publisher_en": "Ministry of Education of China (MOE)",
+      "url": "http://www.moe.gov.cn/jyb_sjzl/sjzl_fztjgb/",
+      "access_method": "official_public_html",
+      "update_cadence": "annual",
+      "license_status": "Official ministerial statistical release (NOT CC0)",
+      "redistribution_policy": "Cited for independent E3 cross-verification of higher education enrollments and institutions",
+      "notes": "Confirms 2024-2025 regular/vocational undergrad+college enrollment vs postgraduate enrollment split & 2025 regular HEIs=2919."
+    },
+    {
+      "source_id": "NBS_ECONOMIC_CENSUS_5",
+      "source_name_zh": "第五次全国经济普查结果修订说明",
+      "source_name_en": "Fifth National Economic Census Historical Revision Notice",
+      "publisher_zh": "中华人民共和国国家统计局",
+      "publisher_en": "National Bureau of Statistics of China (NBS)",
+      "url": "https://www.stats.gov.cn/sj/tjgb/jjpcgb/",
+      "access_method": "official_government_notice",
+      "update_cadence": "quinquennial",
+      "license_status": "Official government statistical notice (NOT CC0)",
+      "redistribution_policy": "Methodology reference for pre-5EC vs post-5EC vintage tracking",
+      "notes": "Explains historical revisions to national/provincial GDP and retail sales reflected in NBS 2025/2026 database vintages."
+    }
+  ]
+}

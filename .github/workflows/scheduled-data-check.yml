@@ -1,0 +1,25 @@
+name: Scheduled Official Data Check (Read-Only Staging)
+
+on:
+  schedule:
+    # Weekly Monday 02:00 UTC (never auto-publishes to production!)
+    - cron: "0 2 * * 1"
+  workflow_dispatch:
+
+jobs:
+  check-nbs-updates:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Run polite read-only NBS latest-year delta check
+        run: python pipeline/update/check_and_stage_update.py --check-live > nbs_update_probe.json
+      - name: Upload review artifact (requires human approval before any PR/publish)
+        uses: actions/upload-artifact@v4
+        with:
+          name: nbs-update-probe-report
+          path: nbs_update_probe.json
+          retention-days: 30

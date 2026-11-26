@@ -1,0 +1,40 @@
+{
+  "executed_at_utc": "2026-11-26T01:19:59Z",
+  "isolated_sandbox_verified": true,
+  "production_files_untouched": true,
+  "production_obs_sha256_unchanged": "f9dd8a89fd185ef45d73eb07a88cc4bbcacc94fa8c1259a4df02490f04e2ac16",
+  "scenarios": {
+    "new_year_detection": {
+      "status": "PASS",
+      "new_rows_detected": 2
+    },
+    "revision_preservation": {
+      "status": "PASS",
+      "revisions_detected": 1,
+      "old_gd_2025_gdp_preserved": 145846.8,
+      "simulated_new_gd_2025_gdp": 147013.6,
+      "vintages_added": 2
+    },
+    "invalid_batch_blocking": {
+      "status": "PASS",
+      "blocking_errors_count": 5,
+      "sample_errors": [
+        "Row 0: invalid GB/T 2260 geo_code '999999'",
+        "Row 1: disallowed evidence_level 'E0' (E0 prohibited in canonical candidate)",
+        "Row 1: value 145.0 out of bounds [0.0, 100.0] for urbanization_rate",
+        "Row 2: anomalous revision jump 150.00% on ('gdp', '440000', 2025) (145846.8 -> 364617.0) without revision_override",
+        "Row 3: missing required fields ['evidence_level', 'extraction_method', 'original_unit', 'original_value', 'source_id', 'source_table', 'unit', 'value', 'vintage_id']"
+      ]
+    },
+    "human_review_gate": {
+      "status": "PASS",
+      "auto_published": false
+    },
+    "snapshot_and_rollback": {
+      "status": "PASS",
+      "byte_identical_obs_rollback": true,
+      "byte_identical_vint_rollback": true
+    }
+  },
+  "overall_status": "PASS"
+}

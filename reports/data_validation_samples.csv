@@ -1,0 +1,131 @@
+sample_id,observation_id,indicator_id,geo_code,geo_name_zh,year,canonical_value,unit,original_value,original_unit,recomputed_from_raw,rel_diff_pct,check_method,evidence_level_before,evidence_level_after,source_table,raw_evidence_sha256_prefix,audit_result
+VAL-001,average_wage_urban_nonprivate__000000__2025,average_wage_urban_nonprivate,000000,全国,2025,129441.0,元,129441,元,129441.0,0.0,direct_raw(129441 元),E1,E2,国家数据-全国年度-就业工资-城镇非私营单位平均工资,38686120cd89155f,PASS
+VAL-002,average_wage_urban_nonprivate__440000__2015,average_wage_urban_nonprivate,440000,广东省,2015,65788.0,元,65788,元,65788.0,0.0,direct_raw(65788 元),E1,E2,国家数据-分省年度-就业工资-城镇单位就业人员平均工资,38686120cd89155f,PASS
+VAL-003,average_wage_urban_nonprivate__330000__2023,average_wage_urban_nonprivate,330000,浙江省,2023,133045.0,元,133045,元,133045.0,0.0,direct_raw(133045 元),E1,E2,国家数据-分省年度-就业工资-城镇单位就业人员平均工资,38686120cd89155f,PASS
+VAL-004,birth_rate__000000__2025,birth_rate,000000,全国,2025,5.63,‰,5.63,‰,5.63,0.0,direct_raw(5.63 ‰),E3,E3,国家数据-全国年度-人口-出生率死亡率自然增长率,38686120cd89155f,PASS
+VAL-005,birth_rate__440000__2012,birth_rate,440000,广东省,2012,11.6,‰,11.60,‰,11.6,0.0,direct_raw(11.60 ‰),E1,E2,国家数据-分省年度-人口-人口出生率,9a7f4b698b4c633b,PASS
+VAL-006,birth_rate__330000__2023,birth_rate,330000,浙江省,2023,5.8,‰,5.80,‰,5.8,0.0,direct_raw(5.80 ‰),E1,E2,国家数据-分省年度-人口-人口出生率,9a7f4b698b4c633b,PASS
+VAL-007,consumption_expenditure__000000__2025,consumption_expenditure,000000,全国,2025,29476.0,元,29476,元,29476.0,0.0,direct_raw(29476 元),E1,E2,国家数据-全国年度-人民生活-全国居民人均消费支出,5959f4a038d1231f,PASS
+VAL-008,consumption_expenditure__440000__2019,consumption_expenditure,440000,广东省,2019,28995.0,元,28995,元,28995.0,0.0,direct_raw(28995 元),E1,E2,国家数据-分省年度-人民生活-全体居民人均消费支出,563156d07f7cbe9f,PASS
+VAL-009,consumption_expenditure__330000__2024,consumption_expenditure,330000,浙江省,2024,45107.0,元,45107,元,45107.0,0.0,direct_raw(45107 元),E1,E2,国家数据-分省年度-人民生活-全体居民人均消费支出,563156d07f7cbe9f,PASS
+VAL-010,cpi__000000__2025,cpi,000000,全国,2025,100.0,上年=100,100.0,上年=100,100.0,0.0,direct_raw(100.0 上年=100),E1,E2,国家数据-全国年度-价格指数-居民消费价格指数,659422916fa9a128,PASS
+VAL-011,cpi__440000__2013,cpi,440000,广东省,2013,102.5,上年=100,102.5,上年=100,102.5,0.0,direct_raw(102.5 上年=100),E1,E2,国家数据-分省年度-价格指数-居民消费价格指数,ccb67a2d03d0f881,PASS
+VAL-012,cpi__330000__2024,cpi,330000,浙江省,2024,100.3,上年=100,100.3,上年=100,100.3,0.0,direct_raw(100.3 上年=100),E1,E2,国家数据-分省年度-价格指数-居民消费价格指数,ccb67a2d03d0f881,PASS
+VAL-013,death_rate__000000__2025,death_rate,000000,全国,2025,8.04,‰,8.04,‰,8.04,0.0,direct_raw(8.04 ‰),E3,E3,国家数据-全国年度-人口-出生率死亡率自然增长率,38686120cd89155f,PASS
+VAL-014,death_rate__440000__2012,death_rate,440000,广东省,2012,4.65,‰,4.65,‰,4.65,0.0,direct_raw(4.65 ‰),E1,E2,国家数据-分省年度-人口-人口死亡率,08817a6ca203eedf,PASS
+VAL-015,death_rate__330000__2023,death_rate,330000,浙江省,2023,6.66,‰,6.66,‰,6.66,0.0,direct_raw(6.66 ‰),E1,E2,国家数据-分省年度-人口-人口死亡率,08817a6ca203eedf,PASS
+VAL-016,disposable_income__000000__2025,disposable_income,000000,全国,2025,43377.0,元,43377,元,43377.0,0.0,direct_raw(43377 元),E3,E3,国家数据-全国年度-人民生活-全国居民人均收入,38686120cd89155f,PASS
+VAL-017,disposable_income__440000__2019,disposable_income,440000,广东省,2019,39014.0,元,39014,元,39014.0,0.0,direct_raw(39014 元),E4,E4,国家数据-分省年度-人民生活-全体居民人均可支配收入,9c4719497cf53df9,PASS
+VAL-018,disposable_income__330000__2024,disposable_income,330000,浙江省,2024,67013.0,元,67013,元,67013.0,0.0,direct_raw(67013 元),E4,E4,国家数据-分省年度-人民生活-全体居民人均可支配收入,9c4719497cf53df9,PASS
+VAL-019,electricity_consumption__000000__2023,electricity_consumption,000000,全国,2023,94393.2,亿千瓦小时,94393.20,亿千瓦小时,94393.2,0.0,direct_raw(94393.20 亿千瓦小时),E1,E2,国家数据-全国年度-能源-电力消费总量,e1a898cbb1cbf336,PASS
+VAL-020,electricity_consumption__440000__2013,electricity_consumption,440000,广东省,2013,4830.1,亿千瓦小时,4830.10,亿千瓦小时,4830.1,0.0,direct_raw(4830.10 亿千瓦小时),E1,E2,国家数据-分省年度-能源-电力消费量,4b5cfb48e39c673a,PASS
+VAL-021,electricity_consumption__330000__2024,electricity_consumption,330000,浙江省,2024,6779.9,亿千瓦小时,6779.85,亿千瓦小时,6779.85,0.00074,direct_raw(6779.85 亿千瓦小时),E1,E2,国家数据-分省年度-能源-电力消费量,4b5cfb48e39c673a,PASS
+VAL-022,fiscal_expenditure__000000__2025,fiscal_expenditure,000000,全国,2025,287395.4,亿元,287395.42,亿元,287395.42,1e-05,direct_raw(287395.42 亿元),E1,E2,国家数据-全国年度-财政-一般公共预算收支总额,ca61c5ec65b126a2,PASS
+VAL-023,fiscal_expenditure__440000__2013,fiscal_expenditure,440000,广东省,2013,8411.0,亿元,8411.00,亿元,8411.0,0.0,direct_raw(8411.00 亿元),E1,E2,国家数据-分省年度-财政-地方财政一般公共预算支出,da70d987cbf44c02,PASS
+VAL-024,fiscal_expenditure__330000__2024,fiscal_expenditure,330000,浙江省,2024,12564.6,亿元,12564.65,亿元,12564.65,0.0004,direct_raw(12564.65 亿元),E1,E2,国家数据-分省年度-财政-地方财政一般公共预算支出,da70d987cbf44c02,PASS
+VAL-025,fiscal_revenue__000000__2025,fiscal_revenue,000000,全国,2025,216044.9,亿元,216044.88,亿元,216044.88,1e-05,direct_raw(216044.88 亿元),E1,E2,国家数据-全国年度-财政-一般公共预算收支总额,ca61c5ec65b126a2,PASS
+VAL-026,fiscal_revenue__440000__2013,fiscal_revenue,440000,广东省,2013,7081.5,亿元,7081.47,亿元,7081.47,0.00042,direct_raw(7081.47 亿元),E1,E2,国家数据-分省年度-财政-地方财政一般公共预算收入,da70d987cbf44c02,PASS
+VAL-027,fiscal_revenue__330000__2024,fiscal_revenue,330000,浙江省,2024,8707.6,亿元,8707.57,亿元,8707.57,0.00034,direct_raw(8707.57 亿元),E1,E2,国家数据-分省年度-财政-地方财政一般公共预算收入,da70d987cbf44c02,PASS
+VAL-028,forest_coverage_rate__000000__2024,forest_coverage_rate,000000,全国,2024,25.1,%,25.1,%,25.1,0.0,direct_raw(25.1 %),E1,E2,国家数据-全国年度-资源环境-森林覆盖率,9cf891d76e9a915c,PASS
+VAL-029,forest_coverage_rate__440000__2012,forest_coverage_rate,440000,广东省,2012,51.3,%,51.3,%,51.3,0.0,direct_raw(51.3 %),E1,E2,国家数据-分省年度-资源环境-森林覆盖率,e9463631221c0c2a,PASS
+VAL-030,forest_coverage_rate__330000__2023,forest_coverage_rate,330000,浙江省,2023,59.4,%,59.4,%,59.4,0.0,direct_raw(59.4 %),E1,E2,国家数据-分省年度-资源环境-森林覆盖率,e9463631221c0c2a,PASS
+VAL-031,gdp__000000__2025,gdp,000000,全国,2025,1401879.2,亿元,1401879.2,亿元,1401879.2,0.0,direct_raw(1401879.2 亿元),E4,E4,国家数据-全国年度-国民经济核算-国内生产总值,7d63d78d919ed4c9,PASS
+VAL-032,gdp__440000__2013,gdp,440000,广东省,2013,63757.3,亿元,63757.3,亿元,63757.3,0.0,direct_raw(63757.3 亿元),E1,E2,国家数据-分省年度-国民经济核算-地区生产总值,7d1793d1c4fa1971,PASS
+VAL-033,gdp__330000__2024,gdp,330000,浙江省,2024,90007.0,亿元,90007.0,亿元,90007.0,0.0,direct_raw(90007.0 亿元),E4,E4,国家数据-分省年度-国民经济核算-地区生产总值,7d1793d1c4fa1971,PASS
+VAL-034,gdp_per_capita__000000__2025,gdp_per_capita,000000,全国,2025,99665.0,元,99665,元,99665.0,0.0,direct_raw(99665 元),E1,E2,国家数据-全国年度-国民经济核算-国内生产总值,7d63d78d919ed4c9,PASS
+VAL-035,gdp_per_capita__440000__2013,gdp_per_capita,440000,广东省,2013,57153.0,元,57153,元,57153.0,0.0,direct_raw(57153 元),E4,E4,国家数据-分省年度-国民经济核算-人均地区生产总值,7d1793d1c4fa1971,PASS
+VAL-036,gdp_per_capita__330000__2024,gdp_per_capita,330000,浙江省,2024,135379.0,元,135379,元,135379.0,0.0,direct_raw(135379 元),E4,E4,国家数据-分省年度-国民经济核算-人均地区生产总值,7d1793d1c4fa1971,PASS
+VAL-037,gdp_primary__000000__2025,gdp_primary,000000,全国,2025,93346.8,亿元,93346.8,亿元,93346.8,0.0,direct_raw(93346.8 亿元),E1,E2,国家数据-全国年度-国民经济核算-国内生产总值,7d63d78d919ed4c9,PASS
+VAL-038,gdp_primary__440000__2013,gdp_primary,440000,广东省,2013,2876.4,亿元,2876.4,亿元,2876.4,0.0,direct_raw(2876.4 亿元),E1,E2,国家数据-分省年度-国民经济核算-第一产业增加值,7d1793d1c4fa1971,PASS
+VAL-039,gdp_primary__330000__2024,gdp_primary,330000,浙江省,2024,2584.0,亿元,2584.0,亿元,2584.0,0.0,direct_raw(2584.0 亿元),E1,E2,国家数据-分省年度-国民经济核算-第一产业增加值,7d1793d1c4fa1971,PASS
+VAL-040,gdp_secondary__000000__2025,gdp_secondary,000000,全国,2025,499653.0,亿元,499653.0,亿元,499653.0,0.0,direct_raw(499653.0 亿元),E1,E2,国家数据-全国年度-国民经济核算-国内生产总值,7d63d78d919ed4c9,PASS
+VAL-041,gdp_secondary__440000__2013,gdp_secondary,440000,广东省,2013,29343.0,亿元,29343.0,亿元,29343.0,0.0,direct_raw(29343.0 亿元),E1,E2,国家数据-分省年度-国民经济核算-第二产业增加值,7d1793d1c4fa1971,PASS
+VAL-042,gdp_secondary__330000__2024,gdp_secondary,330000,浙江省,2024,34732.4,亿元,34732.4,亿元,34732.4,0.0,direct_raw(34732.4 亿元),E1,E2,国家数据-分省年度-国民经济核算-第二产业增加值,7d1793d1c4fa1971,PASS
+VAL-043,gdp_tertiary__000000__2025,gdp_tertiary,000000,全国,2025,808879.3,亿元,808879.3,亿元,808879.3,0.0,direct_raw(808879.3 亿元),E1,E2,国家数据-全国年度-国民经济核算-国内生产总值,7d63d78d919ed4c9,PASS
+VAL-044,gdp_tertiary__440000__2013,gdp_tertiary,440000,广东省,2013,31537.9,亿元,31537.9,亿元,31537.9,0.0,direct_raw(31537.9 亿元),E1,E2,国家数据-分省年度-国民经济核算-第三产业增加值,7d1793d1c4fa1971,PASS
+VAL-045,gdp_tertiary__330000__2024,gdp_tertiary,330000,浙江省,2024,52690.6,亿元,52690.6,亿元,52690.6,0.0,direct_raw(52690.6 亿元),E1,E2,国家数据-分省年度-国民经济核算-第三产业增加值,7d1793d1c4fa1971,PASS
+VAL-046,health_institutions__000000__2025,health_institutions,000000,全国,2025,1108300.0,个,1108300,个,1108300.0,0.0,direct_raw(1108300 个),E1,E2,国家数据-全国年度-卫生-医疗卫生机构数,e791f7b3bfe0b6e9,PASS
+VAL-047,health_institutions__440000__2012,health_institutions,440000,广东省,2012,46534.0,个,46534,个,46534.0,0.0,direct_raw(46534 个),E1,E2,国家数据-分省年度-卫生-医疗卫生机构数,c1346cccae7b4867,PASS
+VAL-048,health_institutions__330000__2023,health_institutions,330000,浙江省,2023,37679.0,个,37679,个,37679.0,0.0,direct_raw(37679 个),E1,E2,国家数据-分省年度-卫生-医疗卫生机构数,c1346cccae7b4867,PASS
+VAL-049,higher_education_institutions__000000__2025,higher_education_institutions,000000,全国,2025,2919.0,所,1278+87+1554,所,2919.0,0.0,sum_html(1278+87+1554),E3,E3,2025年全国教育事业发展统计公报-高等教育（普通本科+职业本科+高职专科）,38686120cd89155f,PASS
+VAL-050,higher_education_institutions__440000__2012,higher_education_institutions,440000,广东省,2012,137.0,所,137,所,137.0,0.0,direct_raw(137 所),E1,E2,国家数据-分省年度-教育-普通职业高等学校数,ab85ab8305a6a255,PASS
+VAL-051,higher_education_institutions__330000__2023,higher_education_institutions,330000,浙江省,2023,109.0,所,109,所,109.0,0.0,direct_raw(109 所),E1,E2,国家数据-分省年度-教育-普通职业高等学校数,ab85ab8305a6a255,PASS
+VAL-052,higher_education_students__000000__2025,higher_education_students,000000,全国,2025,39539607.0,人,3953.9607,万人,39539607.0,0.0,direct_raw(3953.9607 万人),E3,E3,国家数据-全国年度-教育-各级各类学历教育在校学生数,38686120cd89155f,PASS
+VAL-053,higher_education_students__440000__2012,higher_education_students,440000,广东省,2012,1616800.0,人,161.68,万人,1616800.0,0.0,direct_raw(161.68 万人),E1,E2,国家数据-分省年度-教育-普通职业本专科在校生,ab85ab8305a6a255,PASS
+VAL-054,higher_education_students__330000__2023,higher_education_students,330000,浙江省,2023,1291500.0,人,129.15,万人,1291500.0,0.0,direct_raw(129.15 万人),E1,E2,国家数据-分省年度-教育-普通职业本专科在校生,ab85ab8305a6a255,PASS
+VAL-055,highway_mileage__000000__2025,highway_mileage,000000,全国,2025,557.89,万公里,557.89,万公里,557.89,0.0,direct_raw(557.89 万公里),E1,E2,国家数据-全国年度-运输邮电-公路里程,78c64ac1942dab1e,PASS
+VAL-056,highway_mileage__440000__2012,highway_mileage,440000,广东省,2012,19.49,万公里,19.49,万公里,19.49,0.0,direct_raw(19.49 万公里),E1,E2,国家数据-分省年度-运输邮电-公路里程,ca8d2ee1e9946cc2,PASS
+VAL-057,highway_mileage__330000__2023,highway_mileage,330000,浙江省,2023,12.14,万公里,12.14,万公里,12.14,0.0,direct_raw(12.14 万公里),E1,E2,国家数据-分省年度-运输邮电-公路里程,ca8d2ee1e9946cc2,PASS
+VAL-058,hospital_bed_utilization__000000__2024,hospital_bed_utilization,000000,全国,2024,78.8,%,78.8,%,78.8,0.0,direct_raw(78.8 %),E1,E2,国家数据-全国年度-卫生-医院病床使用率,f68a5e05c6d17353,PASS
+VAL-059,hospital_bed_utilization__440000__2017,hospital_bed_utilization,440000,广东省,2017,84.0,%,84.0,%,84.0,0.0,direct_raw(84.0 %),E1,E2,国家数据-分省年度-卫生-医院病床使用率,648e5145539fa450,PASS
+VAL-060,hospital_bed_utilization__330000__2022,hospital_bed_utilization,330000,浙江省,2022,79.6,%,79.6,%,79.6,0.0,direct_raw(79.6 %),E1,E2,国家数据-分省年度-卫生-医院病床使用率,648e5145539fa450,PASS
+VAL-061,hospital_beds_per_1000__000000__2025,hospital_beds_per_1000,000000,全国,2025,7.15,张/千人,1004.0/140489,万张/万人,7.1465,0.04944,recomputed(1004.0/140489),E3,E3,国家数据-全国年度-卫生-医疗卫生机构床位 / 国家数据-全国年度-人口-总人口,f68a5e05c6d17353,PASS
+VAL-062,hospital_beds_per_1000__440000__2013,hospital_beds_per_1000,440000,广东省,2013,3.36,张/千人,37.84/11270,万张/万人,3.3576,0.07188,recomputed(37.84/11270),E1,E2,国家数据-分省年度-卫生-医疗卫生机构床位数 / 国家数据-分省年度-人口-年末常住人口,648e5145539fa450,PASS
+VAL-063,hospital_beds_per_1000__330000__2023,hospital_beds_per_1000,330000,浙江省,2023,6.13,张/千人,40.61/6627,万张/万人,6.128,0.03327,recomputed(40.61/6627),E1,E2,国家数据-分省年度-卫生-医疗卫生机构床位数 / 国家数据-分省年度-人口-年末常住人口,648e5145539fa450,PASS
+VAL-064,life_expectancy__000000__2020,life_expectancy,000000,全国,2020,77.93,岁,77.93,岁,77.93,0.0,direct_raw(77.93 岁),E1,E2,国家数据-全国年度-人口-人口平均预期寿命,657d4a872f819f00,PASS
+VAL-065,life_expectancy__440000__2010,life_expectancy,440000,广东省,2010,76.49,岁,76.49,岁,76.49,0.0,direct_raw(76.49 岁),E1,E2,国家数据-分省年度-人口-平均预期寿命,cafdb22e1c70d0df,PASS
+VAL-066,life_expectancy__330000__2010,life_expectancy,330000,浙江省,2010,77.73,岁,77.73,岁,77.73,0.0,direct_raw(77.73 岁),E1,E2,国家数据-分省年度-人口-平均预期寿命,cafdb22e1c70d0df,PASS
+VAL-067,natural_growth_rate__000000__2025,natural_growth_rate,000000,全国,2025,-2.41,‰,-2.41,‰,-2.41,0.0,direct_raw(-2.41 ‰),E3,E3,国家数据-全国年度-人口-出生率死亡率自然增长率,38686120cd89155f,PASS
+VAL-068,natural_growth_rate__440000__2012,natural_growth_rate,440000,广东省,2012,6.95,‰,6.95,‰,6.95,0.0,direct_raw(6.95 ‰),E1,E2,国家数据-分省年度-人口-人口自然增长率,5693a3661429d4d1,PASS
+VAL-069,natural_growth_rate__330000__2023,natural_growth_rate,330000,浙江省,2023,-0.86,‰,-0.86,‰,-0.86,0.0,direct_raw(-0.86 ‰),E1,E2,国家数据-分省年度-人口-人口自然增长率,5693a3661429d4d1,PASS
+VAL-070,nurses_per_1000__000000__2025,nurses_per_1000,000000,全国,2025,4.31,人/千人,606.2/140489,万人/万人,4.3149,0.11422,recomputed(606.2/140489),E3,E3,国家数据-全国年度-卫生-卫生人员 / 国家数据-全国年度-人口-总人口,38686120cd89155f,PASS
+VAL-071,nurses_per_1000__440000__2012,nurses_per_1000,440000,广东省,2012,1.81,人/千人,19.95/11041,万人/万人,1.8069,0.17148,recomputed(19.95/11041),E1,E2,国家数据-分省年度-卫生-注册护士数 / 国家数据-分省年度-人口-年末常住人口,5f86bfeb340d19ac,PASS
+VAL-072,nurses_per_1000__330000__2023,nurses_per_1000,330000,浙江省,2023,4.41,人/千人,29.23/6627,万人/万人,4.4107,0.01687,recomputed(29.23/6627),E1,E2,国家数据-分省年度-卫生-注册护士数 / 国家数据-分省年度-人口-年末常住人口,5f86bfeb340d19ac,PASS
+VAL-073,old_age_dependency_ratio__000000__2025,old_age_dependency_ratio,000000,全国,2025,23.1,%,23.1,%,23.1,0.0,direct_raw(23.1 %),E1,E2,国家数据-全国年度-人口-人口年龄结构和抚养比,38686120cd89155f,PASS
+VAL-074,old_age_dependency_ratio__440000__2013,old_age_dependency_ratio,440000,广东省,2013,9.5,%,9.5,%,9.5,0.0,direct_raw(9.5 %),E1,E2,国家数据-分省年度-人口抽样调查-老年人口抚养比,9a4701e1f60cd25e,PASS
+VAL-075,old_age_dependency_ratio__330000__2023,old_age_dependency_ratio,330000,浙江省,2023,21.4,%,21.4,%,21.4,0.0,direct_raw(21.4 %),E1,E2,国家数据-分省年度-人口抽样调查-老年人口抚养比,9a4701e1f60cd25e,PASS
+VAL-076,patent_grants_domestic__000000__2024,patent_grants_domestic,000000,全国,2024,3563128.0,项,3563128,项,3563128.0,0.0,direct_raw(3563128 项),E1,E2,国家数据-全国年度-科技-国内三种专利授权量,36455631144d2b7b,PASS
+VAL-077,patent_grants_domestic__440000__2012,patent_grants_domestic,440000,广东省,2012,153598.0,项,153598,项,153598.0,0.0,direct_raw(153598 项),E1,E2,国家数据-分省年度-科技-国内专利申请授权量,410650fbde543ff2,PASS
+VAL-078,patent_grants_domestic__330000__2023,patent_grants_domestic,330000,浙江省,2023,381835.0,项,381835,项,381835.0,0.0,direct_raw(381835 项),E1,E2,国家数据-分省年度-科技-国内专利申请授权量,410650fbde543ff2,PASS
+VAL-079,per_capita_water__000000__2024,per_capita_water,000000,全国,2024,2208.9,立方米/人,2208.9,立方米/人,2208.9,0.0,direct_raw(2208.9 立方米/人),E1,E2,国家数据-全国年度-资源环境-人均水资源量,e791f7b3bfe0b6e9,PASS
+VAL-080,per_capita_water__440000__2014,per_capita_water,440000,广东省,2014,1608.4,立方米/人,1608.4,立方米/人,1608.4,0.0,direct_raw(1608.4 立方米/人),E1,E2,国家数据-分省年度-资源环境-人均水资源量,e1d7c12f22f401a7,PASS
+VAL-081,per_capita_water__330000__2023,per_capita_water,330000,浙江省,2023,1105.9,立方米/人,1105.9,立方米/人,1105.9,0.0,direct_raw(1105.9 立方米/人),E1,E2,国家数据-分省年度-资源环境-人均水资源量,e1d7c12f22f401a7,PASS
+VAL-082,physicians_per_1000__000000__2025,physicians_per_1000,000000,全国,2025,3.78,人/千人,530.6/140489,万人/万人,3.7768,0.08451,recomputed(530.6/140489),E3,E3,国家数据-全国年度-卫生-卫生人员 / 国家数据-全国年度-人口-总人口,38686120cd89155f,PASS
+VAL-083,physicians_per_1000__440000__2012,physicians_per_1000,440000,广东省,2012,1.8,人/千人,19.90/11041,万人/万人,1.8024,0.13166,recomputed(19.90/11041),E1,E2,国家数据-分省年度-卫生-执业助理医师数 / 国家数据-分省年度-人口-年末常住人口,2c8dd8d04ce3339a,PASS
+VAL-084,physicians_per_1000__330000__2023,physicians_per_1000,330000,浙江省,2023,4.01,人/千人,26.60/6627,万人/万人,4.0139,0.09673,recomputed(26.60/6627),E1,E2,国家数据-分省年度-卫生-执业助理医师数 / 国家数据-分省年度-人口-年末常住人口,2c8dd8d04ce3339a,PASS
+VAL-085,population__000000__2025,population,000000,全国,2025,140489.0,万人,140489,万人,140489.0,0.0,direct_raw(140489 万人),E3,E3,国家数据-全国年度-人口-总人口,efa522f4eea07a7f,PASS
+VAL-086,population__440000__2013,population,440000,广东省,2013,11270.0,万人,11270,万人,11270.0,0.0,direct_raw(11270 万人),E1,E2,国家数据-分省年度-人口-年末常住人口,213517e9af1369a7,PASS
+VAL-087,population__330000__2024,population,330000,浙江省,2024,6670.0,万人,6670,万人,6670.0,0.0,direct_raw(6670 万人),E1,E2,国家数据-分省年度-人口-年末常住人口,213517e9af1369a7,PASS
+VAL-088,population_0_14_share__000000__2025,population_0_14_share,000000,全国,2025,15.14,%,21276/140489,万人/万人,15.1442,0.02804,recomputed(21276/140489),E1,E2,国家数据-全国年度-人口-人口年龄结构和抚养比,efa522f4eea07a7f,PASS
+VAL-089,population_0_14_share__440000__2014,population_0_14_share,440000,广东省,2014,16.47,%,14576/88503,人/人(抽样样本),16.4695,0.00305,recomputed(14576/88503),E1,E2,国家数据-分省年度-人口抽样调查-总人口样本,213517e9af1369a7,PASS
+VAL-090,population_0_14_share__330000__2023,population_0_14_share,330000,浙江省,2023,12.6,%,8794/69780,人/人(抽样样本),12.6025,0.01956,recomputed(8794/69780),E1,E2,国家数据-分省年度-人口抽样调查-总人口样本,213517e9af1369a7,PASS
+VAL-091,population_65plus__000000__2025,population_65plus,000000,全国,2025,15.92,%,22365/140489,万人/万人,15.9194,0.0038,recomputed(22365/140489),E4,E4,国家数据-全国年度-人口-人口年龄结构和抚养比,efa522f4eea07a7f,PASS
+VAL-092,population_65plus__440000__2014,population_65plus,440000,广东省,2014,8.27,%,7322/88503,人/人(抽样样本),8.2732,0.03827,recomputed(7322/88503),E1,E2,国家数据-分省年度-人口抽样调查-总人口样本,213517e9af1369a7,PASS
+VAL-093,population_65plus__330000__2023,population_65plus,330000,浙江省,2023,15.41,%,10756/69780,人/人(抽样样本),15.4142,0.02698,recomputed(10756/69780),E1,E2,国家数据-分省年度-人口抽样调查-总人口样本,213517e9af1369a7,PASS
+VAL-094,postgraduate_students__000000__2025,postgraduate_students,000000,全国,2025,4300000.0,人,430.0000,万人,4300000.0,0.0,direct_raw(430.0000 万人),E3,E3,国家数据-全国年度-教育-各级各类学历教育在校学生数,38686120cd89155f,PASS
+VAL-095,primary_school_students__000000__2025,primary_school_students,000000,全国,2025,10178.29,万人,10178.2887,万人,10178.2887,1e-05,direct_raw(10178.2887 万人),E3,E3,国家数据-全国年度-教育-各级各类学历教育在校学生数,38686120cd89155f,PASS
+VAL-096,primary_school_students__440000__2012,primary_school_students,440000,广东省,2012,808.24,万人,808.24,万人,808.24,0.0,direct_raw(808.24 万人),E1,E2,国家数据-分省年度-教育-普通小学在校生,1f2c57e2e66d82ff,PASS
+VAL-097,primary_school_students__330000__2023,primary_school_students,330000,浙江省,2023,411.37,万人,411.37,万人,411.37,0.0,direct_raw(411.37 万人),E1,E2,国家数据-分省年度-教育-普通小学在校生,1f2c57e2e66d82ff,PASS
+VAL-098,private_cars__000000__2025,private_cars,000000,全国,2025,32336.2,万辆,32336.25,万辆,32336.25,0.00015,direct_raw(32336.25 万辆),E1,E2,国家数据-全国年度-运输邮电-私人汽车拥有量,5f027b3afa33db56,PASS
+VAL-099,private_cars__440000__2012,private_cars,440000,广东省,2012,863.5,万辆,863.46,万辆,863.46,0.00463,direct_raw(863.46 万辆),E1,E2,国家数据-分省年度-运输邮电-私人汽车拥有量,8c9ca05d78f39290,PASS
+VAL-100,private_cars__330000__2023,private_cars,330000,浙江省,2023,1912.0,万辆,1911.97,万辆,1911.97,0.00157,direct_raw(1911.97 万辆),E1,E2,国家数据-分省年度-运输邮电-私人汽车拥有量,8c9ca05d78f39290,PASS
+VAL-101,rd_expenditure_industrial__000000__2024,rd_expenditure_industrial,000000,全国,2024,22547.73,亿元,225477333.0,万元,22547.7333,1e-05,direct_raw(225477333.0 万元),E1,E2,国家数据-全国年度-科技-规上工业企业R&D经费,9eb3904512d0316e,PASS
+VAL-102,rd_expenditure_industrial__440000__2016,rd_expenditure_industrial,440000,广东省,2016,1676.27,亿元,16762749,万元,1676.2749,0.00029,direct_raw(16762749 万元),E1,E2,国家数据-分省年度-科技-规上工业企业R&D经费,251edb9ee9668482,PASS
+VAL-103,rd_expenditure_industrial__330000__2023,rd_expenditure_industrial,330000,浙江省,2023,1827.58,亿元,18275760,万元,1827.576,0.00022,direct_raw(18275760 万元),E1,E2,国家数据-分省年度-科技-规上工业企业R&D经费,251edb9ee9668482,PASS
+VAL-104,retail_sales__000000__2025,retail_sales,000000,全国,2025,501202.4,亿元,501202.4,亿元,501202.4,0.0,direct_raw(501202.4 亿元),E4,E4,国家数据-全国年度-社会消费品零售总额,6acfeeeb4b5fe897,PASS
+VAL-105,retail_sales__440000__2013,retail_sales,440000,广东省,2013,24590.0,亿元,24590.0,亿元,24590.0,0.0,direct_raw(24590.0 亿元),E1,E2,国家数据-分省年度-社会消费品零售总额,0293690593927a60,PASS
+VAL-106,retail_sales__330000__2024,retail_sales,330000,浙江省,2024,37707.7,亿元,37707.7,亿元,37707.7,0.0,direct_raw(37707.7 亿元),E4,E4,国家数据-分省年度-社会消费品零售总额,0293690593927a60,PASS
+VAL-107,rural_disposable_income__000000__2025,rural_disposable_income,000000,全国,2025,24456.0,元,24456,元,24456.0,0.0,direct_raw(24456 元),E1,E2,国家数据-全国年度-人民生活-农村居民人均收入,d40a593234abd324,PASS
+VAL-108,rural_disposable_income__440000__2019,rural_disposable_income,440000,广东省,2019,18818.0,元,18818,元,18818.0,0.0,direct_raw(18818 元),E1,E2,国家数据-分省年度-人民生活-农村居民人均可支配收入,9d98442a43f6bb1d,PASS
+VAL-109,rural_disposable_income__330000__2024,rural_disposable_income,330000,浙江省,2024,42786.0,元,42786,元,42786.0,0.0,direct_raw(42786 元),E1,E2,国家数据-分省年度-人民生活-农村居民人均可支配收入,9d98442a43f6bb1d,PASS
+VAL-110,rural_population__000000__2025,rural_population,000000,全国,2025,45109.0,万人,45109,万人,45109.0,0.0,direct_raw(45109 万人),E1,E2,国家数据-全国年度-人口-总人口,d40a593234abd324,PASS
+VAL-111,rural_population__440000__2015,rural_population,440000,广东省,2015,3561.0,万人,3561,万人,3561.0,0.0,direct_raw(3561 万人),E1,E2,国家数据-分省年度-人口-乡村人口,9d98442a43f6bb1d,PASS
+VAL-112,rural_population__330000__2023,rural_population,330000,浙江省,2023,1708.0,万人,1708,万人,1708.0,0.0,direct_raw(1708 万人),E1,E2,国家数据-分省年度-人口-乡村人口,9d98442a43f6bb1d,PASS
+VAL-113,senior_high_students__000000__2025,senior_high_students,000000,全国,2025,3039.5,万人,3039.4966,万人,3039.4966,0.00011,direct_raw(3039.4966 万人),E3,E3,国家数据-全国年度-教育-各级各类学历教育在校学生数,38686120cd89155f,PASS
+VAL-114,senior_high_students__440000__2012,senior_high_students,440000,广东省,2012,225.93,万人,225.93,万人,225.93,0.0,direct_raw(225.93 万人),E1,E2,国家数据-分省年度-教育-普通高中在校生,ea6aced8140a6104,PASS
+VAL-115,senior_high_students__330000__2023,senior_high_students,330000,浙江省,2023,88.76,万人,88.76,万人,88.76,0.0,direct_raw(88.76 万人),E1,E2,国家数据-分省年度-教育-普通高中在校生,ea6aced8140a6104,PASS
+VAL-116,tertiary_gdp_share__000000__2025,tertiary_gdp_share,000000,全国,2025,57.7,%,808879.3/1401879.2,亿元/亿元,57.6996,0.00062,recomputed(808879.3/1401879.2),E1,E2,国家数据-全国年度-国民经济核算-国内生产总值 / 国家数据-全国年度-国民经济核算-国内生产总值,38686120cd89155f,PASS
+VAL-117,tertiary_gdp_share__440000__2013,tertiary_gdp_share,440000,广东省,2013,49.47,%,31537.9/63757.3,亿元/亿元,49.4656,0.00899,recomputed(31537.9/63757.3),E1,E2,国家数据-分省年度-国民经济核算-第三产业增加值 / 国家数据-分省年度-国民经济核算-地区生产总值,bdf7d74e9bd8883f,PASS
+VAL-118,tertiary_gdp_share__330000__2024,tertiary_gdp_share,330000,浙江省,2024,58.54,%,52690.6/90007.0,亿元/亿元,58.5406,0.00095,recomputed(52690.6/90007.0),E1,E2,国家数据-分省年度-国民经济核算-第三产业增加值 / 国家数据-分省年度-国民经济核算-地区生产总值,bdf7d74e9bd8883f,PASS
+VAL-119,urban_disposable_income__000000__2025,urban_disposable_income,000000,全国,2025,56502.0,元,56502,元,56502.0,0.0,direct_raw(56502 元),E1,E2,国家数据-全国年度-人民生活-城镇居民人均收入,a51bf4c21dbd7e3d,PASS
+VAL-120,urban_disposable_income__440000__2019,urban_disposable_income,440000,广东省,2019,48118.0,元,48118,元,48118.0,0.0,direct_raw(48118 元),E1,E2,国家数据-分省年度-人民生活-城镇居民人均可支配收入,6e7e5c71da6cfde0,PASS
+VAL-121,urban_disposable_income__330000__2024,urban_disposable_income,330000,浙江省,2024,78251.0,元,78251,元,78251.0,0.0,direct_raw(78251 元),E1,E2,国家数据-分省年度-人民生活-城镇居民人均可支配收入,6e7e5c71da6cfde0,PASS
+VAL-122,urban_population__000000__2025,urban_population,000000,全国,2025,95380.0,万人,95380,万人,95380.0,0.0,direct_raw(95380 万人),E3,E3,国家数据-全国年度-人口-总人口,a51bf4c21dbd7e3d,PASS
+VAL-123,urban_population__440000__2015,urban_population,440000,广东省,2015,8117.0,万人,8117,万人,8117.0,0.0,direct_raw(8117 万人),E1,E2,国家数据-分省年度-人口-城镇人口,6e7e5c71da6cfde0,PASS
+VAL-124,urban_population__330000__2023,urban_population,330000,浙江省,2023,4919.0,万人,4919,万人,4919.0,0.0,direct_raw(4919 万人),E1,E2,国家数据-分省年度-人口-城镇人口,6e7e5c71da6cfde0,PASS
+VAL-125,urban_rural_income_ratio__000000__2025,urban_rural_income_ratio,000000,全国,2025,2.31,倍,56502/24456,元/元,2.3104,0.01529,recomputed(56502/24456),E1,E2,国家数据-全国年度-人民生活-城镇居民人均收入 / 国家数据-全国年度-人民生活-农村居民人均收入,a51bf4c21dbd7e3d,PASS
+VAL-126,urban_rural_income_ratio__440000__2019,urban_rural_income_ratio,440000,广东省,2019,2.56,倍,48118/18818,元/元,2.557,0.11655,recomputed(48118/18818),E1,E2,国家数据-分省年度-人民生活-城镇居民人均可支配收入 / 国家数据-分省年度-人民生活-农村居民人均可支配收入,6e7e5c71da6cfde0,PASS
+VAL-127,urban_rural_income_ratio__330000__2024,urban_rural_income_ratio,330000,浙江省,2024,1.83,倍,78251/42786,元/元,1.8289,0.06055,recomputed(78251/42786),E1,E2,国家数据-分省年度-人民生活-城镇居民人均可支配收入 / 国家数据-分省年度-人民生活-农村居民人均可支配收入,6e7e5c71da6cfde0,PASS
+VAL-128,urbanization_rate__000000__2025,urbanization_rate,000000,全国,2025,67.89,%,95380/140489,万人/万人,67.8914,0.00212,recomputed(95380/140489),E3,E3,国家数据-全国年度-人口-总人口 / 国家数据-全国年度-人口-总人口,38686120cd89155f,PASS
+VAL-129,urbanization_rate__440000__2015,urbanization_rate,440000,广东省,2015,69.51,%,8117/11678,万人/万人,69.5068,0.00465,recomputed(8117/11678),E1,E2,国家数据-分省年度-人口-城镇人口 / 国家数据-分省年度-人口-年末常住人口,38686120cd89155f,PASS
+VAL-130,urbanization_rate__330000__2023,urbanization_rate,330000,浙江省,2023,74.23,%,4919/6627,万人/万人,74.2266,0.00452,recomputed(4919/6627),E4,E4,国家数据-分省年度-人口-城镇人口 / 国家数据-分省年度-人口-年末常住人口,38686120cd89155f,PASS

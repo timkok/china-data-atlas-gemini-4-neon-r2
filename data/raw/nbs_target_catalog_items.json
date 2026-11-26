@@ -1,0 +1,74 @@
+{
+  "PROV_POP": {
+    "cid": "755d5f6efbcf41a6a411ad819aa93c17",
+    "items": []
+  },
+  "NAT_POP": {
+    "cid": "6331ad868e8b4f55b8e9b6e765609ce1",
+    "items": []
+  },
+  "PROV_BR": {
+    "cid": "05d3864c379f469292a08f7061e59562",
+    "items": []
+  },
+  "NAT_BR": {
+    "cid": "ffed4267bba24830beea5991d4c9bcfc",
+    "items": []
+  },
+  "PROV_AGE": {
+    "cid": "5a4602c60d764cc6adc7d88d9b512efc",
+    "items": []
+  },
+  "NAT_AGE": {
+    "cid": "c7743eefda9d44b5ad2ab0b4f29ba969",
+    "items": []
+  },
+  "PROV_GDP": {
+    "cid": "6f8fbd415cbc40ffa7ecb7fd917f2598",
+    "items": []
+  },
+  "NAT_GDP": {
+    "cid": "f7fd25aaad184414875632cf2327da60",
+    "items": []
+  },
+  "PROV_INC": {
+    "cid": "5c072e1073514e448de4132760308fcf",
+    "items": []
+  },
+  "NAT_INC": {
+    "cid": "d153132154a549a78363017ef74ca784",
+    "items": []
+  },
+  "PROV_JHS": {
+    "cid": "607e4b78f87d4fcaae1ed5f8a1c4cc11",
+    "items": []
+  },
+  "PROV_PRI": {
+    "cid": "8194ce2ed2944974893b1708d206f927",
+    "items": []
+  },
+  "PROV_RD": {
+    "cid": "f5ce874ae7164343a401b75d46809e60",
+    "items": []
+  },
+  "PROV_PAT": {
+    "cid": "3ac6344551e04aefbcb26f7966d280a0",
+    "items": []
+  },
+  "PROV_HP": {
+    "cid": "c990bce9913e47a2b6fc1c6eb596b411",
+    "items": []
+  },
+  "PROV_H10K": {
+    "cid": "e469513e184d43109318f06a51cb436e",
+    "items": []
+  },
+  "PROV_HWY": {
+    "cid": "d180695e985243c994eef6a7c3e58090",
+    "items": []
+  },
+  "PROV_EXP": {
+    "cid": "dd7b4eb603d74f7e8a030fb1f0701829",
+    "items": []
+  }
+}
